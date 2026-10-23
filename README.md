@@ -12,6 +12,7 @@ search/
   queries.json           exact query strings sent to each source, for each search
   search_log.md          run date, per-source counts, deduplication rules, pre-screen keyword rules
   manual_queries.md      the same strings formatted for IEEE Xplore, ACM DL and ScienceDirect
+  manual_counts.md       direct IEEE Xplore, ACM DL and ScienceDirect counts (2026-10-24), a coverage check
   candidates.csv         7,312 unique records (metadata only; see "What is not included")
   s1_screening.csv       final decisions for the 54 core-search records, with all three screenings and the adjudication
   agreement_check/       blind two-agent agreement check on the core screening (README inside)
