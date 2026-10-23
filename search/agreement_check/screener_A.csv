@@ -1,0 +1,55 @@
+id,decision,q_met,s_met,l_met,rationale,confidence
+R01,EXCLUDE-E2,Y,Y,N,Quantum RNN detects adversarial attacks in federated network systems; abstract never states the target system processes natural-language text.,medium
+R02,EXCLUDE-E2,unclear,N,N,"LLM-agent discovery loop benchmarked on quantum circuit optimisation; quantum is the task, red team is internal critique; no adversarial inputs to LMs.",high
+R03,DUPLICATE,unclear,unclear,unclear,Same work as R34: identical abstract and shared TechRxiv DOI 10.36227/techrxiv.24153183; R34 is the fuller record.,high
+R04,EXCLUDE-E1,N,Y,Y,"Prompt-injection defence for LLM agents plus ML-KEM benchmarking; only quantum element is post-quantum cryptography, not a quantum method.",high
+R05,EXCLUDE-E3,N,N,unclear,Self-published Zenodo narrative analysis of generative AI for fraud detection; no own method or evaluation; quantum-enhanced AI only a future direction.,medium
+R06,EXCLUDE-E3,N,N,N,"Self-published Zenodo 100-year forecast; quantum computing is a forecast topic, not a method; no evaluated method; no adversarial LM inputs.",medium
+R07,EXCLUDE-E2,N,Y,unclear,Review of generative AI for cyber adversarial-attack detection; quantum-enhanced AI security named only as a future direction.,high
+R08,INCLUDE,Y,Y,Y,Improved quantum-behaved PSO searches sememe-based substitutions to generate word-level adversarial examples against NLP victim models on three datasets.,high
+R09,EXCLUDE-E3,N,N,N,Call for papers for the MLT 2026 conference; not a scholarly study.,high
+R10,EXCLUDE-E2,N,N,unclear,"PRISMA analysis of AI models in cybersecurity; quantum-AI security only a future direction, so topic does not span quantum computing.",high
+R11,EXCLUDE-E2,N,Y,Y,"Game-theoretic LLM jailbreak; 'quantal response' is a game-theory model, not quantum. No quantum or quantum-inspired component.",high
+R12,EXCLUDE-E1,N,Y,Y,LLM adversarial-prompt detection; only quantum element is quantum-resistant encryption of prompts. Walrus metaheuristic and wave network are not quantum-inspired.,medium
+R13,EXCLUDE-E3,N,unclear,unclear,Slide deck from a faculty development programme; not a scholarly study.,high
+R14,EXCLUDE-E1,N,Y,Y,Book chapter on emerging adversarial AI threats; quantum appears only as a threat to cryptographic foundations. Not described as a review.,low
+R15,EXCLUDE-E2,N,N,Y,"Chemistry LLM platform; quantum chemistry packages are domain simulations, not a quantum method; no adversarial inputs.",high
+R16,EXCLUDE-E3,N,Y,Y,"Self-published Zenodo theory of LLM refusal; 'quantum-like tunneling' is a metaphor; experiments only proposed, no evaluation.",medium
+R17,EXCLUDE-E1,N,Y,Y,"Automotive security dissertation with LLM/VLM jailbreak detection, but its only quantum element is post-quantum cryptographic primitives for CAN bus.",medium
+R18,EXCLUDE-E2,N,N,unclear,General AI-in-cybersecurity review; quantum-resilient AI mentioned only as an emerging paradigm; topic does not span quantum computing.,high
+R19,RELATED_REVIEW,N,Y,Y,"Critical review spanning LLM security (prompt injection, adversarial robustness), quantum threat and post-quantum cryptography. Not a primary study.",high
+R20,EXCLUDE-E3,N,N,unclear,Software release (KU-SIM v1.0.0 on Zenodo) of an LLM prompting framework; not a scholarly study.,high
+R21,EXCLUDE-E2,N,N,unclear,Survey of AI in cybersecurity; quantum-resistant cryptography only a future direction; topic does not span quantum computing.,high
+R22,EXCLUDE-E2,N,Y,Y,"TRiSM review for generative AI including jailbreaks; quantum-safe architectures only a roadmap item, so topic does not span quantum computing.",high
+R23,EXCLUDE-E2,N,N,unclear,Review of AI in financial fraud detection; quantum-enhanced analytics only a future trend; no quantum method or LM adversarial focus.,high
+R24,EXCLUDE-E2,N,N,N,Review record on AI for cancer drug discovery; quantum-enhanced computation only in outlook; no adversarial or security content.,high
+R25,EXCLUDE-E2,N,N,unclear,Discussion of LLM agents for threat detection; adversarial attacks and quantum-safe cryptography mentioned only as open issues or future directions.,high
+R26,EXCLUDE-E2,N,unclear,unclear,No abstract; decided from title and SSRN venue. Generic title states no quantum method or language-model adversarial focus.,medium
+R27,EXCLUDE-E1,N,unclear,unclear,"No abstract; decided from title and venue. Hardware trojans in post-quantum cryptography; PQC is the object, method is AI not quantum.",medium
+R28,EXCLUDE-E2,Y,N,unclear,Thesis on Born-rule squared circuits and tensor factorizations; adversarial robustness only a motivation; applications are LLM multi-token and link prediction.,high
+R29,EXCLUDE-E3,N,N,unclear,"Self-published Zenodo ontology-engineering programme; proposals and test cards, no evaluation; quantum no-cloning cited only as an invalid analogy.",medium
+R30,EXCLUDE-E3,N,Y,Y,Defensive publication establishing prior art; lists features without method or evaluation; quantum only via CRYSTALS-Dilithium PQC.,high
+R31,EXCLUDE-E3,N,unclear,Y,Self-published investigative report on a chatbot prompt protocol; no method or evaluation; 'quantum-state anchoring' is a metaphor.,high
+R32,RELATED_REVIEW,N,Y,Y,"Literature-based analysis spanning quantum computing threats, LLMs/agentic AI (prompt injection, red teaming) and financial cybersecurity. Not a primary study.",medium
+R33,EXCLUDE-E2,N,N,unclear,Overview of deep learning for cyber threat detection; quantum computing only a future direction; topic does not span quantum computing.,high
+R34,EXCLUDE-E1,unclear,unclear,unclear,"Studies BB84 quantum cryptography and NIST quantum-resistant algorithms; quantum cryptography is the object, not a method against language models.",medium
+R35,EXCLUDE-E3,N,Y,Y,AI-drafted self-published Zenodo synthesis of six preprints on the PQC transition; no own method or evaluation; quantum only via PQC.,medium
+R36,EXCLUDE-E2,N,N,N,Book chapter on AI in traffic management; 'quantum shift' is a metaphor; adversarial attacks only listed as a challenge.,high
+R37,EXCLUDE-E2,N,Y,Y,Thesis with BEAST LLM jailbreak and adversarial training; 'quantum leaps' is a metaphor; no quantum or quantum-inspired component.,high
+R38,EXCLUDE-E2,N,Y,Y,"GPT-2 hallucination study using physics analogies; logit-bias spike is classical; quantum mechanics only a lens, not a working component.",medium
+R39,EXCLUDE-E2,N,N,unclear,Book chapter on AI in cyber defence; quantum AI only mentioned as an emerging technology; no LM adversarial focus.,high
+R40,EXCLUDE-E2,N,N,unclear,BFSI AI-cloud-security framework; post-quantum transition and adversarial attacks only listed as challenges; no quantum method.,high
+R41,INCLUDE,Y,Y,Y,"BERT plus data re-uploading quantum circuit, and VQC classifiers, detect LLM jailbreak prompts; evaluated on a jailbreak classification task.",high
+R42,EXCLUDE-E2,Y,N,N,AI-driven quantum error-correcting code search simulated at circuit level; 'red-team' is internal review; no adversarial inputs to language models.,high
+R43,EXCLUDE-E2,N,N,unclear,Systematic review of AI in threat intelligence; quantum AI only a future direction; topic does not span quantum computing.,high
+R44,EXCLUDE-E2,N,Y,N,No abstract; decided from title and venue. Survey of adversarial attacks on AI in 6G networks; no quantum or language-model scope stated.,medium
+R45,RELATED_REVIEW,N,Y,Y,"Survey of quantum threats, post-quantum cryptography and LLM/agentic AI security (prompt injection, jailbreaking). Not a primary study.",high
+R46,EXCLUDE-E2,N,unclear,unclear,No abstract; decided from title and venue. Broad AI-cybersecurity review; title names no quantum or language-model scope.,medium
+R47,RELATED_REVIEW,N,unclear,Y,"Reviews quantum risk to public-key cryptography and LLM-driven cyber operations, with red teaming and AI hardening. Not a primary study.",high
+R48,EXCLUDE-E3,N,N,N,Call for papers for the CMLA 2026 conference; not a scholarly study.,high
+R49,EXCLUDE-E3,unclear,unclear,unclear,Self-published Persian Zenodo manuscript; quantum-LLM claims unsupported and stress-test claims unverifiable; no credible method or evaluation.,medium
+R50,EXCLUDE-E3,N,Y,unclear,"Dataset release accompanying the R27 manuscript on LLM-generated hardware trojans in PQC designs; not itself a study, not the same work.",high
+R51,RELATED_REVIEW,N,Y,Y,"PRISMA SLR spanning LLMs in cybersecurity, post-quantum cryptography and quantum-aware defence, noting prompt-injection robustness gaps. Not a primary study.",high
+R52,INCLUDE,Y,Y,Y,Quantum-theory-inspired density-matrix model of inter-sentence interaction defends text models against adversarial attacks; evaluated across attack scenarios.,high
+R53,EXCLUDE-E2,N,Y,Y,Cybersecurity textbook covering LLM red teaming and prompt injection; quantum only as a post-quantum cryptography topic; no quantum method.,medium
+R54,EXCLUDE-E2,N,N,Y,Overview of AI and NLP in cybersecurity; quantum-resistant AI only a future direction; no quantum method or adversarial LM study.,high
