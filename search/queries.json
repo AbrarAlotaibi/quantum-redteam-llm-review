@@ -1,0 +1,213 @@
+{
+  "generated_utc": "2026-10-23T00:39:34Z",
+  "term_groups": {
+    "Q": [
+      "quantum",
+      "quantum-inspired",
+      "quantum-enhanced",
+      "hybrid quantum-classical",
+      "variational quantum circuit",
+      "parameterized quantum circuit",
+      "Born machine",
+      "tensor network",
+      "quantum annealing",
+      "QAOA",
+      "QUBO",
+      "HUBO",
+      "Ising machine"
+    ],
+    "L": [
+      "large language model",
+      "LLM",
+      "language model",
+      "natural language processing",
+      "text generation",
+      "language generation"
+    ],
+    "G": [
+      "generative model",
+      "Born machine",
+      "quantum GAN",
+      "quantum diffusion",
+      "quantum Boltzmann machine",
+      "combinatorial optimization"
+    ],
+    "S": [
+      "red teaming",
+      "jailbreak",
+      "adversarial prompt",
+      "adversarial attack",
+      "attack strategy",
+      "safety evaluation"
+    ]
+  },
+  "searches": {
+    "S1": {
+      "description": "Q AND L AND S, no year limit",
+      "groups": [
+        "Q",
+        "L",
+        "S"
+      ],
+      "openalex": {
+        "endpoint": "https://api.openalex.org/works",
+        "filter": "title_and_abstract.search:(quantum OR \"quantum-inspired\" OR \"quantum-enhanced\" OR \"hybrid quantum-classical\" OR \"variational quantum circuit\" OR \"parameterized quantum circuit\" OR \"Born machine\" OR \"tensor network\" OR \"quantum annealing\" OR QAOA OR QUBO OR HUBO OR \"Ising machine\") AND (\"large language model\" OR LLM OR \"language model\" OR \"natural language processing\" OR \"text generation\" OR \"language generation\") AND (\"red teaming\" OR jailbreak OR \"adversarial prompt\" OR \"adversarial attack\" OR \"attack strategy\" OR \"safety evaluation\")",
+        "title_and_abstract.search": "(quantum OR \"quantum-inspired\" OR \"quantum-enhanced\" OR \"hybrid quantum-classical\" OR \"variational quantum circuit\" OR \"parameterized quantum circuit\" OR \"Born machine\" OR \"tensor network\" OR \"quantum annealing\" OR QAOA OR QUBO OR HUBO OR \"Ising machine\") AND (\"large language model\" OR LLM OR \"language model\" OR \"natural language processing\" OR \"text generation\" OR \"language generation\") AND (\"red teaming\" OR jailbreak OR \"adversarial prompt\" OR \"adversarial attack\" OR \"attack strategy\" OR \"safety evaluation\")",
+        "other_params": {
+          "sort": "relevance_score:desc",
+          "per-page": "200",
+          "page": "1, 2, ... (basic paging)",
+          "select": "id,doi,display_name,publication_year,publication_date,type,ids,primary_location,locations,abstract_inverted_index,primary_topic"
+        },
+        "first_page_url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28quantum+OR+%22quantum-inspired%22+OR+%22quantum-enhanced%22+OR+%22hybrid+quantum-classical%22+OR+%22variational+quantum+circuit%22+OR+%22parameterized+quantum+circuit%22+OR+%22Born+machine%22+OR+%22tensor+network%22+OR+%22quantum+annealing%22+OR+QAOA+OR+QUBO+OR+HUBO+OR+%22Ising+machine%22%29+AND+%28%22large+language+model%22+OR+LLM+OR+%22language+model%22+OR+%22natural+language+processing%22+OR+%22text+generation%22+OR+%22language+generation%22%29+AND+%28%22red+teaming%22+OR+jailbreak+OR+%22adversarial+prompt%22+OR+%22adversarial+attack%22+OR+%22attack+strategy%22+OR+%22safety+evaluation%22%29&sort=relevance_score%3Adesc&per-page=200&page=1&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Cids%2Cprimary_location%2Clocations%2Cabstract_inverted_index%2Cprimary_topic"
+      },
+      "arxiv": {
+        "endpoint": "https://export.arxiv.org/api/query",
+        "search_query": "(ti:quantum OR abs:quantum OR ti:\"quantum-inspired\" OR abs:\"quantum-inspired\" OR ti:\"quantum-enhanced\" OR abs:\"quantum-enhanced\" OR ti:\"hybrid quantum-classical\" OR abs:\"hybrid quantum-classical\" OR ti:\"variational quantum circuit\" OR abs:\"variational quantum circuit\" OR ti:\"parameterized quantum circuit\" OR abs:\"parameterized quantum circuit\" OR ti:\"Born machine\" OR abs:\"Born machine\" OR ti:\"tensor network\" OR abs:\"tensor network\" OR ti:\"quantum annealing\" OR abs:\"quantum annealing\" OR ti:QAOA OR abs:QAOA OR ti:QUBO OR abs:QUBO OR ti:HUBO OR abs:HUBO OR ti:\"Ising machine\" OR abs:\"Ising machine\") AND (ti:\"large language model\" OR abs:\"large language model\" OR ti:LLM OR abs:LLM OR ti:\"language model\" OR abs:\"language model\" OR ti:\"natural language processing\" OR abs:\"natural language processing\" OR ti:\"text generation\" OR abs:\"text generation\" OR ti:\"language generation\" OR abs:\"language generation\") AND (ti:\"red teaming\" OR abs:\"red teaming\" OR ti:jailbreak OR abs:jailbreak OR ti:\"adversarial prompt\" OR abs:\"adversarial prompt\" OR ti:\"adversarial attack\" OR abs:\"adversarial attack\" OR ti:\"attack strategy\" OR abs:\"attack strategy\" OR ti:\"safety evaluation\" OR abs:\"safety evaluation\")",
+        "other_params": {
+          "start": "0, 500, ...",
+          "max_results": "500",
+          "sortBy": "relevance",
+          "sortOrder": "descending"
+        },
+        "first_page_url": "https://export.arxiv.org/api/query?search_query=%28ti%3Aquantum+OR+abs%3Aquantum+OR+ti%3A%22quantum-inspired%22+OR+abs%3A%22quantum-inspired%22+OR+ti%3A%22quantum-enhanced%22+OR+abs%3A%22quantum-enhanced%22+OR+ti%3A%22hybrid+quantum-classical%22+OR+abs%3A%22hybrid+quantum-classical%22+OR+ti%3A%22variational+quantum+circuit%22+OR+abs%3A%22variational+quantum+circuit%22+OR+ti%3A%22parameterized+quantum+circuit%22+OR+abs%3A%22parameterized+quantum+circuit%22+OR+ti%3A%22Born+machine%22+OR+abs%3A%22Born+machine%22+OR+ti%3A%22tensor+network%22+OR+abs%3A%22tensor+network%22+OR+ti%3A%22quantum+annealing%22+OR+abs%3A%22quantum+annealing%22+OR+ti%3AQAOA+OR+abs%3AQAOA+OR+ti%3AQUBO+OR+abs%3AQUBO+OR+ti%3AHUBO+OR+abs%3AHUBO+OR+ti%3A%22Ising+machine%22+OR+abs%3A%22Ising+machine%22%29+AND+%28ti%3A%22large+language+model%22+OR+abs%3A%22large+language+model%22+OR+ti%3ALLM+OR+abs%3ALLM+OR+ti%3A%22language+model%22+OR+abs%3A%22language+model%22+OR+ti%3A%22natural+language+processing%22+OR+abs%3A%22natural+language+processing%22+OR+ti%3A%22text+generation%22+OR+abs%3A%22text+generation%22+OR+ti%3A%22language+generation%22+OR+abs%3A%22language+generation%22%29+AND+%28ti%3A%22red+teaming%22+OR+abs%3A%22red+teaming%22+OR+ti%3Ajailbreak+OR+abs%3Ajailbreak+OR+ti%3A%22adversarial+prompt%22+OR+abs%3A%22adversarial+prompt%22+OR+ti%3A%22adversarial+attack%22+OR+abs%3A%22adversarial+attack%22+OR+ti%3A%22attack+strategy%22+OR+abs%3A%22attack+strategy%22+OR+ti%3A%22safety+evaluation%22+OR+abs%3A%22safety+evaluation%22%29&start=0&max_results=500&sortBy=relevance&sortOrder=descending"
+      },
+      "semantic_scholar": {
+        "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+        "query": "(quantum | \"quantum-inspired\" | \"quantum-enhanced\" | \"hybrid quantum-classical\" | \"variational quantum circuit\" | \"parameterized quantum circuit\" | \"Born machine\" | \"tensor network\" | \"quantum annealing\" | QAOA | QUBO | HUBO | \"Ising machine\") + (\"large language model\" | LLM | \"language model\" | \"natural language processing\" | \"text generation\" | \"language generation\") + (\"red teaming\" | jailbreak | \"adversarial prompt\" | \"adversarial attack\" | \"attack strategy\" | \"safety evaluation\")",
+        "params": {
+          "query": "(quantum | \"quantum-inspired\" | \"quantum-enhanced\" | \"hybrid quantum-classical\" | \"variational quantum circuit\" | \"parameterized quantum circuit\" | \"Born machine\" | \"tensor network\" | \"quantum annealing\" | QAOA | QUBO | HUBO | \"Ising machine\") + (\"large language model\" | LLM | \"language model\" | \"natural language processing\" | \"text generation\" | \"language generation\") + (\"red teaming\" | jailbreak | \"adversarial prompt\" | \"adversarial attack\" | \"attack strategy\" | \"safety evaluation\")",
+          "fields": "title,year,venue,externalIds,abstract,publicationTypes"
+        },
+        "first_page_url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28quantum%20%7C%20%22quantum-inspired%22%20%7C%20%22quantum-enhanced%22%20%7C%20%22hybrid%20quantum-classical%22%20%7C%20%22variational%20quantum%20circuit%22%20%7C%20%22parameterized%20quantum%20circuit%22%20%7C%20%22Born%20machine%22%20%7C%20%22tensor%20network%22%20%7C%20%22quantum%20annealing%22%20%7C%20QAOA%20%7C%20QUBO%20%7C%20HUBO%20%7C%20%22Ising%20machine%22%29%20%2B%20%28%22large%20language%20model%22%20%7C%20LLM%20%7C%20%22language%20model%22%20%7C%20%22natural%20language%20processing%22%20%7C%20%22text%20generation%22%20%7C%20%22language%20generation%22%29%20%2B%20%28%22red%20teaming%22%20%7C%20jailbreak%20%7C%20%22adversarial%20prompt%22%20%7C%20%22adversarial%20attack%22%20%7C%20%22attack%20strategy%22%20%7C%20%22safety%20evaluation%22%29&fields=title%2Cyear%2Cvenue%2CexternalIds%2Cabstract%2CpublicationTypes"
+      },
+      "cap_per_source": null
+    },
+    "S2": {
+      "description": "Q AND L, 2018-2026",
+      "groups": [
+        "Q",
+        "L"
+      ],
+      "openalex": {
+        "endpoint": "https://api.openalex.org/works",
+        "filter": "title_and_abstract.search:(quantum OR \"quantum-inspired\" OR \"quantum-enhanced\" OR \"hybrid quantum-classical\" OR \"variational quantum circuit\" OR \"parameterized quantum circuit\" OR \"Born machine\" OR \"tensor network\" OR \"quantum annealing\" OR QAOA OR QUBO OR HUBO OR \"Ising machine\") AND (\"large language model\" OR LLM OR \"language model\" OR \"natural language processing\" OR \"text generation\" OR \"language generation\"),publication_year:2018-2026",
+        "title_and_abstract.search": "(quantum OR \"quantum-inspired\" OR \"quantum-enhanced\" OR \"hybrid quantum-classical\" OR \"variational quantum circuit\" OR \"parameterized quantum circuit\" OR \"Born machine\" OR \"tensor network\" OR \"quantum annealing\" OR QAOA OR QUBO OR HUBO OR \"Ising machine\") AND (\"large language model\" OR LLM OR \"language model\" OR \"natural language processing\" OR \"text generation\" OR \"language generation\")",
+        "other_params": {
+          "sort": "relevance_score:desc",
+          "per-page": "200",
+          "page": "1, 2, ... (basic paging)",
+          "select": "id,doi,display_name,publication_year,publication_date,type,ids,primary_location,locations,abstract_inverted_index,primary_topic"
+        },
+        "first_page_url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28quantum+OR+%22quantum-inspired%22+OR+%22quantum-enhanced%22+OR+%22hybrid+quantum-classical%22+OR+%22variational+quantum+circuit%22+OR+%22parameterized+quantum+circuit%22+OR+%22Born+machine%22+OR+%22tensor+network%22+OR+%22quantum+annealing%22+OR+QAOA+OR+QUBO+OR+HUBO+OR+%22Ising+machine%22%29+AND+%28%22large+language+model%22+OR+LLM+OR+%22language+model%22+OR+%22natural+language+processing%22+OR+%22text+generation%22+OR+%22language+generation%22%29%2Cpublication_year%3A2018-2026&sort=relevance_score%3Adesc&per-page=200&page=1&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Cids%2Cprimary_location%2Clocations%2Cabstract_inverted_index%2Cprimary_topic"
+      },
+      "arxiv": {
+        "endpoint": "https://export.arxiv.org/api/query",
+        "search_query": "(ti:quantum OR abs:quantum OR ti:\"quantum-inspired\" OR abs:\"quantum-inspired\" OR ti:\"quantum-enhanced\" OR abs:\"quantum-enhanced\" OR ti:\"hybrid quantum-classical\" OR abs:\"hybrid quantum-classical\" OR ti:\"variational quantum circuit\" OR abs:\"variational quantum circuit\" OR ti:\"parameterized quantum circuit\" OR abs:\"parameterized quantum circuit\" OR ti:\"Born machine\" OR abs:\"Born machine\" OR ti:\"tensor network\" OR abs:\"tensor network\" OR ti:\"quantum annealing\" OR abs:\"quantum annealing\" OR ti:QAOA OR abs:QAOA OR ti:QUBO OR abs:QUBO OR ti:HUBO OR abs:HUBO OR ti:\"Ising machine\" OR abs:\"Ising machine\") AND (ti:\"large language model\" OR abs:\"large language model\" OR ti:LLM OR abs:LLM OR ti:\"language model\" OR abs:\"language model\" OR ti:\"natural language processing\" OR abs:\"natural language processing\" OR ti:\"text generation\" OR abs:\"text generation\" OR ti:\"language generation\" OR abs:\"language generation\") AND submittedDate:[201801010000 TO 202612312359]",
+        "other_params": {
+          "start": "0, 500, ...",
+          "max_results": "500",
+          "sortBy": "relevance",
+          "sortOrder": "descending"
+        },
+        "first_page_url": "https://export.arxiv.org/api/query?search_query=%28ti%3Aquantum+OR+abs%3Aquantum+OR+ti%3A%22quantum-inspired%22+OR+abs%3A%22quantum-inspired%22+OR+ti%3A%22quantum-enhanced%22+OR+abs%3A%22quantum-enhanced%22+OR+ti%3A%22hybrid+quantum-classical%22+OR+abs%3A%22hybrid+quantum-classical%22+OR+ti%3A%22variational+quantum+circuit%22+OR+abs%3A%22variational+quantum+circuit%22+OR+ti%3A%22parameterized+quantum+circuit%22+OR+abs%3A%22parameterized+quantum+circuit%22+OR+ti%3A%22Born+machine%22+OR+abs%3A%22Born+machine%22+OR+ti%3A%22tensor+network%22+OR+abs%3A%22tensor+network%22+OR+ti%3A%22quantum+annealing%22+OR+abs%3A%22quantum+annealing%22+OR+ti%3AQAOA+OR+abs%3AQAOA+OR+ti%3AQUBO+OR+abs%3AQUBO+OR+ti%3AHUBO+OR+abs%3AHUBO+OR+ti%3A%22Ising+machine%22+OR+abs%3A%22Ising+machine%22%29+AND+%28ti%3A%22large+language+model%22+OR+abs%3A%22large+language+model%22+OR+ti%3ALLM+OR+abs%3ALLM+OR+ti%3A%22language+model%22+OR+abs%3A%22language+model%22+OR+ti%3A%22natural+language+processing%22+OR+abs%3A%22natural+language+processing%22+OR+ti%3A%22text+generation%22+OR+abs%3A%22text+generation%22+OR+ti%3A%22language+generation%22+OR+abs%3A%22language+generation%22%29+AND+submittedDate%3A%5B201801010000+TO+202612312359%5D&start=0&max_results=500&sortBy=relevance&sortOrder=descending"
+      },
+      "semantic_scholar": {
+        "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+        "query": "(quantum | \"quantum-inspired\" | \"quantum-enhanced\" | \"hybrid quantum-classical\" | \"variational quantum circuit\" | \"parameterized quantum circuit\" | \"Born machine\" | \"tensor network\" | \"quantum annealing\" | QAOA | QUBO | HUBO | \"Ising machine\") + (\"large language model\" | LLM | \"language model\" | \"natural language processing\" | \"text generation\" | \"language generation\")",
+        "params": {
+          "query": "(quantum | \"quantum-inspired\" | \"quantum-enhanced\" | \"hybrid quantum-classical\" | \"variational quantum circuit\" | \"parameterized quantum circuit\" | \"Born machine\" | \"tensor network\" | \"quantum annealing\" | QAOA | QUBO | HUBO | \"Ising machine\") + (\"large language model\" | LLM | \"language model\" | \"natural language processing\" | \"text generation\" | \"language generation\")",
+          "fields": "title,year,venue,externalIds,abstract,publicationTypes",
+          "year": "2018-2026"
+        },
+        "first_page_url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28quantum%20%7C%20%22quantum-inspired%22%20%7C%20%22quantum-enhanced%22%20%7C%20%22hybrid%20quantum-classical%22%20%7C%20%22variational%20quantum%20circuit%22%20%7C%20%22parameterized%20quantum%20circuit%22%20%7C%20%22Born%20machine%22%20%7C%20%22tensor%20network%22%20%7C%20%22quantum%20annealing%22%20%7C%20QAOA%20%7C%20QUBO%20%7C%20HUBO%20%7C%20%22Ising%20machine%22%29%20%2B%20%28%22large%20language%20model%22%20%7C%20LLM%20%7C%20%22language%20model%22%20%7C%20%22natural%20language%20processing%22%20%7C%20%22text%20generation%22%20%7C%20%22language%20generation%22%29&fields=title%2Cyear%2Cvenue%2CexternalIds%2Cabstract%2CpublicationTypes&year=2018-2026"
+      },
+      "cap_per_source": null
+    },
+    "S3": {
+      "description": "Q AND S, 2018-2026, computer science",
+      "groups": [
+        "Q",
+        "S"
+      ],
+      "openalex": {
+        "endpoint": "https://api.openalex.org/works",
+        "filter": "title_and_abstract.search:(quantum OR \"quantum-inspired\" OR \"quantum-enhanced\" OR \"hybrid quantum-classical\" OR \"variational quantum circuit\" OR \"parameterized quantum circuit\" OR \"Born machine\" OR \"tensor network\" OR \"quantum annealing\" OR QAOA OR QUBO OR HUBO OR \"Ising machine\") AND (\"red teaming\" OR jailbreak OR \"adversarial prompt\" OR \"adversarial attack\" OR \"attack strategy\" OR \"safety evaluation\"),publication_year:2018-2026,primary_topic.field.id:17",
+        "title_and_abstract.search": "(quantum OR \"quantum-inspired\" OR \"quantum-enhanced\" OR \"hybrid quantum-classical\" OR \"variational quantum circuit\" OR \"parameterized quantum circuit\" OR \"Born machine\" OR \"tensor network\" OR \"quantum annealing\" OR QAOA OR QUBO OR HUBO OR \"Ising machine\") AND (\"red teaming\" OR jailbreak OR \"adversarial prompt\" OR \"adversarial attack\" OR \"attack strategy\" OR \"safety evaluation\")",
+        "other_params": {
+          "sort": "relevance_score:desc",
+          "per-page": "200",
+          "page": "1, 2, ... (basic paging)",
+          "select": "id,doi,display_name,publication_year,publication_date,type,ids,primary_location,locations,abstract_inverted_index,primary_topic"
+        },
+        "first_page_url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28quantum+OR+%22quantum-inspired%22+OR+%22quantum-enhanced%22+OR+%22hybrid+quantum-classical%22+OR+%22variational+quantum+circuit%22+OR+%22parameterized+quantum+circuit%22+OR+%22Born+machine%22+OR+%22tensor+network%22+OR+%22quantum+annealing%22+OR+QAOA+OR+QUBO+OR+HUBO+OR+%22Ising+machine%22%29+AND+%28%22red+teaming%22+OR+jailbreak+OR+%22adversarial+prompt%22+OR+%22adversarial+attack%22+OR+%22attack+strategy%22+OR+%22safety+evaluation%22%29%2Cpublication_year%3A2018-2026%2Cprimary_topic.field.id%3A17&sort=relevance_score%3Adesc&per-page=200&page=1&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Cids%2Cprimary_location%2Clocations%2Cabstract_inverted_index%2Cprimary_topic"
+      },
+      "arxiv": {
+        "endpoint": "https://export.arxiv.org/api/query",
+        "search_query": "(ti:quantum OR abs:quantum OR ti:\"quantum-inspired\" OR abs:\"quantum-inspired\" OR ti:\"quantum-enhanced\" OR abs:\"quantum-enhanced\" OR ti:\"hybrid quantum-classical\" OR abs:\"hybrid quantum-classical\" OR ti:\"variational quantum circuit\" OR abs:\"variational quantum circuit\" OR ti:\"parameterized quantum circuit\" OR abs:\"parameterized quantum circuit\" OR ti:\"Born machine\" OR abs:\"Born machine\" OR ti:\"tensor network\" OR abs:\"tensor network\" OR ti:\"quantum annealing\" OR abs:\"quantum annealing\" OR ti:QAOA OR abs:QAOA OR ti:QUBO OR abs:QUBO OR ti:HUBO OR abs:HUBO OR ti:\"Ising machine\" OR abs:\"Ising machine\") AND (ti:\"red teaming\" OR abs:\"red teaming\" OR ti:jailbreak OR abs:jailbreak OR ti:\"adversarial prompt\" OR abs:\"adversarial prompt\" OR ti:\"adversarial attack\" OR abs:\"adversarial attack\" OR ti:\"attack strategy\" OR abs:\"attack strategy\" OR ti:\"safety evaluation\" OR abs:\"safety evaluation\") AND submittedDate:[201801010000 TO 202612312359] AND cat:cs.*",
+        "other_params": {
+          "start": "0, 500, ...",
+          "max_results": "500",
+          "sortBy": "relevance",
+          "sortOrder": "descending"
+        },
+        "first_page_url": "https://export.arxiv.org/api/query?search_query=%28ti%3Aquantum+OR+abs%3Aquantum+OR+ti%3A%22quantum-inspired%22+OR+abs%3A%22quantum-inspired%22+OR+ti%3A%22quantum-enhanced%22+OR+abs%3A%22quantum-enhanced%22+OR+ti%3A%22hybrid+quantum-classical%22+OR+abs%3A%22hybrid+quantum-classical%22+OR+ti%3A%22variational+quantum+circuit%22+OR+abs%3A%22variational+quantum+circuit%22+OR+ti%3A%22parameterized+quantum+circuit%22+OR+abs%3A%22parameterized+quantum+circuit%22+OR+ti%3A%22Born+machine%22+OR+abs%3A%22Born+machine%22+OR+ti%3A%22tensor+network%22+OR+abs%3A%22tensor+network%22+OR+ti%3A%22quantum+annealing%22+OR+abs%3A%22quantum+annealing%22+OR+ti%3AQAOA+OR+abs%3AQAOA+OR+ti%3AQUBO+OR+abs%3AQUBO+OR+ti%3AHUBO+OR+abs%3AHUBO+OR+ti%3A%22Ising+machine%22+OR+abs%3A%22Ising+machine%22%29+AND+%28ti%3A%22red+teaming%22+OR+abs%3A%22red+teaming%22+OR+ti%3Ajailbreak+OR+abs%3Ajailbreak+OR+ti%3A%22adversarial+prompt%22+OR+abs%3A%22adversarial+prompt%22+OR+ti%3A%22adversarial+attack%22+OR+abs%3A%22adversarial+attack%22+OR+ti%3A%22attack+strategy%22+OR+abs%3A%22attack+strategy%22+OR+ti%3A%22safety+evaluation%22+OR+abs%3A%22safety+evaluation%22%29+AND+submittedDate%3A%5B201801010000+TO+202612312359%5D+AND+cat%3Acs.%2A&start=0&max_results=500&sortBy=relevance&sortOrder=descending"
+      },
+      "semantic_scholar": {
+        "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+        "query": "(quantum | \"quantum-inspired\" | \"quantum-enhanced\" | \"hybrid quantum-classical\" | \"variational quantum circuit\" | \"parameterized quantum circuit\" | \"Born machine\" | \"tensor network\" | \"quantum annealing\" | QAOA | QUBO | HUBO | \"Ising machine\") + (\"red teaming\" | jailbreak | \"adversarial prompt\" | \"adversarial attack\" | \"attack strategy\" | \"safety evaluation\")",
+        "params": {
+          "query": "(quantum | \"quantum-inspired\" | \"quantum-enhanced\" | \"hybrid quantum-classical\" | \"variational quantum circuit\" | \"parameterized quantum circuit\" | \"Born machine\" | \"tensor network\" | \"quantum annealing\" | QAOA | QUBO | HUBO | \"Ising machine\") + (\"red teaming\" | jailbreak | \"adversarial prompt\" | \"adversarial attack\" | \"attack strategy\" | \"safety evaluation\")",
+          "fields": "title,year,venue,externalIds,abstract,publicationTypes",
+          "year": "2018-2026",
+          "fieldsOfStudy": "Computer Science"
+        },
+        "first_page_url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28quantum%20%7C%20%22quantum-inspired%22%20%7C%20%22quantum-enhanced%22%20%7C%20%22hybrid%20quantum-classical%22%20%7C%20%22variational%20quantum%20circuit%22%20%7C%20%22parameterized%20quantum%20circuit%22%20%7C%20%22Born%20machine%22%20%7C%20%22tensor%20network%22%20%7C%20%22quantum%20annealing%22%20%7C%20QAOA%20%7C%20QUBO%20%7C%20HUBO%20%7C%20%22Ising%20machine%22%29%20%2B%20%28%22red%20teaming%22%20%7C%20jailbreak%20%7C%20%22adversarial%20prompt%22%20%7C%20%22adversarial%20attack%22%20%7C%20%22attack%20strategy%22%20%7C%20%22safety%20evaluation%22%29&fields=title%2Cyear%2Cvenue%2CexternalIds%2Cabstract%2CpublicationTypes&year=2018-2026&fieldsOfStudy=Computer%20Science"
+      },
+      "cap_per_source": null
+    },
+    "S4": {
+      "description": "Q AND G, 2018-2026, computer science or machine learning; first 3000 per source",
+      "groups": [
+        "Q",
+        "G"
+      ],
+      "openalex": {
+        "endpoint": "https://api.openalex.org/works",
+        "filter": "title_and_abstract.search:(quantum OR \"quantum-inspired\" OR \"quantum-enhanced\" OR \"hybrid quantum-classical\" OR \"variational quantum circuit\" OR \"parameterized quantum circuit\" OR \"Born machine\" OR \"tensor network\" OR \"quantum annealing\" OR QAOA OR QUBO OR HUBO OR \"Ising machine\") AND (\"generative model\" OR \"Born machine\" OR \"quantum GAN\" OR \"quantum diffusion\" OR \"quantum Boltzmann machine\" OR \"combinatorial optimization\"),publication_year:2018-2026,primary_topic.field.id:17",
+        "title_and_abstract.search": "(quantum OR \"quantum-inspired\" OR \"quantum-enhanced\" OR \"hybrid quantum-classical\" OR \"variational quantum circuit\" OR \"parameterized quantum circuit\" OR \"Born machine\" OR \"tensor network\" OR \"quantum annealing\" OR QAOA OR QUBO OR HUBO OR \"Ising machine\") AND (\"generative model\" OR \"Born machine\" OR \"quantum GAN\" OR \"quantum diffusion\" OR \"quantum Boltzmann machine\" OR \"combinatorial optimization\")",
+        "other_params": {
+          "sort": "relevance_score:desc",
+          "per-page": "200",
+          "page": "1, 2, ... (basic paging)",
+          "select": "id,doi,display_name,publication_year,publication_date,type,ids,primary_location,locations,abstract_inverted_index,primary_topic"
+        },
+        "first_page_url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28quantum+OR+%22quantum-inspired%22+OR+%22quantum-enhanced%22+OR+%22hybrid+quantum-classical%22+OR+%22variational+quantum+circuit%22+OR+%22parameterized+quantum+circuit%22+OR+%22Born+machine%22+OR+%22tensor+network%22+OR+%22quantum+annealing%22+OR+QAOA+OR+QUBO+OR+HUBO+OR+%22Ising+machine%22%29+AND+%28%22generative+model%22+OR+%22Born+machine%22+OR+%22quantum+GAN%22+OR+%22quantum+diffusion%22+OR+%22quantum+Boltzmann+machine%22+OR+%22combinatorial+optimization%22%29%2Cpublication_year%3A2018-2026%2Cprimary_topic.field.id%3A17&sort=relevance_score%3Adesc&per-page=200&page=1&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Cids%2Cprimary_location%2Clocations%2Cabstract_inverted_index%2Cprimary_topic"
+      },
+      "arxiv": {
+        "endpoint": "https://export.arxiv.org/api/query",
+        "search_query": "(ti:quantum OR abs:quantum OR ti:\"quantum-inspired\" OR abs:\"quantum-inspired\" OR ti:\"quantum-enhanced\" OR abs:\"quantum-enhanced\" OR ti:\"hybrid quantum-classical\" OR abs:\"hybrid quantum-classical\" OR ti:\"variational quantum circuit\" OR abs:\"variational quantum circuit\" OR ti:\"parameterized quantum circuit\" OR abs:\"parameterized quantum circuit\" OR ti:\"Born machine\" OR abs:\"Born machine\" OR ti:\"tensor network\" OR abs:\"tensor network\" OR ti:\"quantum annealing\" OR abs:\"quantum annealing\" OR ti:QAOA OR abs:QAOA OR ti:QUBO OR abs:QUBO OR ti:HUBO OR abs:HUBO OR ti:\"Ising machine\" OR abs:\"Ising machine\") AND (ti:\"generative model\" OR abs:\"generative model\" OR ti:\"Born machine\" OR abs:\"Born machine\" OR ti:\"quantum GAN\" OR abs:\"quantum GAN\" OR ti:\"quantum diffusion\" OR abs:\"quantum diffusion\" OR ti:\"quantum Boltzmann machine\" OR abs:\"quantum Boltzmann machine\" OR ti:\"combinatorial optimization\" OR abs:\"combinatorial optimization\") AND submittedDate:[201801010000 TO 202612312359] AND (cat:cs.* OR cat:stat.ML)",
+        "other_params": {
+          "start": "0, 500, ...",
+          "max_results": "500",
+          "sortBy": "relevance",
+          "sortOrder": "descending"
+        },
+        "first_page_url": "https://export.arxiv.org/api/query?search_query=%28ti%3Aquantum+OR+abs%3Aquantum+OR+ti%3A%22quantum-inspired%22+OR+abs%3A%22quantum-inspired%22+OR+ti%3A%22quantum-enhanced%22+OR+abs%3A%22quantum-enhanced%22+OR+ti%3A%22hybrid+quantum-classical%22+OR+abs%3A%22hybrid+quantum-classical%22+OR+ti%3A%22variational+quantum+circuit%22+OR+abs%3A%22variational+quantum+circuit%22+OR+ti%3A%22parameterized+quantum+circuit%22+OR+abs%3A%22parameterized+quantum+circuit%22+OR+ti%3A%22Born+machine%22+OR+abs%3A%22Born+machine%22+OR+ti%3A%22tensor+network%22+OR+abs%3A%22tensor+network%22+OR+ti%3A%22quantum+annealing%22+OR+abs%3A%22quantum+annealing%22+OR+ti%3AQAOA+OR+abs%3AQAOA+OR+ti%3AQUBO+OR+abs%3AQUBO+OR+ti%3AHUBO+OR+abs%3AHUBO+OR+ti%3A%22Ising+machine%22+OR+abs%3A%22Ising+machine%22%29+AND+%28ti%3A%22generative+model%22+OR+abs%3A%22generative+model%22+OR+ti%3A%22Born+machine%22+OR+abs%3A%22Born+machine%22+OR+ti%3A%22quantum+GAN%22+OR+abs%3A%22quantum+GAN%22+OR+ti%3A%22quantum+diffusion%22+OR+abs%3A%22quantum+diffusion%22+OR+ti%3A%22quantum+Boltzmann+machine%22+OR+abs%3A%22quantum+Boltzmann+machine%22+OR+ti%3A%22combinatorial+optimization%22+OR+abs%3A%22combinatorial+optimization%22%29+AND+submittedDate%3A%5B201801010000+TO+202612312359%5D+AND+%28cat%3Acs.%2A+OR+cat%3Astat.ML%29&start=0&max_results=500&sortBy=relevance&sortOrder=descending"
+      },
+      "semantic_scholar": {
+        "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+        "query": "(quantum | \"quantum-inspired\" | \"quantum-enhanced\" | \"hybrid quantum-classical\" | \"variational quantum circuit\" | \"parameterized quantum circuit\" | \"Born machine\" | \"tensor network\" | \"quantum annealing\" | QAOA | QUBO | HUBO | \"Ising machine\") + (\"generative model\" | \"Born machine\" | \"quantum GAN\" | \"quantum diffusion\" | \"quantum Boltzmann machine\" | \"combinatorial optimization\")",
+        "params": {
+          "query": "(quantum | \"quantum-inspired\" | \"quantum-enhanced\" | \"hybrid quantum-classical\" | \"variational quantum circuit\" | \"parameterized quantum circuit\" | \"Born machine\" | \"tensor network\" | \"quantum annealing\" | QAOA | QUBO | HUBO | \"Ising machine\") + (\"generative model\" | \"Born machine\" | \"quantum GAN\" | \"quantum diffusion\" | \"quantum Boltzmann machine\" | \"combinatorial optimization\")",
+          "fields": "title,year,venue,externalIds,abstract,publicationTypes",
+          "year": "2018-2026",
+          "fieldsOfStudy": "Computer Science",
+          "sort": "citationCount:desc"
+        },
+        "first_page_url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28quantum%20%7C%20%22quantum-inspired%22%20%7C%20%22quantum-enhanced%22%20%7C%20%22hybrid%20quantum-classical%22%20%7C%20%22variational%20quantum%20circuit%22%20%7C%20%22parameterized%20quantum%20circuit%22%20%7C%20%22Born%20machine%22%20%7C%20%22tensor%20network%22%20%7C%20%22quantum%20annealing%22%20%7C%20QAOA%20%7C%20QUBO%20%7C%20HUBO%20%7C%20%22Ising%20machine%22%29%20%2B%20%28%22generative%20model%22%20%7C%20%22Born%20machine%22%20%7C%20%22quantum%20GAN%22%20%7C%20%22quantum%20diffusion%22%20%7C%20%22quantum%20Boltzmann%20machine%22%20%7C%20%22combinatorial%20optimization%22%29&fields=title%2Cyear%2Cvenue%2CexternalIds%2Cabstract%2CpublicationTypes&year=2018-2026&fieldsOfStudy=Computer%20Science&sort=citationCount%3Adesc"
+      },
+      "cap_per_source": 3000
+    }
+  }
+}

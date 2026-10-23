@@ -1,0 +1,125 @@
+[
+  {
+    "key": "wu2021nlpqp",
+    "fulltext_read": true,
+    "marks": {
+      "Red teaming": "N",
+      "Quantum for LLMs": "N",
+      "Quantum generative": "N",
+      "Quantum optimization": "N",
+      "Quantum-inspired": "Y",
+      "Attacker generators": "N",
+      "Evidence audit": "N"
+    },
+    "changed": [
+      "Quantum generative",
+      "Quantum-inspired"
+    ],
+    "evidence": {
+      "Quantum generative": "P->N. No Born machine/QGAN/QBM/diffusion content; Sec 6.2 lists generation as untouched: \"quantum NLP models have not been extended to more challenging tasks such as text generation\"",
+      "Quantum-inspired": "P->Y. Sec 3.2 'Classical Algorithms': \"Quantum-inspired or quantum-like NLP algorithms have been designed for classical computers\"; 13 of 19 Table 1 papers are Classical; QLM/density-matrix/TextTN models fill Secs 4-5"
+    }
+  },
+  {
+    "key": "varmantchaonala2024qnlp",
+    "fulltext_read": true,
+    "marks": {
+      "Red teaming": "N",
+      "Quantum for LLMs": "P",
+      "Quantum generative": "N",
+      "Quantum optimization": "N",
+      "Quantum-inspired": "P",
+      "Attacker generators": "N",
+      "Evidence audit": "N"
+    },
+    "changed": [
+      "Quantum for LLMs",
+      "Quantum generative"
+    ],
+    "evidence": {
+      "Quantum for LLMs": "N->P. Sec VII.E worked example: \"An encoder/decoder architecture model using quantum Self Attention\"; Sec XII: \"The quantum large language model (QLLM) has not received sufficient attention\"",
+      "Quantum generative": "P->N. No Born machine/QGAN/QBM/diffusion terms; only single table rows ('Quantum sentence generation', Table 1; NLG row, Table 4) and one sentence on a quantum auto-encoder",
+      "Quantum-inspired": "Sec VII.A Quantum bag-of-words (\"leveraging quantum probability theory\") and Sec VII.C word2ket/word2ketXS; not framed as classical quantum-inspired"
+    }
+  },
+  {
+    "key": "nausheen2025qnlp",
+    "fulltext_read": true,
+    "marks": {
+      "Red teaming": "N",
+      "Quantum for LLMs": "P",
+      "Quantum generative": "P",
+      "Quantum optimization": "P",
+      "Quantum-inspired": "P",
+      "Attacker generators": "N",
+      "Evidence audit": "N"
+    },
+    "changed": [],
+    "evidence": {
+      "Quantum for LLMs": "Sec 5.5: \"A Quantum Annealing Instance Selection Approach for the Fine-Tuning of Transformers\"; Sec 5.4.1 quantum-enhanced Transformer [42], BERT-QTC, BERT quantum transfer learning",
+      "Quantum generative": "Sec 5.3.2(1): \"A Quantum Boltzmann Machine (QBM)[11] is a quantum probabilistic model\"; thin (one short item), no QGAN/Born/diffusion",
+      "Quantum optimization": "Sec 5.5 survey question on quantum optimisation (XY-QAOA, quantum annealing, QAHT) and Sec 6.4 'Quantum optimisation techniques and QNLP models'",
+      "Quantum-inspired": "Sec 5.3.5 'Quantum Language Model' incl. '(1) Quantum-inspired language model'; Sec 5.4.5 quantum-inspired genetic algorithm; QPSO for BiGRU tuning"
+    }
+  },
+  {
+    "key": "phukan2025qnlpsurvey",
+    "fulltext_read": true,
+    "marks": {
+      "Red teaming": "N",
+      "Quantum for LLMs": "P",
+      "Quantum generative": "N",
+      "Quantum optimization": "N",
+      "Quantum-inspired": "P",
+      "Attacker generators": "N",
+      "Evidence audit": "N"
+    },
+    "changed": [
+      "Quantum for LLMs",
+      "Quantum generative"
+    ],
+    "evidence": {
+      "Quantum for LLMs": "N->P. Sec 3.3: \"Quantum Transformer, which replaces classical modules like the self-attention mechanism\"; Sec 4.2.1 projection head compressing BERT embeddings; Sec 4.4 QFM \"improving the performance of a larger, classical T5-based model\"",
+      "Quantum generative": "P->N. No Born machine/QGAN/QBM/diffusion terms; Sec 4.3: \"direct applications to the generative task of QG are still in the early stages\"",
+      "Quantum-inspired": "Sec 3.2 'Tensor Network (TN) Representations'; Sec 7: \"While we touch upon quantum-inspired classical models and tensor networks\""
+    }
+  },
+  {
+    "key": "tian2023qgenerative",
+    "fulltext_read": true,
+    "marks": {
+      "Red teaming": "N",
+      "Quantum for LLMs": "N",
+      "Quantum generative": "Y",
+      "Quantum optimization": "N",
+      "Quantum-inspired": "N",
+      "Attacker generators": "N",
+      "Evidence audit": "N"
+    },
+    "changed": [],
+    "evidence": {
+      "Quantum generative": "Sec 3 'Quantum Generative Learning Models' with subsections 3.1 QCBM, 3.2 QGAN, 3.3 QBM, 3.4 QAE"
+    }
+  },
+  {
+    "key": "huynh2023qiml",
+    "fulltext_read": true,
+    "marks": {
+      "Red teaming": "N",
+      "Quantum for LLMs": "N",
+      "Quantum generative": "P",
+      "Quantum optimization": "N",
+      "Quantum-inspired": "Y",
+      "Attacker generators": "N",
+      "Evidence audit": "N"
+    },
+    "changed": [
+      "Quantum optimization"
+    ],
+    "evidence": {
+      "Quantum generative": "Sec 4.3.7 'Quantum Generative Adversarial Networks', Sec 4.3.8 'Quantum Circuit Born Machines', Sec 4.2 unsupervised tensor-network (TNBM) modeling",
+      "Quantum optimization": "P->N. Scope explicitly excludes it: \"We also exclude terms that may capture works rooted in combinatorial optimization\"; annealing only in single sentences",
+      "Quantum-inspired": "Whole survey: Sec 4.1 Dequantized Algorithms, 4.2 Tensor Networks, 4.3 Quantum Variational Algorithm Simulation, 4.4 Other QiML Methods"
+    }
+  }
+]

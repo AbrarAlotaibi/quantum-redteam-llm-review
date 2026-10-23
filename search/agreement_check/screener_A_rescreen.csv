@@ -1,0 +1,5 @@
+id,decision,q_met,s_met,l_met,rationale,confidence
+R26,EXCLUDE-E3,N,N,unclear,Self-published SSRN discussion of AI in cybersecurity; no method or evaluation; quantum security only an emerging solution; adversarial attacks only a risk.,medium
+R27,EXCLUDE-E1,N,Y,Y,"PAIR adversarial prompting makes LLMs insert hardware trojans into PQC cores; S and L met, but no quantum method; PQC is the object.",high
+R44,EXCLUDE-E2,N,Y,N,"Survey of adversarial attacks on AI in 6G wireless networks; targets are signal and network functions, not language; quantum defences only a promising strategy.",high
+R46,EXCLUDE-E2,N,N,unclear,"Journal review of AI in cybersecurity; quantum computing only an emerging trend, NLP only a detection tool; does not span language-model security.",medium

@@ -1,0 +1,5 @@
+id,decision,q_met,s_met,l_met,rationale,confidence
+R26,EXCLUDE-E2,N,unclear,unclear,"General discussion of AI in cybersecurity; adversarial attacks named as a risk, quantum security only an emerging solution; no quantum-LM-security focus.",high
+R27,EXCLUDE-E1,N,Y,Y,"PAIR-style adversarial prompting of LLMs to generate hardware trojans in PQC accelerators; only quantum element is PQC target hardware, not a quantum method.",high
+R44,EXCLUDE-E2,unclear,Y,N,"Survey of adversarial attacks on AI in 6G wireless networks; quantum defenses listed as a strategy, but systems process radio signals, not language.",high
+R46,EXCLUDE-E2,N,unclear,unclear,"Broad review of AI in cybersecurity; quantum computing one emerging trend, NLP one technique; not a review centred on quantum, LMs and security.",medium
