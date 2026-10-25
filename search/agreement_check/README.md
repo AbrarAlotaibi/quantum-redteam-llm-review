@@ -3,7 +3,7 @@
 Run 2026-10-23/24. Design follows the post-hoc LLM-agent agreement check in Alotaibi & Ahmed (2026, arXiv:2606.26566), with research personas added.
 
 ## Procedure
-1. **Primary screening.** The 54 unique core-search (S1) records were screened with an LLM assistant (Claude) against the rule in `criteria.md`, with a reason recorded for each decision. See the `primary_screening` column of `../s1_screening.csv`.
+1. **Primary screening.** The 54 unique core-search (S1) records were screened with an LLM assistant (Claude) against the rule in `criteria.md`, with a reason recorded for each decision. The authors reviewed every decision and its recorded reason against the record. See the `primary_screening` column of `../s1_screening.csv`.
 2. **Blind packet.** `build_packet.py` wrote `packet.jsonl`: the 54 records in a fixed random order (seed 20261024), with title, year, venue, DOI, arXiv id and the longest abstract available in the cached API responses. It contains no decisions. `id_map.csv` maps packet ids to record uids.
 3. **Two independent screeners.** Two LLM agents each read only `criteria.md` and the packet, with no web access and no access to any other screening:
    - **Screener A:** persona of a quantum machine learning researcher (computational physics). Strategy: a strict literal checklist (Q, then S, then L), defaulting to exclude on ambiguity.
