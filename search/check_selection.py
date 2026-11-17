@@ -5,7 +5,8 @@ frame, if any, the route by which it entered the review, and the inclusion crite
 and checks it against the other released files:
 
   audit/audit_scores.csv     the 30 audited studies; task, scale and execution mode
-  search/candidates.csv      the 7,312 records of the sampling frame, with the prescreen flag
+  search/candidates.csv      the 7,312 records of the sampling frame, with the prescreen flag and the
+                             decision columns filled by fill_decisions.py
   search/s1_screening.csv    the screening of the 54 records of the core search
 
 Usage:  python search/check_selection.py        (from the repository root)
@@ -70,6 +71,18 @@ def main():
     check((len(s1), dec["INCLUDE"], dec["RELATED_REVIEW"], dec["DUPLICATE"], dec["EXCLUDE-E1"], dec["EXCLUDE-E2"], dec["EXCLUDE-E3"])
           == (54, 3, 6, 1, 5, 26, 13),
           "core screening: 54 records, 3 included, 6 related reviews, 1 duplicate, 5 cryptography, 26 off topic, 13 not scholarly")
+
+    # the decision columns of the candidate sheet (filled by fill_decisions.py)
+    inc = Counter(r["include"] for r in cand.values())
+    check(inc == Counter({"not screened": len(cand) - len(s1) - len(in_frame), "no": len(s1) - len(core_included),
+                          "yes": len(core_included) + len(in_frame)}),
+          "candidate sheet: include = yes %d, no %d, not screened %d" % (inc["yes"], inc["no"], inc["not screened"]))
+    yes = {u for u, r in cand.items() if r["include"] == "yes"}
+    check(yes == {r["uid"] for r in sel if r["uid"]}, "the records marked yes are the selected studies that are in the sheet")
+    no = {u for u, r in cand.items() if r["include"] == "no"}
+    check(no == {r["uid"] for r in s1 if r["final_decision"] != "INCLUDE"} and all(cand[u]["exclusion_reason"] for u in no),
+          "the records marked no are the core-search records that were not included, each with a reason")
+    check(all(not r["exclusion_reason"] for r in cand.values() if r["include"] != "no"), "no reason is given where no exclusion was decided")
 
     print("\n%d problem(s)" % len(problems))
     return 1 if problems else 0

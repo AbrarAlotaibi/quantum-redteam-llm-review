@@ -6,7 +6,7 @@ Reproducible literature search for the survey
 
 This script only SEARCHES and RECORDS. It does not decide inclusion. It adds a
 keyword-based `prescreen_flag` hint per record; `include` and
-`exclusion_reason` are left empty for the authors.
+`exclusion_reason` are written empty and filled afterwards by fill_decisions.py.
 
 Sources : OpenAlex works API, arXiv API, Semantic Scholar Graph API (bulk search)
 Searches: S1 = Q AND L AND S (no year limit)
@@ -1071,7 +1071,7 @@ def write_log(mans, recs, rows, dstats, known):
     L.append("Survey: quantum and quantum-inspired methods for LLMs, read through LLM red teaming.")
     L.append("")
     L.append("This log records what the searches returned. Nothing here is an inclusion decision. "
-             "`include` and `exclusion_reason` in `candidates.csv` are left empty for the authors.")
+             "`include` and `exclusion_reason` in `candidates.csv` are written empty by the search and filled afterwards by `fill_decisions.py` from the screening and selection records.")
     L.append("")
     L.append("## Run")
     L.append("")
