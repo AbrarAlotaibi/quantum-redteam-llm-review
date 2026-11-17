@@ -1,6 +1,6 @@
 # Quantum and quantum-inspired methods for red teaming LLMs: review data and code
 
-Companion repository for the critical review *"Utilizing quantum and quantum-inspired methods in red teaming large language models: A critical review of potential, applications, and risks"* (Alotaibi and Ahmed, under review).
+Companion repository for the critical review *"Utilizing quantum and quantum-inspired methods in red teaming large language models: A critical review of potential, applications, and risks"* (Alotaibi, Felemban, and Ahmed, under review).
 
 It contains the documented literature search, the screening of the core intersection with its agreement check, the per-study evidence audit, and the illustration of the evaluation methodology. All tables in the article's review method (Section 2) and evidence audit (Section 6) can be traced to these files, and the data-driven figures (the audit summary, the summary by role, and the coverage curves of the illustration) can be regenerated from them.
 
