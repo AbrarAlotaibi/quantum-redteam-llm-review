@@ -1,7 +1,7 @@
 {
   "column": "Risk analysis",
   "definition": "An assessment of the risks that arise from using the reviewed methods, such as misuse, dual use, or unsupported assurance, as distinct from the threats those methods address and from lists of open technical challenges. Y: a dedicated analysis with mitigations. P: an explicit but limited treatment. N: none.",
-  "method": "Full text converted to plain text and searched, body only (reference lists excluded), for dual-use, misuse, ethics, responsible disclosure, malicious use and risk, and for section headings on ethics, risks, limitations and challenges. Every hit was read in context. Checked on 2026-11-17.",
+  "method": "Full text converted to plain text and searched, body only (reference lists excluded), for dual-use, misuse, ethics, responsible disclosure, malicious use and risk, and for section headings on ethics, risks, limitations and challenges. Every hit was read in context. Two reviews were read in the browser on the publisher pages. Checked on 2026-11-17.",
   "reviews": [
     {
       "key": "lin2025achilles",
@@ -15,7 +15,7 @@
       "mark": null,
       "fulltext_checked": false,
       "version": "doi:10.1016/j.ipm.2025.104239",
-      "evidence": "Not checked: the full text was not accessible. To be filled in by the authors."
+      "evidence": "Not checked: the full text could not be opened through the library access (the publisher returned a preview only). To be filled in by the authors."
     },
     {
       "key": "alotaibi2026survey",
@@ -26,10 +26,10 @@
     },
     {
       "key": "gadekallu2026qcllm",
-      "mark": null,
-      "fulltext_checked": false,
-      "version": "doi:10.36227/techrxiv.177004376.69666864/v1",
-      "evidence": "Not checked: the open copy could not be retrieved. To be filled in by the authors."
+      "mark": "P",
+      "fulltext_checked": true,
+      "version": "TechRxiv preprint v1, 20 pages (doi:10.36227/techrxiv.177004376.69666864/v1)",
+      "evidence": "Section V, 'Challenges and Limitations', lists technical challenges (encoding, trainability, hardware, algorithmic maturity, integration). Section V.F treats one security risk, the threat that quantum computers pose to the cryptography protecting LLM systems (harvest now, decrypt later). No hit for dual-use, misuse or ethics; prompt injection is mentioned once. Partial because the risk treated comes from quantum computing in general, not from using the reviewed methods."
     },
     {
       "key": "wu2021nlpqp",
@@ -40,10 +40,10 @@
     },
     {
       "key": "varmantchaonala2024qnlp",
-      "mark": null,
-      "fulltext_checked": false,
-      "version": "doi:10.1109/access.2024.3420707",
-      "evidence": "Not checked: the open copy could not be retrieved. To be filled in by the authors."
+      "mark": "N",
+      "fulltext_checked": true,
+      "version": "IEEE Xplore full text (doi:10.1109/access.2024.3420707)",
+      "evidence": "No hit for dual-use, misuse, ethics, responsible disclosure, malicious use, risk, security or privacy in the full text. Section XI, 'Quantum Natural Language Processing Challenges', covers technical challenges only."
     },
     {
       "key": "nausheen2025qnlp",
