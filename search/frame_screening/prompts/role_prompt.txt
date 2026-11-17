@@ -1,0 +1,17 @@
+You assign roles to studies in a literature review. Work carefully: these decisions enter a published review.
+
+Inputs (read only):
+- The rule: role_rule.md. Read it in full before anything else.
+- Your batch: batches_{TAG}/batch_{TAG}_{NN}.txt. Each record is a block that starts with a line "### P" plus five digits (the record id), followed by its title, a "year | venue" line, and its abstract. Read the file with the Read tool in consecutive parts of 250 lines (offset 1, then 251, then 501, and so on) until you reach the end, so that you have read every record.
+
+Decide every record yourself by reading its title and abstract. Do not write a program, a keyword list, or a regular expression that assigns values. Do not search the web. Do not open any file in the working folder other than the rule, your batch, and your own output: other results must stay unseen.
+
+Output:
+Write the file out_{TAG}/batch_{TAG}_{NN}.csv with the header line
+id,role,family,hardware,llm
+and exactly one row per record, in the order of the batch. role is one of R1 to R6; family is one value from the list in the rule; hardware and llm are yes or no. You may write the file in parts and join them with a shell command.
+
+Then run this check, and correct the file until it prints OK:
+python3 check_roles.py {TAG} {NN}
+
+Your final reply: the OK line printed by the check, and nothing else.

@@ -23,7 +23,8 @@ search/
   check_selection.py     checks that list, the frame screening and the filled columns against the released records
   agreement_check/       blind two-agent agreement check on the core screening (README inside)
   frame_screening/       two independent screenings of the 7,258 records of the sampling frame for eligibility, and
-                         the roles of the 1,862 eligible records (README inside)
+                         the roles of the 1,862 eligible records: rules, prompts, both sets of decisions, merged
+                         sheet, agreement and role reports (README inside)
 audit/
   audit_scores.json/csv  evidence audit of the 30 primary studies: QA1 to QA5, execution mode, scale, baselines, evidence
   audit_check/           blind two-agent re-scoring of a 10-study subset (README inside)
@@ -32,6 +33,8 @@ figures/
   make_figure_data.py    audit scores -> the counts behind the audit summary and the summary by role;
                          also checks the register sizes of the scale figure against the audit scores
   make_pilot_curves.py   pilot log -> coverage per target query, mean and 95% CI over seeds
+  make_screening_numbers.py  frame screening records -> the counts and kappa values that the article quotes
+                         (data/screening_numbers.tex)
   data/                  the generated tables that the figures read; scale_registers.csv lists each register
                          size of the scale figure with its unit, execution mode, and location in the source
 pilot/
@@ -74,7 +77,7 @@ Two blind LLM agents with distinct reviewer personas re-scored a stratified subs
 - `python search.py build` rebuilds every output from cached responses. The cache is not included (see below) but is available from the authors on request.
 - `search/agreement_check/agreement.py` recomputes the kappa values from the screening files.
 - `python figures/make_figure_data.py audit/audit_scores.csv figures/data` rebuilds the audit counts behind the figures.
-- `python search/frame_screening/agreement.py` rebuilds the merged frame screening and its agreement and role reports.
+- `python search/frame_screening/agreement.py` rebuilds the merged frame screening and its agreement and role reports; `python figures/make_screening_numbers.py` rebuilds the numbers that the article quotes from it.
 - `python search/fill_decisions.py` fills the decision columns of `search/candidates.csv`; `python search/check_selection.py` checks the selection of the 30 primary studies and those columns against the released records.
 - `python pilot/nb_to_script.py protocol_pilot_tier1.ipynb run_pilot.py`, then `python run_pilot.py`, reruns the illustration and writes `log.csv` (about ten minutes on a CPU; needs numpy, pandas, scipy, scikit-learn, matplotlib, torch and pennylane).
 - `python pilot/check_pilot_numbers.py pilot/rerun/log.csv` recomputes the table of the illustration and the paired differences, and `python figures/make_pilot_curves.py pilot/rerun/log.csv figures/data` rebuilds the coverage curves.
