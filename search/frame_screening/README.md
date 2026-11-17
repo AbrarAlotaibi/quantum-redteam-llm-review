@@ -1,46 +1,51 @@
-# Screening of the sampling frame (7,258 records)
+# Eligibility screening of the sampling frame (7,258 records)
 
-Run 2026-11-18. The 7,312 records of `../candidates.csv` are the 54 records of the core search, screened in `../agreement_check/`, and 7,258 further records that form the sampling frame for the representative studies (Section 2.3 of the article). This folder holds the screening of those 7,258 records for eligibility.
+The 7,312 records of `../candidates.csv` are the 54 records of the core search, screened in `../agreement_check/`, and 7,258 further records that form the sampling frame for the representative studies (Section 2.3 of the article). This folder holds the screening of those 7,258 records for eligibility, in the order in which it was done (17 and 18 November 2026).
 
-## Procedure
-1. **Rule.** `criteria.md` states the codes: eligible under `IC1` or `IC2`; not eligible under `EC1` to `EC4`, `REVIEW` (secondary study), or `NO` (meets neither inclusion criterion); and the order of precedence.
-2. **Two independent screeners.** Two LLM agents each read only the rule and the records (title, year, venue, abstract), with no web access and no access to the other screening. Each received the records in its own random order, in batches of up to 150, and gave every record one code, a confidence, and a short reason.
-   - **Screener A:** persona of a quantum machine learning researcher; applies the rule strictly and chooses the code that is not eligible when a record is ambiguous.
-   - **Screener B:** persona of a researcher in LLM safety and natural language processing; applies the intent of the rule and chooses the eligible code when a record is ambiguous.
-3. **Merge.** `agreement.py` merges the two into `frame_screening.csv` and writes `agreement_report.txt`. A record is counted as eligible only if both screeners found it eligible. `unresolved.csv` lists the records that only one screener found eligible, with an empty `final_decision` column.
-4. **Roles.** The eligible records were assigned to the six roles of the article twice, independently, under `role_rule.md`. `eligible_by_role.csv` holds both assignments; `role` is filled where they agree. `role_report.txt` gives the counts.
+## Phases
 
-## Results
+| Phase | Folder | What was done | Result |
+|---|---|---|---|
+| 1. Screening | `phase1_screening/` | Two LLM agents (screeners A and B) each gave every record one code from title, year, venue, and abstract, under the rule in `criteria.md`. | Eligible by both 1,862, by one only 663, by neither 4,733 |
+| 2. Abstracts | `phase2_abstracts_and_rescreening/` | 860 records had no abstract in the search indexes. An abstract was retrieved for 559 of them (Crossref, Semantic Scholar, OpenAlex, arXiv, and the publishers' pages), and both screeners coded those records again, blind to their first codes. | Eligible by both 1,930, by one only 609, by neither 4,719 |
+| 3. Adjudication | `phase3_adjudication/` | A third LLM agent (screener C) coded the records on whose eligibility A and B differ, blind to their codes. It also coded a random sample of 200 records on which they agreed in phase 1, as a check. | Of the 609: eligible 391, not eligible 218. Sample: agrees on 199 of 200 |
+| 4. Eligibility | `phase4_eligibility/` | `frame_screening.csv` holds, per record, the latest code of A and B, the code of C where there is one, and the final decision. A record is eligible if A and B both find it eligible; where they differ, C decides. | Eligible 2,321, not eligible 4,937 |
+| 5. Selection | `phase5_selection/` | The eligible records were assigned to the six roles of the article twice, independently, under `role_rule.md`. The representative studies of the article are selected from this pool by role; they are listed in `../selected_studies.csv`. | 23 of the eligible records are reviewed; all 23 are eligible by both screeners |
 
-| | Records |
-|---|---|
-| Screened | 7,258 |
-| Eligible by both screeners (IC1 433, IC2 1,428, criterion differs 1) | 1,862 |
-| Eligible by one screener only | 663 |
-| Not eligible by both | 4,733 |
+`agreement.py` rebuilds `phase4_eligibility/frame_screening.csv`, `agreement_report.txt`, and `phase5_selection/role_report.txt` from the files of phases 1 to 3 and the role assignments. `../fill_decisions.py` then writes the decision of every record into `../candidates.csv`, and `../check_selection.py` checks the counts above.
 
-Agreement on all eight codes is 86.7% (Cohen's kappa 0.81); on eligible or not, 90.9% (kappa 0.79). Agreement on the role of the eligible records is 99.1% (kappa 0.99). Eligible records by role: R1 322, R2 117, R3 1,054, R4 76, R5 274, R6 3; 16 records received different roles and are not assigned.
+## The screeners
 
-The 23 representative studies that are records of the frame are all eligible by both screeners (`../check_selection.py`).
+- **Screener A:** persona of a quantum machine learning researcher; applies the rule strictly and chooses the code that is not eligible when a record is ambiguous.
+- **Screener B:** persona of a researcher in LLM safety and natural language processing; applies the intent of the rule and chooses the eligible code when a record is ambiguous.
+- **Screener C:** persona of the first author, who wrote the criteria; decides each record on its merits with no default in either direction.
+
+Each agent read only the rule and its own batch of records, with no web access and no access to any other screening. Each screener received the records in its own random order, in batches of up to 150.
 
 ## Files
 
 | File | Content |
 |---|---|
 | `criteria.md`, `role_rule.md` | the two rules, as given to the agents |
-| `prompts/screener_prompt.txt` | the instruction given to each screener for each batch, with the two personas |
-| `prompts/role_prompt.txt` | the instruction given for each batch of the role assignment (the same for both assignments) |
-| `prompts/check_batch.py`, `prompts/check_roles.py` | the format checks that each agent ran on its own output |
-| `screener_A.csv`, `screener_B.csv` | one row per record: batch, code, confidence, reason; rows are in the order in which the screener received them |
-| `frame_screening.csv` | both codes per record, the status (eligible, unresolved, not eligible), and the agreed code |
-| `unresolved.csv` | the 663 records on which the screeners differ |
-| `eligible_by_role.csv` | the 1,862 eligible records: both role and family assignments, the agreed role, hardware and LLM use, and the study key if the record was selected for the review |
-| `agreement_report.txt`, `role_report.txt` | counts and agreement, written by `agreement.py` |
+| `prompts/` | the instructions given for each batch (`screener_prompt.txt` with the personas, `role_prompt.txt`), and the format checks each agent ran on its own output |
+| `phase1_screening/screener_A.csv`, `screener_B.csv` | one row per record: batch, code, confidence, reason; rows are in the order in which the screener received them |
+| `phase2_abstracts_and_rescreening/retrieved_abstracts.csv` | the 860 records without an abstract in the search indexes: where an abstract was found, and the round in which the record was screened again |
+| `phase2_abstracts_and_rescreening/screener_A_rescreen.csv`, `screener_B_rescreen.csv` | the new codes of the 559 records whose abstract was found |
+| `phase3_adjudication/screener_C.csv` | the third screener's codes; the column `use` says whether a row is an adjudication, part of the agreement sample, or superseded because the record was screened again with its abstract |
+| `phase4_eligibility/frame_screening.csv` | the final sheet: all codes and reasons, the number of eligible votes, who decided, and the final decision |
+| `phase5_selection/eligible_by_role.csv` | the 2,321 eligible records: both role and family assignments, the agreed role, hardware and LLM use, and the study key if the record is reviewed in the article |
 
-The prompts are verbatim except that the absolute paths of the working folder are shortened and the batch number is a placeholder. The numbers that the article quotes from this screening are computed by `../../figures/make_screening_numbers.py`.
+The prompts are verbatim except that the absolute paths of the working folder are shortened, the batch number is a placeholder, and three sentences about the first author in the persona of screener C are left out. The numbers that the article quotes from this screening are computed by `../../figures/make_screening_numbers.py`.
+
+## Agreement
+
+Between A and B, on all eight codes: 86.7% in phase 1 (Cohen's kappa 0.81) and 87.6% after phase 2 (kappa 0.83). On eligible or not: 90.9% (kappa 0.79) and 91.6% (kappa 0.80). Agreement on the role of the eligible records is 98.7% (kappa 0.98); 30 records received different roles and are not assigned.
 
 ## Limitations
-- The decisions rest on titles and abstracts. The authors did not review them record by record.
-- The 663 records on which the screeners differ are not adjudicated. They are marked `unresolved` in `frame_screening.csv` and in `../candidates.csv`.
+
+- The decisions rest on titles and abstracts, and they were made by LLM agents. The authors did not review them record by record.
+- For 301 records no abstract was found, and they are decided on title and venue; 73 of these went to the third screener. They are marked in the column `abstract_available`.
+- The third screener marked 554 of its 609 decisions as low confidence. These are the records that two screeners read differently, so its decision is a third vote on an ambiguous record.
+- The three screeners are instances of the same model, so their agreement does not rule out errors that they share.
 - Eligibility is not selection. The article reviews 27 representative studies chosen by role from the eligible records and from snowballing, and does not review the other eligible records.
 - Abstracts are not included here (see "What is not included" in the main README), so the batch files that the agents read are not in this folder.

@@ -4,20 +4,21 @@ search.py writes `include` and `exclusion_reason` empty. This script fills them,
 column `decision_basis`, from the three files that hold the decisions:
 
   search/s1_screening.csv                      final decision for each of the 54 records of the core search
-  search/frame_screening/frame_screening.csv   the two screenings of the other 7,258 records (sampling frame)
+  search/frame_screening/phase4_eligibility/frame_screening.csv
+                                               final eligibility of the other 7,258 records (sampling frame):
+                                               two screeners, and a third where the two differ
   search/selected_studies.csv                  the 30 primary studies, with route and criterion
 
-Every record gets one of four values in `include`:
+Every record gets one of three values in `include`:
 
   yes                     a primary study of the review: included by the core screening (route 1),
                           or selected as a representative study under IC1 or IC2 (route 2)
-  eligible, not selected  a record of the sampling frame that both screeners found eligible
-                          (IC1 or IC2 and no exclusion criterion) and that was not selected as a
-                          representative study (Section 2.3 of the article)
-  unresolved              a record of the sampling frame that one screener found eligible and
-                          the other did not; not adjudicated
-  no                      not included by the core screening, or not eligible by both screeners
-                          of the sampling frame; the reason is in `exclusion_reason`
+  eligible, not selected  a record of the sampling frame that is eligible (IC1 or IC2 and no exclusion
+                          criterion) and was not selected as a representative study (Section 2.3 of
+                          the article); `decision_basis` says whether both screeners found it eligible
+                          or the third screener decided
+  no                      not included by the core screening, or not eligible in the sampling frame;
+                          the reason is in `exclusion_reason`
 
 The four representative studies found by snowballing are not records of the sampling frame;
 they appear in selected_studies.csv only.
@@ -37,7 +38,7 @@ CORE_REASON = {
     "DUPLICATE": "another version of a record already counted",
 }
 BASIS_CORE = "core search (route 1): screened on title and abstract, see s1_screening.csv"
-BASIS_FRAME = "sampling frame (route 2): screened on title and abstract by two independent screeners, see frame_screening/frame_screening.csv"
+BASIS_FRAME = "sampling frame (route 2), see frame_screening/phase4_eligibility/frame_screening.csv"
 FRAME_REASON = {
     "EC1": "EC1: language models applied to quantum computing",
     "EC2": "EC2: adversarial robustness of quantum machine learning",
@@ -57,7 +58,7 @@ def main():
         cols.append("decision_basis")
     core = {r["uid"]: r["final_decision"] for r in csv.DictReader(open(HERE / "s1_screening.csv", encoding="utf-8"))}
     selected = {r["uid"]: r for r in csv.DictReader(open(HERE / "selected_studies.csv", encoding="utf-8")) if r["uid"]}
-    frame = {r["uid"]: r for r in csv.DictReader(open(HERE / "frame_screening" / "frame_screening.csv", encoding="utf-8", newline=""))}
+    frame = {r["uid"]: r for r in csv.DictReader(open(HERE / "frame_screening" / "phase4_eligibility" / "frame_screening.csv", encoding="utf-8", newline=""))}
     known = {r["uid"] for r in rows}
     assert set(core) | set(frame) == known and not set(core) & set(frame), "core and frame screenings must cover every record once"
     missing = (set(core) | set(selected)) - known
@@ -67,7 +68,7 @@ def main():
         uid = r["uid"]
         if uid in selected and selected[uid]["route"] == "representative":
             assert uid not in core, "%s is both a representative study and a record of the core search" % uid
-            assert frame[uid]["status"] == "eligible", "%s was selected but is not eligible by both screeners" % uid
+            assert frame[uid]["final"] == "eligible" and frame[uid]["decided_by"] == "both screeners", "%s was selected but is not eligible by both screeners" % uid
             r["include"], r["exclusion_reason"] = "yes", ""
             r["decision_basis"] = "representative study (route 2): %s, role %s" % (selected[uid]["criterion"], selected[uid]["role"])
         elif uid in core:
@@ -80,16 +81,16 @@ def main():
                 r["decision_basis"] = BASIS_CORE
         else:
             fr = frame[uid]
-            r["decision_basis"] = BASIS_FRAME
-            if fr["status"] == "eligible":
+            how = "both screeners" if fr["decided_by"] == "both screeners" else "the screeners differed and the third screener decided"
+            r["decision_basis"] = BASIS_FRAME + "; " + how
+            if fr["final"] == "eligible":
                 r["include"], r["exclusion_reason"] = "eligible, not selected", ""
-                r["decision_basis"] += "; criterion " + fr["consensus"]
-            elif fr["status"] == "unresolved":
-                r["include"], r["exclusion_reason"] = "unresolved", ""
-                r["decision_basis"] += "; screener A %s, screener B %s" % (fr["code_A"], fr["code_B"])
+                r["decision_basis"] += "; criterion " + fr["criterion"]
             else:
                 r["include"] = "no"
-                if fr["code_A"] == fr["code_B"]:
+                if fr["decided_by"] == "third screener":
+                    r["exclusion_reason"] = FRAME_REASON[fr["code_C"]]
+                elif fr["code_A"] == fr["code_B"]:
                     r["exclusion_reason"] = FRAME_REASON[fr["code_A"]]
                 else:
                     r["exclusion_reason"] = "not eligible; the screeners give different reasons (A: %s; B: %s)" % (

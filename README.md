@@ -14,17 +14,18 @@ search/
   manual_queries.md      the same strings formatted for IEEE Xplore, ACM DL and ScienceDirect
   manual_counts.md       direct IEEE Xplore, ACM DL and ScienceDirect counts (2026-10-24), a coverage check
   candidates.csv         7,312 unique records (metadata only; see "What is not included"), each with a decision:
-                         include = yes (26 primary studies), eligible but not selected (1,839), unresolved (663),
-                         or no (4,784, with the reason)
+                         include = yes (26 primary studies), eligible but not selected (2,298), or no (4,988, with
+                         the reason)
   s1_screening.csv       final decisions for the 54 core-search records, with all three screenings and the adjudication
   selected_studies.csv   the 30 primary studies: record in the sampling frame (if any), route into the review, criterion
   fill_decisions.py      fills the decision columns of candidates.csv from s1_screening.csv, frame_screening/ and
                          selected_studies.csv
   check_selection.py     checks that list, the frame screening and the filled columns against the released records
   agreement_check/       blind two-agent agreement check on the core screening (README inside)
-  frame_screening/       two independent screenings of the 7,258 records of the sampling frame for eligibility, and
-                         the roles of the 1,862 eligible records: rules, prompts, both sets of decisions, merged
-                         sheet, agreement and role reports (README inside)
+  frame_screening/       eligibility screening of the 7,258 records of the sampling frame, in phases: two independent
+                         screeners, abstracts retrieved and records screened again, a third screener where the two
+                         differ, the final eligibility (2,321 eligible), and the roles of the eligible records from
+                         which the representative studies are selected (README inside)
 audit/
   audit_scores.json/csv  evidence audit of the 30 primary studies: QA1 to QA5, execution mode, scale, baselines, evidence
   audit_check/           blind two-agent re-scoring of a 10-study subset (README inside)
@@ -77,7 +78,7 @@ Two blind LLM agents with distinct reviewer personas re-scored a stratified subs
 - `python search.py build` rebuilds every output from cached responses. The cache is not included (see below) but is available from the authors on request.
 - `search/agreement_check/agreement.py` recomputes the kappa values from the screening files.
 - `python figures/make_figure_data.py audit/audit_scores.csv figures/data` rebuilds the audit counts behind the figures.
-- `python search/frame_screening/agreement.py` rebuilds the merged frame screening and its agreement and role reports; `python figures/make_screening_numbers.py` rebuilds the numbers that the article quotes from it.
+- `python search/frame_screening/agreement.py` rebuilds the final eligibility sheet of the sampling frame from the phase files, with its agreement and role reports; `python figures/make_screening_numbers.py` rebuilds the numbers that the article quotes from it.
 - `python search/fill_decisions.py` fills the decision columns of `search/candidates.csv`; `python search/check_selection.py` checks the selection of the 30 primary studies and those columns against the released records.
 - `python pilot/nb_to_script.py protocol_pilot_tier1.ipynb run_pilot.py`, then `python run_pilot.py`, reruns the illustration and writes `log.csv` (about ten minutes on a CPU; needs numpy, pandas, scipy, scikit-learn, matplotlib, torch and pennylane).
 - `python pilot/check_pilot_numbers.py pilot/rerun/log.csv` recomputes the table of the illustration and the paired differences, and `python figures/make_pilot_curves.py pilot/rerun/log.csv figures/data` rebuilds the coverage curves.

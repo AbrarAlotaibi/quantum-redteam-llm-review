@@ -1,0 +1,17 @@
+Phase 5. Roles of the 2321 eligible records (two independent assignments)
+
+role     agreement 0.987   Cohen's kappa 0.979
+family   agreement 0.929   Cohen's kappa 0.918
+
+role   eligible   by both screeners   by third screener   reports hardware   applied to an LLM   selected in the review
+R1          382                 335                  47                 34                   1          6
+R2          160                 119                  41                  5                  75         12
+R3         1317                1092                 225                224                  17          4
+R4          108                  87                  21                  2                   3          0
+R5          321                 277                  44                 11                  53          0
+R6            3                   3                   0                  1                   2          1
+none         30                  17                  13                  3                   6          0
+
+none: the two assignments give different roles.
+hardware and llm are yes only where both assignments say yes (unclear where they differ).
+Both are read from titles and abstracts only, so the counts are lower bounds.
