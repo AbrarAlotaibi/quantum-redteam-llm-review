@@ -13,12 +13,13 @@ search/
   search_log.md          run date, per-source counts, deduplication rules, pre-screen keyword rules
   manual_queries.md      the same strings formatted for IEEE Xplore, ACM DL and ScienceDirect
   manual_counts.md       direct IEEE Xplore, ACM DL and ScienceDirect counts (2026-10-24), a coverage check
-  candidates.csv         7,312 unique records (metadata only; see "What is not included"). Its `include` and
-                         `exclusion_reason` columns are empty: the sampling frame was not screened record by
-                         record, and the studies selected from it are listed in selected_studies.csv
+  candidates.csv         7,312 unique records (metadata only; see "What is not included"), each with a decision:
+                         include = yes (26 primary studies), no (51 core-search records, with the reason), or
+                         not screened (7,235 records of the sampling frame, which was not screened record by record)
   s1_screening.csv       final decisions for the 54 core-search records, with all three screenings and the adjudication
   selected_studies.csv   the 30 primary studies: record in the sampling frame (if any), route into the review, criterion
-  check_selection.py     checks that list against candidates.csv, s1_screening.csv and the audit scores
+  fill_decisions.py      fills the decision columns of candidates.csv from s1_screening.csv and selected_studies.csv
+  check_selection.py     checks that list and the filled columns against s1_screening.csv and the audit scores
   agreement_check/       blind two-agent agreement check on the core screening (README inside)
 audit/
   audit_scores.json/csv  evidence audit of the 30 primary studies: QA1 to QA5, execution mode, scale, baselines, evidence
@@ -70,7 +71,7 @@ Two blind LLM agents with distinct reviewer personas re-scored a stratified subs
 - `python search.py build` rebuilds every output from cached responses. The cache is not included (see below) but is available from the authors on request.
 - `search/agreement_check/agreement.py` recomputes the kappa values from the screening files.
 - `python figures/make_figure_data.py audit/audit_scores.csv figures/data` rebuilds the audit counts behind the figures.
-- `python search/check_selection.py` checks the selection of the 30 primary studies against the released records.
+- `python search/fill_decisions.py` fills the decision columns of `search/candidates.csv`; `python search/check_selection.py` checks the selection of the 30 primary studies and those columns against the released records.
 - `python pilot/nb_to_script.py protocol_pilot_tier1.ipynb run_pilot.py`, then `python run_pilot.py`, reruns the illustration and writes `log.csv` (about ten minutes on a CPU; needs numpy, pandas, scipy, scikit-learn, matplotlib, torch and pennylane).
 - `python pilot/check_pilot_numbers.py pilot/rerun/log.csv` recomputes the table of the illustration and the paired differences, and `python figures/make_pilot_curves.py pilot/rerun/log.csv figures/data` rebuilds the coverage curves.
 
