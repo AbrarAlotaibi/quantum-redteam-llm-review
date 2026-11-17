@@ -1,0 +1,84 @@
+{
+  "column": "Risk analysis",
+  "definition": "An assessment of the risks that arise from using the reviewed methods, such as misuse, dual use, or unsupported assurance, as distinct from the threats those methods address and from lists of open technical challenges. Y: a dedicated analysis with mitigations. P: an explicit but limited treatment. N: none.",
+  "method": "Full text converted to plain text and searched, body only (reference lists excluded), for dual-use, misuse, ethics, responsible disclosure, malicious use and risk, and for section headings on ethics, risks, limitations and challenges. Every hit was read in context. Checked on 2026-11-17.",
+  "reviews": [
+    {
+      "key": "lin2025achilles",
+      "mark": "N",
+      "fulltext_checked": true,
+      "version": "arXiv:2404.00629",
+      "evidence": "No passage assesses risks that arise from using red-teaming methods. 'Dual-use' has no hit in the body and 'misuse' appears only as the topic of a benchmark. There is no ethics or responsible-disclosure section. Section 3 is a taxonomy of the risks that red teaming looks for, and Section 9 lists future directions."
+    },
+    {
+      "key": "jabbar2025redteaming",
+      "mark": null,
+      "fulltext_checked": false,
+      "version": "doi:10.1016/j.ipm.2025.104239",
+      "evidence": "Not checked: the full text was not accessible. To be filled in by the authors."
+    },
+    {
+      "key": "alotaibi2026survey",
+      "mark": "P",
+      "fulltext_checked": true,
+      "version": "arXiv:2606.26566",
+      "evidence": "Section 10.4, 'Ethical Considerations and Responsible Disclosure', states that a catalog of attacks \"has dual-use implications\" and describes two choices made to limit them. Section 9 covers limitations and threats to validity. Partial because the risk treated is that of the survey itself; there is no analysis of risks by method and no mitigation per risk."
+    },
+    {
+      "key": "gadekallu2026qcllm",
+      "mark": null,
+      "fulltext_checked": false,
+      "version": "doi:10.36227/techrxiv.177004376.69666864/v1",
+      "evidence": "Not checked: the open copy could not be retrieved. To be filled in by the authors."
+    },
+    {
+      "key": "wu2021nlpqp",
+      "mark": "N",
+      "fulltext_checked": true,
+      "version": "ACL Anthology 2021.emnlp-main.254",
+      "evidence": "No hit for dual-use, misuse, ethics, responsible disclosure or risk in the body. Section 6.2 lists future directions only."
+    },
+    {
+      "key": "varmantchaonala2024qnlp",
+      "mark": null,
+      "fulltext_checked": false,
+      "version": "doi:10.1109/access.2024.3420707",
+      "evidence": "Not checked: the open copy could not be retrieved. To be filled in by the authors."
+    },
+    {
+      "key": "nausheen2025qnlp",
+      "mark": "N",
+      "fulltext_checked": true,
+      "version": "arXiv:2504.09909",
+      "evidence": "No hit for dual-use, misuse, ethics, responsible disclosure or risk in the body. Limitations are mentioned only for individual methods, such as the scalability of an encoding."
+    },
+    {
+      "key": "phukan2025qnlpsurvey",
+      "mark": "N",
+      "fulltext_checked": true,
+      "version": "ACL Anthology 2025.quantumnlp-1.9",
+      "evidence": "No hit for dual-use, misuse, ethics, responsible disclosure or risk in the body."
+    },
+    {
+      "key": "tian2023qgenerative",
+      "mark": "N",
+      "fulltext_checked": true,
+      "version": "arXiv:2206.03066",
+      "evidence": "Section 4.1, 'Challenges', covers technical challenges only (the read-in and read-out bottleneck, barren plateaus). 'Risk' occurs once, as empirical risk. No hit for dual-use, misuse or ethics."
+    },
+    {
+      "key": "huynh2023qiml",
+      "mark": "N",
+      "fulltext_checked": true,
+      "version": "arXiv:2308.11269",
+      "evidence": "No hit for dual-use, misuse, ethics or responsible disclosure in the body. Limitations are discussed for individual methods only."
+    },
+    {
+      "key": "this_review",
+      "mark": "Y",
+      "fulltext_checked": true,
+      "version": "manuscript",
+      "evidence": "Section 8: technical, evidential, and security and dual-use risks, assigned to roles, each with a mitigation."
+    }
+  ]
+}
