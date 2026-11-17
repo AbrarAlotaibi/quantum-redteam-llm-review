@@ -21,9 +21,11 @@ audit/
   audit_check/           blind two-agent re-scoring of a 10-study subset (README inside)
   table2_check/          full-text evidence for the related-review coverage marks, including the risk-analysis column
 figures/
-  make_figure_data.py    audit scores -> the counts behind the audit summary and the summary by role
+  make_figure_data.py    audit scores -> the counts behind the audit summary and the summary by role;
+                         also checks the register sizes of the scale figure against the audit scores
   make_pilot_curves.py   pilot log -> coverage per target query, mean and 95% CI over seeds
-  data/                  the generated tables that the figures read
+  data/                  the generated tables that the figures read; scale_registers.csv lists each register
+                         size of the scale figure with its unit, execution mode, and location in the source
 pilot/
   rerun/                 per-query log, per-seed results, summary and sensitivity check of a rerun of the notebook
   nb_to_script.py        turns the notebook into a script that saves its log

@@ -17,6 +17,12 @@ Outputs (plain whitespace-separated tables read by pgfplots):
     audit_by_role.dat        QA3 scores per role (a study with two roles counts in both)
     pilot_summary.dat        mean and 95% CI half-width per generator, from the pilot table
     figure_data_report.txt   the counts quoted in the text, recomputed, with any mismatch
+    figure_numbers.tex       counts and register sizes as LaTeX macros for the figure labels
+
+Input read from the output folder, if present:
+    scale_registers.csv      one row per bar of the scale figure: value, unit, execution mode,
+                             location in the source, and the exact text of the audit scores and of
+                             the manuscript that states it
 """
 import csv
 import os
@@ -227,6 +233,34 @@ def main():
         put(r, "n", len(rs))
         for k, name in (("Y", "met"), ("P", "partly"), ("N", "notmet")):
             put(r, name, c[k])
+    # --- register sizes of the scale figure --------------------------------------
+    # scale_registers.csv (in the output folder) holds one row per bar with its source location.
+    # Each value is checked against the released audit scores (when given) and against the
+    # sentence or table row of the manuscript that quotes it, then written as a macro.
+    reg_path = out / "scale_registers.csv"
+    if reg_path.exists():
+        regs = list(csv.DictReader(open(reg_path, encoding="utf-8")))
+        audit_rows = ({r["key"]: r for r in csv.DictReader(open(sys.argv[3], encoding="utf-8"))}
+                      if len(sys.argv) > 3 else
+                      {r["key"]: r for r in csv.DictReader(open(sys.argv[1], encoding="utf-8"))} if from_csv else {})
+        report += ["", "register sizes of the scale figure (%s): %d rows" % (reg_path.name, len(regs))]
+        bad = 0
+        for r in regs:
+            notes = []
+            if r["key"] in audit_rows:
+                a = audit_rows[r["key"]]
+                hay = " ".join([a["scale"], a["execution"], a["QA2_evidence"]])
+                ok = r["audit_pattern"] in hay and r["value"] in r["audit_pattern"]
+                notes.append("audit csv " + ("ok" if ok else "MISSING"))
+                bad += not ok
+            if tex is not None:
+                ok = r["manuscript_pattern"] in tex and r["value"] in r["manuscript_pattern"]
+                notes.append("manuscript " + ("ok" if ok else "MISSING"))
+                bad += not ok
+            report.append("  %-8s %4s %-34s %s" % (r["macro"], r["value"], r["unit"], "; ".join(notes)))
+            macros.append("\\expandafter\\def\\csname figscale@%s\\endcsname{%s}" % (r["macro"], r["value"]))
+        macros.append("\\newcommand{\\figscale}[1]{\\csname figscale@#1\\endcsname}")
+        report.append("register sizes not confirmed: %d" % bad)
     (out / "figure_numbers.tex").write_text("\n".join(macros) + "\n", encoding="utf-8")
 
     (out / "figure_data_report.txt").write_text("\n".join(report) + "\n", encoding="utf-8")
