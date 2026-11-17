@@ -8,6 +8,8 @@ and checks it against the other released files:
   search/candidates.csv      the 7,312 records of the sampling frame, with the prescreen flag and the
                              decision columns filled by fill_decisions.py
   search/s1_screening.csv    the screening of the 54 records of the core search
+  search/frame_screening/    the two screenings of the other 7,258 records, and the roles of the
+                             eligible ones
 
 Usage:  python search/check_selection.py        (from the repository root)
 Exits with status 1 if any check fails.
@@ -73,15 +75,32 @@ def main():
           "core screening: 54 records, 3 included, 6 related reviews, 1 duplicate, 5 cryptography, 26 off topic, 13 not scholarly")
 
     # the decision columns of the candidate sheet (filled by fill_decisions.py)
+    frame = {r["uid"]: r for r in rows("search/frame_screening/frame_screening.csv")}
+    fs = Counter(r["status"] for r in frame.values())
+    check(set(frame) == set(cand) - {r["uid"] for r in s1} and len(frame) == 7258,
+          "the frame screening covers the %d records outside the core search" % len(frame))
+    check((fs["eligible"], fs["unresolved"], fs["not eligible"]) == (1862, 663, 4733),
+          "frame screening: eligible by both %d, by one only %d, by neither %d" % (fs["eligible"], fs["unresolved"], fs["not eligible"]))
+    check(all(frame[r["uid"]]["status"] == "eligible" and frame[r["uid"]]["consensus"] == r["criterion"] for r in in_frame),
+          "the %d selected records of the frame are eligible by both screeners, with the criterion listed here" % len(in_frame))
+    by_role = rows("search/frame_screening/eligible_by_role.csv")
+    pool = Counter(r["role"] for r in by_role)
+    check({r["uid"] for r in by_role} == {u for u, r in frame.items() if r["status"] == "eligible"}
+          and [pool[k] for k in ("R1", "R2", "R3", "R4", "R5", "R6", "")] == [322, 117, 1054, 76, 274, 3, 16],
+          "eligible records by role: R1 %d, R2 %d, R3 %d, R4 %d, R5 %d, R6 %d, no role %d"
+          % tuple(pool[k] for k in ("R1", "R2", "R3", "R4", "R5", "R6", "")))
+
     inc = Counter(r["include"] for r in cand.values())
-    check(inc == Counter({"not screened": len(cand) - len(s1) - len(in_frame), "no": len(s1) - len(core_included),
-                          "yes": len(core_included) + len(in_frame)}),
-          "candidate sheet: include = yes %d, no %d, not screened %d" % (inc["yes"], inc["no"], inc["not screened"]))
+    check(inc == Counter({"yes": len(core_included) + len(in_frame), "eligible, not selected": fs["eligible"] - len(in_frame),
+                          "unresolved": fs["unresolved"], "no": len(s1) - len(core_included) + fs["not eligible"]}),
+          "candidate sheet: include = yes %d, eligible but not selected %d, unresolved %d, no %d"
+          % (inc["yes"], inc["eligible, not selected"], inc["unresolved"], inc["no"]))
     yes = {u for u, r in cand.items() if r["include"] == "yes"}
     check(yes == {r["uid"] for r in sel if r["uid"]}, "the records marked yes are the selected studies that are in the sheet")
     no = {u for u, r in cand.items() if r["include"] == "no"}
-    check(no == {r["uid"] for r in s1 if r["final_decision"] != "INCLUDE"} and all(cand[u]["exclusion_reason"] for u in no),
-          "the records marked no are the core-search records that were not included, each with a reason")
+    check(no == {r["uid"] for r in s1 if r["final_decision"] != "INCLUDE"} | {u for u, r in frame.items() if r["status"] == "not eligible"}
+          and all(cand[u]["exclusion_reason"] for u in no),
+          "the records marked no are those not included by the core screening or not eligible by both frame screeners, each with a reason")
     check(all(not r["exclusion_reason"] for r in cand.values() if r["include"] != "no"), "no reason is given where no exclusion was decided")
 
     print("\n%d problem(s)" % len(problems))
