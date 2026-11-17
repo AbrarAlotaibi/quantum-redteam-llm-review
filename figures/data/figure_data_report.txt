@@ -21,3 +21,16 @@ R3: 4 studies; QA3 met 3, partly 1, not met 0
 R4: 3 studies; QA3 met 3, partly 0, not met 0
 R5: 6 studies; QA3 met 1, partly 4, not met 1
 R6: 1 studies; QA3 met 0, partly 1, not met 0
+
+register sizes of the scale figure (scale_registers.csv): 10 rows
+  Token      15 qubits                             
+  Prompt    750 qubits                             
+  Flores    120 qubits (one per binary variable)   audit csv ok
+  Huang      68 qubits                             audit csv ok
+  Li         11 qubits                             audit csv ok
+  Kong       10 qubits                             audit csv ok
+  Layden     10 qubits                             audit csv ok
+  Coyle       4 qubits                             audit csv ok
+  Cacioppo    4 qubits                             audit csv ok
+  Pilot      12 qubits (one per attack component)  
+register sizes not confirmed: 0
