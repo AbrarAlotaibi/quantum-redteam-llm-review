@@ -12,10 +12,10 @@
     },
     {
       "key": "jabbar2025redteaming",
-      "mark": null,
-      "fulltext_checked": false,
-      "version": "doi:10.1016/j.ipm.2025.104239",
-      "evidence": "Not checked: the full text could not be opened through the library access (the publisher returned a preview only). To be filled in by the authors."
+      "mark": "N",
+      "fulltext_checked": true,
+      "version": "version of record, Information Processing and Management 62 (2025) 104239, 48 pages",
+      "evidence": "No passage assesses risks that arise from using red-teaming methods. 'Dual-use' and 'responsible disclosure' have no hit. 'Misuse' and 'ethical' refer to the misuse and deployment of LLMs, which red teaming is meant to expose. Section 6.2 calls for more attention to the ethical implications of deploying LLMs, and Section 7.3, the impact statement, discusses the review's contribution and the limits of automated evaluation."
     },
     {
       "key": "alotaibi2026survey",
