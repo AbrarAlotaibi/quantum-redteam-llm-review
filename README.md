@@ -13,7 +13,9 @@ search/
   search_log.md          run date, per-source counts, deduplication rules, pre-screen keyword rules
   manual_queries.md      the same strings formatted for IEEE Xplore, ACM DL and ScienceDirect
   manual_counts.md       direct IEEE Xplore, ACM DL and ScienceDirect counts (2026-10-24), a coverage check
-  candidates.csv         7,312 unique records (metadata only; see "What is not included")
+  candidates.csv         7,312 unique records (metadata only; see "What is not included"). Its `include` and
+                         `exclusion_reason` columns are empty: the sampling frame was not screened record by
+                         record, and the studies selected from it are listed in selected_studies.csv
   s1_screening.csv       final decisions for the 54 core-search records, with all three screenings and the adjudication
   selected_studies.csv   the 30 primary studies: record in the sampling frame (if any), route into the review, criterion
   check_selection.py     checks that list against candidates.csv, s1_screening.csv and the audit scores
