@@ -1,0 +1,36 @@
+Recomputed from audit_scores.csv
+
+studies in the audit table: 30
+QA1: met 14, partly 15, not met 1, not applicable 0
+QA2: met 12, partly 7, not met 2, not applicable 9
+QA3: met 12, partly 11, not met 7, not applicable 0
+QA4: met 11, partly 17, not met 2, not applicable 0
+QA5: met 11, partly 4, not met 15, not applicable 0
+
+execution groups: circuits 19, quantum-inspired 8, classical solver only 2, QRNG 1
+circuit studies meeting QA2: 11 of 19
+circuit studies meeting QA3: 4 of 19
+circuit studies with QA3 not met: 7
+circuit studies with hardware results: 9, of which QA3 met: 1 (layden2023qmcmc)
+quantum-inspired studies meeting QA3: 6 of 8
+studies meeting QA5 (code or data released): 11 of 30
+
+R1: 9 studies; QA3 met 2, partly 1, not met 6
+R2: 10 studies; QA3 met 4, partly 5, not met 1
+R3: 4 studies; QA3 met 3, partly 1, not met 0
+R4: 3 studies; QA3 met 3, partly 0, not met 0
+R5: 6 studies; QA3 met 1, partly 4, not met 1
+R6: 1 studies; QA3 met 0, partly 1, not met 0
+
+register sizes of the scale figure (scale_registers.csv): 10 rows
+  Token      15 qubits                             
+  Prompt    750 qubits                             
+  Flores    120 qubits (one per binary variable)   audit csv ok
+  Huang      68 qubits                             audit csv ok
+  Li         11 qubits                             audit csv ok
+  Kong       10 qubits                             audit csv ok
+  Layden     10 qubits                             audit csv ok
+  Coyle       4 qubits                             audit csv ok
+  Cacioppo    4 qubits                             audit csv ok
+  Pilot      12 qubits (one per attack component)  
+register sizes not confirmed: 0

@@ -1,0 +1,11 @@
+macro,key,value,unit,mode,where_in_source,where_in_manuscript,manuscript_pattern,audit_pattern
+Token,derived,15,qubits,requirement,"ceil(log2 32000) for a vocabulary of 32,000 tokens",Section 5.1,"or 15 qubits for 32{,}000 tokens",
+Prompt,derived,750,qubits,requirement,50 tokens x 15 qubits,Section 5.1,needs 750 qubits,
+Flores,floresgarrigos2025qcr,120,qubits (one per binary variable),hardware,"Sec. V.2: one qubit per reason, 5 to 120 per question; largest on NYCC",role table (Section 5),HUBO over 5 to 120 reasoning fragments,max 120 on NYCC
+Huang,huang2025generative,68,qubits,hardware,App. C.3: up to 68 qubits at model depth 12,role table (Section 5),68-qubit run,up to 68 physical qubits
+Li,li2025qkd,11,qubits,simulation and hardware inference,Table 2 and Real-Device Experiments: 11-qubit student,role table (Section 5),"distilled from LLM, 11 qubits",11-qubit student
+Kong,kong2025hyqut,10,qubits,simulation (inferred; not stated in the paper),Abstract: 10 qubits with 80 quantum gates,role table (Section 5),10-qubit block,VQC of 10 qubits
+Layden,layden2023qmcmc,10,qubits,hardware,"Experimental Implementation: n = 8, 9, 10 on ibmq_mumbai",role table (Section 5),over up to 10 spins,"n = 8, 9, 10 qubits"
+Coyle,coyle2020born,4,qubits,hardware,"Figs. 3-4 and Methods: Aspen-4-4Q-A, 3 to 4 qubits",role table (Section 5),Ising Born machine on 2 to 4 qubits,3-4 qubits
+Cacioppo,cacioppo2023qdm,4,qubits,hardware inference,"Sec. 5: ibm_hanoi, 4 qubits, 37 CNOTs",role table (Section 5),hardware inference on 4 qubits,Hardware: 4 qubits
+Pilot,pilot,12,qubits (one per attack component),simulation,released notebook: 12-qubit Born machine over 12 binary components,Section 7.5,12-qubit Born machine,

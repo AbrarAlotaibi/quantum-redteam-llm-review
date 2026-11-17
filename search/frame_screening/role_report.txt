@@ -1,0 +1,16 @@
+Role assignment of the 1862 records eligible by both screeners (two independent assignments)
+
+role     agreement 0.991   Cohen's kappa 0.986
+family   agreement 0.938   Cohen's kappa 0.929
+
+role   eligible   reports hardware   applied to an LLM   selected in the review
+R1          322                 28                   0          6
+R2          117                  4                  54         12
+R3         1054                157                  16          4
+R4           76                  2                   1          0
+R5          274                 10                  44          0
+R6            3                  1                   2          1
+none         16   (the two assignments differ)
+
+hardware and llm are yes only where both assignments say yes (unclear where they differ).
+Both are read from titles and abstracts only, so the counts are lower bounds.

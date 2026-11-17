@@ -1,0 +1,46 @@
+Screening of the sampling frame: 7258 records outside the core search, two independent screenings
+
+code      screener A   screener B   both
+IC1              433          610    433
+IC2             1431         1913   1428
+EC1              182          181    171
+EC2               72           78     70
+EC3              277          284    268
+EC4              334          325    266
+REVIEW           852          780    728
+NO              3677         3087   2930
+all eight codes            agreement 0.867   Cohen's kappa 0.813
+eligible or not            agreement 0.909   Cohen's kappa 0.786
+IC1, IC2, or not eligible  agreement 0.909   Cohen's kappa 0.800
+
+eligible by both screeners:      1862  (IC1 433, IC2 1428, criterion differs 1)
+eligible by one screener only:    663  (unresolved)
+not eligible by both screeners:  4733
+
+disagreements by pair of codes (A, B):
+  NO      IC2      472
+  NO      IC1      155
+  REVIEW  NO        92
+  NO      EC4       47
+  EC4     NO        45
+  NO      REVIEW    44
+  REVIEW  IC1       14
+  NO      EC3       14
+  REVIEW  EC4        9
+  NO      EC2        8
+  EC1     NO         8
+  EC3     NO         8
+  NO      EC1        7
+  EC4     REVIEW     7
+  EC4     IC2        7
+  EC4     IC1        7
+  REVIEW  IC2        6
+  REVIEW  EC3        2
+  EC1     EC4        2
+  EC2     NO         2
+  EC4     EC1        2
+  IC2     NO         2
+  EC1     REVIEW     1
+  IC2     IC1        1
+  REVIEW  EC1        1
+  EC3     EC4        1

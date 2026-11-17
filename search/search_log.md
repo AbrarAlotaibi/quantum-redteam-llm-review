@@ -2,7 +2,7 @@
 
 Survey: quantum and quantum-inspired methods for LLMs, read through LLM red teaming.
 
-This log records what the searches returned. Nothing here is an inclusion decision. `include` and `exclusion_reason` in `candidates.csv` are left empty for the authors.
+This log records what the searches returned. Nothing here is an inclusion decision. `include` and `exclusion_reason` in `candidates.csv` are written empty by the search and filled afterwards by `fill_decisions.py` from the screening and selection records.
 
 ## Run
 
