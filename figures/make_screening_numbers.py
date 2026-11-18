@@ -50,6 +50,8 @@ vals = {
     "rep": str(len(rep)), "inframe": str(len(in_frame)), "snowball": str(len(rep) - len(in_frame)),
     "icone": str(sum(r["criterion"] == "IC1" for r in rep)), "ictwo": str(sum(r["criterion"] == "IC2" for r in rep)),
     "roleunassigned": str(sum(not r["role"] for r in both)),
+    "primary": str(len(sel)),
+    "setaside": str(sum(1 for _ in open(Path(sel_path).parent / "full_text_exclusions.csv", encoding="utf-8")) - 1),
     "adjeligible": fmt(adj_el), "adjnot": fmt(adj_not), "finaleligible": fmt(st[("both screeners", "eligible")] + adj_el),
     "finalnot": fmt(st[("both screeners", "not eligible")] + adj_not),
     "rescreened": fmt(sum(r["screening_round"] != "1" for r in fs)), "noabstract": fmt(sum(r["abstract_available"] == "no" for r in fs)),
