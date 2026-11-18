@@ -32,7 +32,8 @@ from collections import Counter, OrderedDict
 from pathlib import Path
 
 def untrack(text):
-    """Drop \\del{...} and unwrap \\add{...}, so tables parse the same with or without tracking marks."""
+    """Drop \\del{...}, unwrap \\add{...} and remove \\addcell, so tables parse the same with or without tracking marks."""
+    text = text.replace("\\addcell ", "")
     out, i = [], 0
     while i < len(text):
         if text.startswith("\\del{", i) or text.startswith("\\add{", i):

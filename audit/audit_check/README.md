@@ -46,6 +46,6 @@ Number of studies (out of 10) on which all three scorers agreed, per criterion:
   - **layden2023qmcmc QA5 = Y.** The version of record (Nature) links a Zenodo code archive; the re-scorers only had the arXiv v1 text.
 - **Majority equals the primary score (no change):** the other 8.
 
-The headline counts are unchanged: 4 of 19 circuit-based studies have a matched classical baseline, 1 of the 9 with hardware results does, and 11 of 30 studies release code.
+The headline counts were unchanged by this check: 4 of 19 circuit-based studies had a matched classical baseline, 1 of the 9 with hardware results did, and 11 of 30 studies released code. These are the counts for the 30 studies audited at the time; seven studies were added later (`audit/additions_check/`).
 
 **Limitation:** this is a transparency check on the rubric, not formal agreement between independent human reviewers.

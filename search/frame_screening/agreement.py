@@ -149,6 +149,9 @@ def main():
     for name, pp in (("role", [(r["role_A"], r["role_B"]) for r in E]), ("family", [(r["family_A"], r["family_B"]) for r in E])):
         po, k = kappa(pp)
         rr.append("%-8s agreement %.3f   Cohen's kappa %.3f" % (name, po, k))
+    Eb = [r for r in E if r["eligible_by"] == "both screeners"]
+    po, k = kappa([(r["role_A"], r["role_B"]) for r in Eb])
+    rr.append("role, the %d records eligible by both screeners only: agreement %.3f   Cohen's kappa %.3f" % (len(Eb), po, k))
     rr += ["", "role   eligible   by both screeners   by third screener   reports hardware   applied to an LLM   selected in the review"]
     for role in ROLES + [""]:
         g = [r for r in E if r["role"] == role]
