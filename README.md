@@ -14,7 +14,7 @@ search/
   manual_queries.md      the same strings formatted for IEEE Xplore, ACM DL and ScienceDirect
   manual_counts.md       direct IEEE Xplore, ACM DL and ScienceDirect counts (2026-10-24), a coverage check
   candidates.csv         7,312 unique records (metadata only; see "What is not included"), each with a decision:
-                         include = yes (26 primary studies), eligible but not selected (2,298), or no (4,988, with
+                         include = yes (26 primary studies), eligible but not selected (2,299), or no (4,987, with
                          the reason)
   s1_screening.csv       final decisions for the 54 core-search records, with all three screenings and the adjudication
   selected_studies.csv   the 30 primary studies: record in the sampling frame (if any), route into the review, criterion
@@ -24,7 +24,7 @@ search/
   agreement_check/       blind two-agent agreement check on the core screening (README inside)
   frame_screening/       eligibility screening of the 7,258 records of the sampling frame, in phases: two independent
                          screeners, abstracts retrieved and records screened again, a third screener where the two
-                         differ, the final eligibility (2,321 eligible), and the roles of the eligible records from
+                         differ, the final eligibility (2,322 eligible), and the roles of the eligible records from
                          which the representative studies are selected (README inside)
 audit/
   audit_scores.json/csv  evidence audit of the 30 primary studies: QA1 to QA5, execution mode, scale, baselines, evidence

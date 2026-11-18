@@ -4,7 +4,7 @@ QRS-b25707f145,P03846,not eligible,none,3,publisher page (link.springer.com)
 QRS-0d1d74cfd5,P00199,not eligible,none,,not found
 QRS-bbd365affd,P02877,not eligible,fragment,3,publisher page (iopscience.iop.org)
 QRS-82b104af80,P02182,not eligible,none,3,publisher page (link.springer.com)
-QRS-c5da84fbca,P01046,unresolved,none,,not found
+QRS-c5da84fbca,P01046,unresolved,none,4,web search (arxiv.org)
 QRS-fcce9ec3c6,P06712,not eligible,none,3,publisher page (link.springer.com)
 QRS-6295b45742,P05888,unresolved,none,2,semanticscholar
 QRS-c1f9d31720,P04467,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
@@ -31,7 +31,7 @@ QRS-79816070c6,P01928,not eligible,none,,not found
 QRS-02b7a16336,P02408,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-cfeab1ae26,P01148,unresolved,none,,not found
 QRS-7a18c7487b,P02100,unresolved,none,2,crossref
-QRS-bb2a18dc92,P04559,eligible,none,,not found
+QRS-bb2a18dc92,P04559,eligible,none,4,web search (arxiv.org)
 QRS-16da0f331e,P07080,not eligible,none,3,publisher page (link.springer.com)
 QRS-236e8aba2c,P04235,unresolved,none,3,publisher page (link.springer.com)
 QRS-1265b67eda,P01535,not eligible,none,2,crossref
@@ -53,7 +53,7 @@ QRS-ccd29d2e64,P00819,not eligible,none,2,openalex
 QRS-dfc41058a4,P05086,not eligible,none,3,publisher page (link.springer.com)
 QRS-5b075fdd90,P03147,not eligible,none,,not found
 QRS-2ce11d2795,P00414,unresolved,none,3,publisher page (www.nature.com)
-QRS-9aeea31f08,P05301,unresolved,none,,not found
+QRS-9aeea31f08,P05301,unresolved,none,4,web search (meetings-archive.aps.org)
 QRS-df147dde17,P03393,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-4f8398f18d,P02245,not eligible,none,3,publisher page (link.springer.com)
 QRS-5b6e386a84,P04542,not eligible,none,,not found
@@ -77,7 +77,7 @@ QRS-ee27dbd015,P04152,not eligible,none,3,publisher page (link.springer.com)
 QRS-2eea4daab6,P02092,unresolved,none,2,semanticscholar
 QRS-c0ff3a4bbc,P00971,unresolved,none,3,publisher page (link.springer.com)
 QRS-e36769e280,P05973,eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-946575a273,P01077,eligible,none,,not found
+QRS-946575a273,P01077,eligible,none,4,web search (meetings-archive.aps.org)
 QRS-6a74ce3a48,P06274,not eligible,none,2,crossref
 QRS-f765268066,P01611,not eligible,none,2,crossref
 QRS-8a2ab594cf,P02992,not eligible,none,3,publisher page (link.springer.com)
@@ -99,10 +99,10 @@ QRS-d32b6e187d,P01178,unresolved,none,,not found
 QRS-9286d1da50,P03916,not eligible,none,3,publisher page (link.springer.com)
 QRS-f5f09d1cb2,P01995,unresolved,none,2,crossref
 QRS-b3fea98ea6,P00120,not eligible,none,3,publisher page (link.springer.com)
-QRS-2b91e631eb,P07215,not eligible,none,,not found
+QRS-2b91e631eb,P07215,not eligible,none,4,web search (arxiv.org)
 QRS-d81ec14500,P01491,not eligible,none,,not found
 QRS-7bff9421da,P02519,unresolved,none,2,crossref
-QRS-96147c18da,P07151,unresolved,none,,not found
+QRS-96147c18da,P07151,unresolved,none,4,web search (ml4physicalsciences.github.io)
 QRS-25add41156,P05514,unresolved,none,2,crossref
 QRS-c8ba3794a8,P00922,not eligible,none,2,crossref (title match)
 QRS-ff0d9f3ee5,P00784,not eligible,none,,not found
@@ -111,11 +111,11 @@ QRS-2cc862525a,P01358,not eligible,none,2,semanticscholar
 QRS-dc18b2ec09,P05656,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-cb9d49911b,P06380,unresolved,none,3,publisher page (link.springer.com)
 QRS-72899d64bf,P05834,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-00987af4ce,P01099,unresolved,none,,not found
+QRS-00987af4ce,P01099,unresolved,none,4,web search (ceur-ws.org)
 QRS-b099de21d8,P07011,not eligible,none,3,publisher page (link.springer.com)
 QRS-2f054c895f,P04353,not eligible,none,3,publisher page (link.springer.com)
 QRS-cfa51c61eb,P04495,unresolved,none,3,publisher page (link.springer.com)
-QRS-ac4dbe250b,P02605,not eligible,none,,not found
+QRS-ac4dbe250b,P02605,not eligible,none,4,web search (athene-center.de)
 QRS-df694d8dfc,P02394,eligible,none,3,publisher page (link.springer.com)
 QRS-ba8212e4ef,P03908,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-cc986bb35b,P06537,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
@@ -124,7 +124,7 @@ QRS-e4349ccd05,P00463,not eligible,none,,not found
 QRS-bf36365e1d,P01274,not eligible,none,3,publisher page (link.springer.com)
 QRS-1e42785919,P04016,not eligible,none,3,publisher page (link.springer.com)
 QRS-6a07357d7e,P05664,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-efb0b8a758,P00080,unresolved,none,,not found
+QRS-efb0b8a758,P00080,unresolved,none,4,web search (archive.aps.org)
 QRS-b26b3c2fc0,P06349,not eligible,none,3,publisher page (link.springer.com)
 QRS-dc10c83fdc,P04930,not eligible,none,2,openalex
 QRS-014c2578c6,P07001,not eligible,none,3,publisher page (link.springer.com)
@@ -134,17 +134,17 @@ QRS-d7a61b1585,P00279,unresolved,none,,not found
 QRS-03943dda93,P05205,unresolved,none,3,publisher page (link.springer.com)
 QRS-77f25425ba,P06283,unresolved,none,3,publisher page (link.springer.com)
 QRS-bb1ab65755,P05223,unresolved,none,3,publisher page (link.springer.com)
-QRS-1708e3cc21,P06697,unresolved,none,,not found
+QRS-1708e3cc21,P06697,unresolved,none,4,web search (arxiv.org)
 QRS-0ba1675112,P05207,unresolved,none,,not found
 QRS-2d175ce51f,P06247,not eligible,none,,not found
 QRS-d57c5aa0bc,P05601,not eligible,none,3,publisher page (link.springer.com)
 QRS-5bc3ed8def,P00853,not eligible,none,2,semanticscholar
-QRS-5b2482fd28,P03323,eligible,none,,not found
+QRS-5b2482fd28,P03323,eligible,none,4,web search (arxiv.org)
 QRS-e4a68da56f,P00448,unresolved,none,,not found
 QRS-a31ae52e2d,P04725,not eligible,none,3,publisher page (link.springer.com)
 QRS-517ab2dfb6,P06831,not eligible,none,3,publisher page (link.springer.com)
 QRS-c2e9b64dd5,P02899,not eligible,none,3,publisher page (link.springer.com)
-QRS-da4a713a5a,P03721,unresolved,none,,not found
+QRS-da4a713a5a,P03721,unresolved,none,4,web search (arxiv.org)
 QRS-99adc00401,P05493,unresolved,none,2,crossref
 QRS-af76e161ac,P01339,unresolved,none,3,arxiv (title match)
 QRS-41b0e8863c,P06903,not eligible,none,3,publisher page (link.springer.com)
@@ -164,20 +164,20 @@ QRS-75d08aabd1,P05651,not eligible,fragment,2,semanticscholar
 QRS-44676c7571,P05615,unresolved,none,2,crossref
 QRS-3387ad19d3,P06871,unresolved,none,2,crossref
 QRS-cabbd8b5c0,P05070,not eligible,none,,not found
-QRS-a4d5a4b290,P00671,eligible,none,,not found
+QRS-a4d5a4b290,P00671,eligible,none,4,web search (tensorworkshop.github.io)
 QRS-dcc9c6ea6f,P00471,not eligible,none,2,crossref
 QRS-08da43738b,P05217,not eligible,none,2,crossref
-QRS-69aa5db9fe,P01728,unresolved,none,,not found
+QRS-69aa5db9fe,P01728,unresolved,none,4,publisher page (link.springer.com)
 QRS-194408c6da,P06773,eligible,none,2,crossref
 QRS-b9ed34c0f9,P04243,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-e245c6d5bf,P04441,unresolved,none,,not found
+QRS-e245c6d5bf,P04441,unresolved,none,4,publisher page (link.springer.com)
 QRS-d51f43b168,P05649,not eligible,none,,not found
 QRS-4ab843367f,P01791,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-ca940b65eb,P02662,eligible,none,2,semanticscholar
 QRS-108acf2d7a,P00321,eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-724b14574f,P06921,unresolved,none,3,publisher page (link.springer.com)
 QRS-88e2a602c0,P02750,unresolved,none,3,publisher page (link.springer.com)
-QRS-3df52f8f41,P06077,not eligible,none,,not found
+QRS-3df52f8f41,P06077,not eligible,none,4,web search (arxiv.org)
 QRS-9b4766544b,P03540,not eligible,none,2,semanticscholar
 QRS-241ca442b0,P02016,not eligible,none,3,publisher page (link.springer.com)
 QRS-ecf8dcf9fb,P04932,not eligible,none,,not found
@@ -185,9 +185,9 @@ QRS-adf364bc83,P06273,not eligible,none,2,crossref
 QRS-5635b4da1a,P00477,not eligible,none,3,publisher page (link.springer.com)
 QRS-a98a71438f,P06205,not eligible,none,,not found
 QRS-5508a6ce0a,P06324,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
-QRS-8edbe79a8d,P01280,not eligible,none,,not found
+QRS-8edbe79a8d,P01280,not eligible,none,4,web search (rieti.go.jp)
 QRS-0e2d11ce4a,P06636,not eligible,none,3,publisher page (link.springer.com)
-QRS-a15fd5383e,P03079,not eligible,none,,not found
+QRS-a15fd5383e,P03079,not eligible,none,4,web search (iclr.cc)
 QRS-b99abb5220,P02246,eligible,none,3,publisher page (link.springer.com)
 QRS-be21a8872a,P04744,unresolved,none,2,semanticscholar
 QRS-668725bb9d,P04890,not eligible,none,3,publisher page (link.springer.com)
@@ -199,7 +199,7 @@ QRS-f64f0dbf77,P05399,not eligible,none,3,publisher page (link.springer.com)
 QRS-fb73c8ce4e,P03160,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-6f83e93a55,P05059,not eligible,none,,not found
 QRS-46a2418f68,P03552,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-0e88c68468,P06100,not eligible,none,,not found
+QRS-0e88c68468,P06100,not eligible,none,4,publisher page (link.springer.com)
 QRS-7bdfa5abc2,P04995,unresolved,none,2,openalex
 QRS-390706d817,P02978,not eligible,none,,not found
 QRS-fc289c133b,P01058,not eligible,none,,not found
@@ -221,22 +221,22 @@ QRS-19a8abed3a,P02583,not eligible,none,3,publisher page (link.springer.com)
 QRS-16da9e17bf,P02699,unresolved,none,2,crossref
 QRS-7facaa0804,P05567,not eligible,none,2,crossref
 QRS-2b551b8675,P00633,not eligible,none,3,publisher page (link.springer.com)
-QRS-f08f17e37c,P03063,not eligible,none,,not found
+QRS-f08f17e37c,P03063,not eligible,none,4,web search (archive.aps.org)
 QRS-7016291ac0,P03766,eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-ecd4e6d9fe,P06038,not eligible,none,2,crossref
-QRS-9a6f338c31,P06404,unresolved,none,,not found
+QRS-9a6f338c31,P06404,unresolved,none,4,web search (arxiv.org)
 QRS-9702968af2,P00825,not eligible,none,3,publisher page (link.springer.com)
-QRS-3a64c4e978,P01047,unresolved,none,,not found
+QRS-3a64c4e978,P01047,unresolved,none,4,publisher page (link.springer.com)
 QRS-c7b8b614cc,P03841,not eligible,none,3,publisher page (link.springer.com)
 QRS-be652256c1,P03640,eligible,none,2,crossref
 QRS-6ce32a300b,P05566,eligible,fragment,2,semanticscholar
 QRS-0d03f2e626,P03860,not eligible,none,3,publisher page (link.springer.com)
-QRS-2c4fffe409,P00733,not eligible,none,,not found
+QRS-2c4fffe409,P00733,not eligible,none,4,publisher page (link.springer.com)
 QRS-74a2870dc8,P04514,not eligible,none,3,publisher page (link.springer.com)
 QRS-fbfc46a3c8,P04191,not eligible,none,3,publisher page (link.springer.com)
 QRS-836c193244,P03137,not eligible,none,3,publisher page (link.springer.com)
-QRS-3160c4a250,P06296,eligible,none,,not found
-QRS-6af758da3a,P06098,not eligible,none,,not found
+QRS-3160c4a250,P06296,eligible,none,4,publisher page (link.springer.com)
+QRS-6af758da3a,P06098,not eligible,none,4,publisher page (link.springer.com)
 QRS-cd6e60a173,P00938,not eligible,none,3,publisher page (link.springer.com)
 QRS-cf75a64aff,P04403,unresolved,none,3,publisher page (link.springer.com)
 QRS-ad6d85c911,P06727,not eligible,none,,not found
@@ -244,13 +244,13 @@ QRS-9875151783,P05232,not eligible,none,3,publisher page (link.springer.com)
 QRS-0d770c18e0,P05675,not eligible,fragment,3,publisher page (www.rintonpress.com)
 QRS-27c709acaf,P07034,not eligible,none,,not found
 QRS-6c1f855604,P02925,not eligible,none,2,semanticscholar
-QRS-15ec4a4889,P06661,eligible,none,,not found
+QRS-15ec4a4889,P06661,eligible,none,4,web search (arxiv.org)
 QRS-293141f788,P02000,eligible,fragment,,not found
 QRS-a1531b5960,P02565,not eligible,fragment,,not found
 QRS-892016847e,P01064,eligible,none,,not found
 QRS-481a09a0d7,P04787,not eligible,fragment,,not found
 QRS-9568694003,P03213,not eligible,none,3,publisher page (www.nature.com)
-QRS-6e8c4f5a8f,P01756,eligible,none,,not found
+QRS-6e8c4f5a8f,P01756,eligible,none,4,web search (proceedings.mlr.press)
 QRS-7f6edf19f1,P06849,eligible,none,2,crossref
 QRS-7a198799f4,P02134,unresolved,none,3,publisher page (link.springer.com)
 QRS-2bc68c6d9d,P04997,not eligible,none,3,publisher page (link.springer.com)
@@ -291,17 +291,17 @@ QRS-8025d98683,P01479,not eligible,none,3,"publisher page (sciencedirect.com, re
 QRS-26ce4d3e9a,P02538,unresolved,none,2,crossref (title match)
 QRS-77e19c6af2,P05576,not eligible,none,2,crossref
 QRS-c0892ce183,P01044,not eligible,none,3,publisher page (link.springer.com)
-QRS-6937054c54,P03042,unresolved,none,,not found
+QRS-6937054c54,P03042,unresolved,none,4,web search (tensorworkshop.github.io)
 QRS-48e4eb035f,P07142,eligible,none,2,semanticscholar (title match)
 QRS-21f2c97845,P00519,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
-QRS-babd845188,P00870,unresolved,none,,not found
+QRS-babd845188,P00870,unresolved,none,4,web search (ia.cr)
 QRS-6ab36e6345,P00375,not eligible,none,,not found
 QRS-2187625659,P06433,not eligible,none,3,publisher page (link.springer.com)
 QRS-207cdb2f77,P00575,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-34cbdecf3e,P02351,not eligible,fragment,,not found
 QRS-789596c2a8,P00589,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-333e009e6a,P03931,not eligible,none,3,publisher page (link.springer.com)
-QRS-68f619aa80,P03651,eligible,none,,not found
+QRS-68f619aa80,P03651,eligible,none,4,web search (ceur-ws.org)
 QRS-b8afabac16,P06972,not eligible,fragment,3,publisher page (opg.optica.org)
 QRS-70d7a1ed51,P03455,not eligible,none,3,publisher page (link.springer.com)
 QRS-ca6e3139a2,P05187,not eligible,none,3,publisher page (link.springer.com)
@@ -316,28 +316,28 @@ QRS-a00028a34e,P02147,not eligible,none,3,publisher page (link.springer.com)
 QRS-a1bcd9b2b4,P02818,eligible,none,3,publisher page (www.nature.com)
 QRS-ac0073a298,P06268,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-268149ccd9,P01932,not eligible,none,2,crossref
-QRS-f8b62ddc8d,P01656,eligible,none,,not found
+QRS-f8b62ddc8d,P01656,eligible,none,4,web search (ceur-ws.org)
 QRS-7c19527415,P03077,unresolved,none,3,publisher page (link.springer.com)
 QRS-b33342e747,P03091,not eligible,none,3,publisher page (link.springer.com)
 QRS-d511d88ddb,P06936,eligible,fragment,,not found
 QRS-7362dd8490,P00252,not eligible,none,2,crossref
 QRS-30a49af6e5,P01411,not eligible,none,3,publisher page (link.springer.com)
 QRS-62432935d2,P03417,not eligible,none,2,crossref
-QRS-9d0c3a2c02,P00121,eligible,none,,not found
+QRS-9d0c3a2c02,P00121,eligible,none,4,publisher page (link.springer.com)
 QRS-c151874e1a,P01389,not eligible,none,2,semanticscholar
 QRS-53eaea518d,P01209,not eligible,none,2,crossref
 QRS-a26f8feb87,P02937,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-e154b20f2d,P06409,not eligible,none,2,crossref
 QRS-2d634c0d4c,P06458,not eligible,none,2,crossref
-QRS-11da4f36f0,P06758,unresolved,none,,not found
+QRS-11da4f36f0,P06758,unresolved,none,4,publisher page (link.springer.com)
 QRS-0946cf4d93,P04079,not eligible,none,2,crossref
 QRS-1fbfe655bb,P00228,eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-8445e0c30f,P01269,not eligible,none,3,publisher page (link.springer.com)
-QRS-5006676e2b,P07053,not eligible,none,,not found
+QRS-5006676e2b,P07053,not eligible,none,4,publisher page (link.springer.com)
 QRS-eda290f4a9,P00677,not eligible,fragment,3,publisher page (opg.optica.org)
 QRS-1654aa49ec,P03537,eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-3951653c98,P02777,not eligible,none,,not found
-QRS-ec6970efef,P05546,unresolved,none,,not found
+QRS-ec6970efef,P05546,unresolved,none,4,publisher page (link.springer.com)
 QRS-dffa16ce68,P04609,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-2c99140628,P02262,unresolved,none,,not found
 QRS-e46586135f,P03883,not eligible,none,,not found
@@ -347,49 +347,49 @@ QRS-525257835e,P02944,not eligible,none,2,crossref
 QRS-34b7f14f2d,P06850,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-85cdbd8e2e,P01947,not eligible,none,2,crossref
 QRS-1a580b32ef,P05958,not eligible,none,,not found
-QRS-5a0a981a7d,P04978,unresolved,none,,not found
-QRS-2bba2e5123,P06030,not eligible,none,,not found
+QRS-5a0a981a7d,P04978,unresolved,none,4,web search (drum.lib.umd.edu)
+QRS-2bba2e5123,P06030,not eligible,none,4,publisher page (link.springer.com)
 QRS-f1bdf08f3e,P06742,eligible,none,2,crossref
 QRS-21754f0949,P05132,not eligible,none,,not found
 QRS-9a3e1988c5,P02588,eligible,none,3,publisher page (link.springer.com)
-QRS-dc73ec09bf,P04070,not eligible,none,,not found
-QRS-f84af0acc9,P00741,not eligible,none,,not found
+QRS-dc73ec09bf,P04070,not eligible,none,4,"web search (cendekia.unisza.edu.my, snippet only)"
+QRS-f84af0acc9,P00741,not eligible,none,4,publisher page (link.springer.com)
 QRS-1333c0763a,P02945,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-281d38f464,P03845,eligible,none,3,publisher page (link.springer.com)
 QRS-e84777b61f,P06762,not eligible,none,2,crossref
-QRS-4a67e601b9,P01671,not eligible,none,,not found
-QRS-d49e6deea7,P06482,eligible,none,,not found
+QRS-4a67e601b9,P01671,not eligible,none,4,publisher page (link.springer.com)
+QRS-d49e6deea7,P06482,eligible,none,4,publisher page (link.springer.com)
 QRS-56f6c9af7b,P06937,not eligible,none,2,crossref
 QRS-629852b1d8,P00793,unresolved,none,,not found
 QRS-4d07402a48,P01878,unresolved,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-3a94ea05ee,P01466,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-8c8843d6c2,P07084,not eligible,none,2,crossref
-QRS-04f13842e0,P06942,not eligible,none,,not found
+QRS-04f13842e0,P06942,not eligible,none,4,publisher page (link.springer.com)
 QRS-1e123a08f9,P01700,unresolved,none,,not found
-QRS-63fce14531,P03574,not eligible,none,,not found
-QRS-dfee43b75b,P00050,eligible,none,,not found
-QRS-72575f0552,P04214,not eligible,none,,not found
-QRS-d2c5b25746,P01464,unresolved,none,,not found
+QRS-63fce14531,P03574,not eligible,none,4,publisher page (link.springer.com)
+QRS-dfee43b75b,P00050,eligible,none,4,publisher page (link.springer.com)
+QRS-72575f0552,P04214,not eligible,none,4,publisher page (link.springer.com)
+QRS-d2c5b25746,P01464,unresolved,none,4,publisher page (link.springer.com)
 QRS-3cd1f4bd1b,P01224,not eligible,none,2,crossref
 QRS-c740e867d0,P01578,unresolved,none,,not found
-QRS-e21eef60c0,P04178,not eligible,none,,not found
+QRS-e21eef60c0,P04178,not eligible,none,4,web search (arxiv.org)
 QRS-21ff48192a,P02161,unresolved,none,3,publisher page (link.springer.com)
-QRS-8535b9359a,P03940,not eligible,none,,not found
+QRS-8535b9359a,P03940,not eligible,none,4,publisher page (link.springer.com)
 QRS-ffbd880599,P00549,not eligible,none,,not found
-QRS-0cb7705a7b,P01805,not eligible,none,,not found
-QRS-f2c5518cf4,P05062,not eligible,none,,not found
+QRS-0cb7705a7b,P01805,not eligible,none,4,publisher page (link.springer.com)
+QRS-f2c5518cf4,P05062,not eligible,none,4,publisher page (link.springer.com)
 QRS-0d28527d07,P02528,not eligible,none,3,publisher page (link.springer.com)
 QRS-93e6eda5e9,P04381,not eligible,none,,not found
 QRS-6863184129,P04466,not eligible,none,,not found
-QRS-1c050262fd,P02210,not eligible,none,,not found
+QRS-1c050262fd,P02210,not eligible,none,4,publisher page (link.springer.com)
 QRS-b6049890dd,P06963,not eligible,none,2,crossref
-QRS-5ad2483a13,P06347,not eligible,none,,not found
+QRS-5ad2483a13,P06347,not eligible,none,4,publisher page (link.springer.com)
 QRS-99bc520f85,P01011,not eligible,fragment,,not found
 QRS-bf3ff5cf3e,P03108,unresolved,none,,not found
-QRS-3016c6f388,P00735,not eligible,none,,not found
+QRS-3016c6f388,P00735,not eligible,none,4,"web search (degruyterbrill.com, snippet only)"
 QRS-a68f5b504a,P02163,unresolved,none,2,crossref
-QRS-043523a8e9,P05006,unresolved,none,,not found
-QRS-ebdf997904,P03112,not eligible,none,,not found
+QRS-043523a8e9,P05006,unresolved,none,4,publisher page (link.springer.com)
+QRS-ebdf997904,P03112,not eligible,none,4,web search (eprint.iacr.org)
 QRS-59da38d2ba,P05100,not eligible,fragment,,not found
 QRS-131cbe3559,P05496,not eligible,none,,not found
 QRS-e6a92f8af2,P04586,not eligible,none,3,publisher page (link.springer.com)
@@ -400,11 +400,11 @@ QRS-6f46ce6655,P04992,not eligible,none,3,"publisher page (sciencedirect.com, re
 QRS-0beedfc87d,P05308,not eligible,none,3,publisher page (link.springer.com)
 QRS-9382da049f,P00515,not eligible,fragment,2,openalex
 QRS-e7254bc6cd,P07068,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
-QRS-56aa4bfb82,P01861,not eligible,none,,not found
+QRS-56aa4bfb82,P01861,not eligible,none,4,web search (scispace.com)
 QRS-8b29a84bdc,P03760,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-88e6b1592c,P02577,not eligible,none,2,crossref
 QRS-ac5291b8cd,P01322,eligible,none,,not found
-QRS-25a49f5cc7,P01777,not eligible,none,,not found
+QRS-25a49f5cc7,P01777,not eligible,none,4,publisher page (link.springer.com)
 QRS-e50ed3c350,P02709,not eligible,none,2,crossref
 QRS-80d68c4848,P04670,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-ebcec81f47,P06982,not eligible,none,2,crossref
@@ -414,14 +414,14 @@ QRS-de2c3c1e10,P05501,not eligible,none,,not found
 QRS-e6c820c05e,P05685,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-ead0c61d77,P01991,unresolved,fragment,3,publisher page (opg.optica.org)
 QRS-efb94b3b20,P06864,not eligible,none,,not found
-QRS-fbfe3c0acf,P03903,eligible,none,,not found
+QRS-fbfe3c0acf,P03903,eligible,none,4,publisher page (link.springer.com)
 QRS-010a4035bb,P00700,not eligible,fragment,2,openalex
 QRS-cfdcaa2acb,P01397,not eligible,fragment,,not found
 QRS-4d754d932b,P01439,not eligible,none,2,semanticscholar
-QRS-7742765903,P03248,not eligible,none,,not found
+QRS-7742765903,P03248,not eligible,none,4,web search (eprint.iacr.org)
 QRS-c9786ff068,P00180,not eligible,none,3,publisher page (link.springer.com)
 QRS-bc2b96c29c,P01088,eligible,none,3,publisher page (link.springer.com)
-QRS-ec630881b4,P03440,not eligible,none,,not found
+QRS-ec630881b4,P03440,not eligible,none,4,publisher page (link.springer.com)
 QRS-f9fec070fc,P06074,not eligible,none,2,crossref
 QRS-97fdc81678,P01882,not eligible,none,2,crossref
 QRS-2de7f786f3,P04948,not eligible,none,3,publisher page (link.springer.com)
@@ -434,20 +434,20 @@ QRS-075f90cd9a,P03773,unresolved,none,3,publisher page (link.springer.com)
 QRS-e412b2c2c4,P00241,not eligible,none,2,crossref
 QRS-de1a5abedb,P04320,unresolved,none,,not found
 QRS-7c1eca77b9,P04271,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-2bd4ea6d19,P03451,eligible,none,,not found
+QRS-2bd4ea6d19,P03451,eligible,none,4,web search (neurips.cc)
 QRS-fc884a95d0,P06954,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-c78a06ed96,P00979,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-31c6b45761,P02066,unresolved,none,,not found
+QRS-31c6b45761,P02066,unresolved,none,4,publisher page (link.springer.com)
 QRS-20adb77fc9,P04827,unresolved,none,3,publisher page (link.springer.com)
 QRS-4ab9af9324,P01183,unresolved,none,2,openalex
 QRS-ebc811eff0,P01683,eligible,none,,not found
 QRS-2b077cc784,P03695,eligible,none,3,publisher page (link.springer.com)
 QRS-26bc5b9558,P03575,not eligible,none,,not found
 QRS-92fdc147c3-2,P07019,unresolved,none,3,arxiv (title match)
-QRS-d379740f8e,P05883,not eligible,none,,not found
+QRS-d379740f8e,P05883,not eligible,none,4,publisher page (link.springer.com)
 QRS-608f0c7c10,P05360,not eligible,none,3,publisher page (link.springer.com)
-QRS-d6c6adf641,P04195,not eligible,none,,not found
-QRS-75c5229478,P02627,eligible,none,,not found
+QRS-d6c6adf641,P04195,not eligible,none,4,publisher page (link.springer.com)
+QRS-75c5229478,P02627,eligible,none,4,web search (sc19.supercomputing.org)
 QRS-8baf093cf5,P04535,eligible,none,3,publisher page (link.springer.com)
 QRS-257136f314,P00021,not eligible,none,,not found
 QRS-ee4a20419f,P02068,not eligible,none,3,publisher page (link.springer.com)
@@ -457,18 +457,18 @@ QRS-7ed6a3bb45,P02008,eligible,fragment,3,publisher page (opg.optica.org)
 QRS-5180005b8f,P01336,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-4cb39e86ae,P01227,unresolved,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-db47c3bb86,P05381,unresolved,none,,not found
-QRS-1d27155895,P02485,eligible,none,,not found
-QRS-9790e8d432,P06923,not eligible,none,,not found
+QRS-1d27155895,P02485,eligible,none,4,publisher page (link.springer.com)
+QRS-9790e8d432,P06923,not eligible,none,4,publisher page (link.springer.com)
 QRS-ff84f63589,P01794,not eligible,none,2,crossref
 QRS-a7f77ff6f9,P06378,not eligible,none,2,crossref
 QRS-654cc92c14,P00992,not eligible,none,3,publisher page (link.springer.com)
 QRS-1354ea6d5f,P02467,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-1cef0ccda7,P01721,unresolved,none,2,crossref
 QRS-7d63930cd2,P00598,not eligible,none,3,publisher page (link.springer.com)
-QRS-3b7bedae0e,P06573,unresolved,none,,not found
+QRS-3b7bedae0e,P06573,unresolved,none,4,publisher page (link.springer.com)
 QRS-d32ff4f392,P05899,unresolved,none,2,semanticscholar
 QRS-006ad818d7,P04845,unresolved,none,3,publisher page (link.springer.com)
-QRS-7065ac0515,P02784,eligible,none,,not found
+QRS-7065ac0515,P02784,eligible,none,4,publisher page (link.springer.com)
 QRS-d6447683ef,P02028,not eligible,none,2,crossref
 QRS-391bef127e,P05349,unresolved,fragment,,not found
 QRS-54a6569008,P06454,eligible,none,3,publisher page (link.springer.com)
@@ -476,97 +476,97 @@ QRS-432f595910,P05302,not eligible,fragment,,not found
 QRS-f8a8d1e90d,P01415,not eligible,none,,not found
 QRS-9e59014b79,P06833,not eligible,none,2,crossref
 QRS-0fec35caf9,P04820,not eligible,none,3,publisher page (link.springer.com)
-QRS-0bb87310bd,P05138,unresolved,none,,not found
-QRS-7319855cd9,P02133,not eligible,none,,not found
+QRS-0bb87310bd,P05138,unresolved,none,4,web search (arxiv.org)
+QRS-7319855cd9,P02133,not eligible,none,4,publisher page (link.springer.com)
 QRS-3d658711de,P01843,eligible,none,2,crossref
-QRS-579bc2eabd,P06809,not eligible,none,,not found
+QRS-579bc2eabd,P06809,not eligible,none,4,publisher page (link.springer.com)
 QRS-d3b1ee041e,P00460,not eligible,none,2,crossref
-QRS-481e225a70,P06503,unresolved,none,,not found
+QRS-481e225a70,P06503,unresolved,none,4,web search (arxiv.org)
 QRS-9961823eb3,P04634,not eligible,none,,not found
 QRS-822c5c6a55,P03821,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-bf10593d50,P06976,not eligible,none,2,crossref
 QRS-38056dbec2,P06094,not eligible,none,3,publisher page (link.springer.com)
-QRS-01ccccef25,P05806,not eligible,none,,not found
+QRS-01ccccef25,P05806,not eligible,none,4,publisher page (link.springer.com)
 QRS-92fdc147c3,P03253,eligible,none,2,semanticscholar (title match)
 QRS-97cb228128,P03626,not eligible,none,,not found
 QRS-cf56717d13,P02654,not eligible,none,,not found
-QRS-855e497e3f,P06490,eligible,none,,not found
+QRS-855e497e3f,P06490,eligible,none,4,publisher page (link.springer.com)
 QRS-587e879d3d,P02454,not eligible,none,,not found
 QRS-858ea7795b,P06364,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-9aaebc1fb3,P05743,eligible,none,2,crossref
-QRS-d41b050797,P04539,not eligible,none,,not found
+QRS-d41b050797,P04539,not eligible,none,4,publisher page (link.springer.com)
 QRS-3c04e4397c,P01134,not eligible,none,,not found
 QRS-a5c2f3ef50,P07201,eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-8b97c835e2,P04286,unresolved,none,2,crossref
 QRS-d3c199c2a7,P00296,eligible,none,,not found
 QRS-b5e374d380,P06567,not eligible,none,3,publisher page (link.springer.com)
-QRS-f960909e87,P02093,unresolved,none,,not found
+QRS-f960909e87,P02093,unresolved,none,4,publisher page (link.springer.com)
 QRS-b51636dc4f,P06510,not eligible,fragment,,not found
-QRS-6415c59122,P00539,unresolved,none,,not found
-QRS-845718449b,P05465,not eligible,none,,not found
+QRS-6415c59122,P00539,unresolved,none,4,web search (archive.aps.org)
+QRS-845718449b,P05465,not eligible,none,4,web search (arxiv.org)
 QRS-e6444b7201,P07178,not eligible,none,2,crossref
 QRS-98d3692f92,P04887,unresolved,none,2,crossref
-QRS-46134b91cb,P05177,not eligible,none,,not found
-QRS-f65524f067,P06325,unresolved,none,,not found
+QRS-46134b91cb,P05177,not eligible,none,4,publisher page (link.springer.com)
+QRS-f65524f067,P06325,unresolved,none,4,publisher page (link.springer.com)
 QRS-84f32a7722,P05362,not eligible,none,2,crossref
 QRS-48aa9addfd,P04994,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-0268355acb,P04778,eligible,none,,not found
+QRS-0268355acb,P04778,eligible,none,4,web search (aclanthology.org)
 QRS-6db2161e76,P04762,not eligible,none,2,crossref (title match)
-QRS-8af010375f,P00320,unresolved,none,,not found
+QRS-8af010375f,P00320,unresolved,none,4,web search (archive.aps.org)
 QRS-0d110c0e74,P00988,not eligible,none,,not found
-QRS-7bed782f1e,P05098,unresolved,none,,not found
+QRS-7bed782f1e,P05098,unresolved,none,4,publisher page (link.springer.com)
 QRS-9a7ff049b3,P06202,unresolved,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-ec03df846e,P03117,not eligible,none,2,crossref
-QRS-dd6c441f76,P04113,eligible,none,,not found
-QRS-f7e1abe887,P00170,unresolved,none,,not found
+QRS-dd6c441f76,P04113,eligible,none,4,publisher page (link.springer.com)
+QRS-f7e1abe887,P00170,unresolved,none,4,web search (www2.eecs.berkeley.edu)
 QRS-13b6b896ea,P02596,unresolved,none,,not found
 QRS-ea87751101,P05066,eligible,none,3,publisher page (link.springer.com)
 QRS-5149ae3ff3,P02094,eligible,none,2,semanticscholar
 QRS-1518706bf7,P06113,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-0cfc91c13a,P05950,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-ae4a19d4cc,P04116,not eligible,none,3,publisher page (www.nature.com)
-QRS-ccdce5792f,P02267,unresolved,none,,not found
+QRS-ccdce5792f,P02267,unresolved,none,4,web search (ceur-ws.org)
 QRS-16ca5ecb8c,P02853,unresolved,none,2,crossref
 QRS-4d70a843aa,P04543,not eligible,none,2,crossref
 QRS-9f68e8f062,P04911,not eligible,none,,not found
 QRS-419ab27f1f,P00331,not eligible,none,,not found
 QRS-caa4f0f209,P06940,not eligible,none,3,publisher page (link.springer.com)
 QRS-bb03360ba7,P00456,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-94474ea5b7,P02927,not eligible,none,,not found
+QRS-94474ea5b7,P02927,not eligible,none,4,publisher page (link.springer.com)
 QRS-80c566adfe,P03818,not eligible,none,3,publisher page (link.springer.com)
-QRS-0fb8c4517d,P00537,eligible,none,,not found
+QRS-0fb8c4517d,P00537,eligible,none,4,web search (utrecht-main-test.atmire.com)
 QRS-a1604e181f,P05897,not eligible,none,3,publisher page (link.springer.com)
-QRS-b86cb13b03,P02451,unresolved,none,,not found
-QRS-fc4844386f,P02738,not eligible,none,,not found
+QRS-b86cb13b03,P02451,unresolved,none,4,publisher page (link.springer.com)
+QRS-fc4844386f,P02738,not eligible,none,4,publisher page (link.springer.com)
 QRS-a92664b99a,P06684,eligible,none,2,crossref
 QRS-0683d921ab,P05578,not eligible,none,3,publisher page (link.springer.com)
 QRS-77442088b6,P02718,eligible,none,2,crossref
 QRS-4e210ca5e6,P03475,eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-cc3588c3f3,P05969,not eligible,none,,not found
+QRS-cc3588c3f3,P05969,not eligible,none,4,publisher page (link.springer.com)
 QRS-915f40f1bb,P06389,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-0970471d34,P00283,eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-0718fe96dd,P00791,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-ed42a37c93,P00602,eligible,none,3,publisher page (link.springer.com)
 QRS-5d0d13ff75,P01123,not eligible,none,3,publisher page (link.springer.com)
-QRS-c6a4e481c0,P07182,not eligible,none,,not found
-QRS-9cf0d3a17f,P04735,eligible,none,,not found
-QRS-7b045dba17,P03016,not eligible,none,,not found
+QRS-c6a4e481c0,P07182,not eligible,none,4,publisher page (link.springer.com)
+QRS-9cf0d3a17f,P04735,eligible,none,4,publisher page (link.springer.com)
+QRS-7b045dba17,P03016,not eligible,none,4,web search (eprint.iacr.org)
 QRS-c76ab8ef75,P06416,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-460c9f2313,P05955,not eligible,none,2,crossref
-QRS-8847db2e7a,P02902,eligible,none,,not found
+QRS-8847db2e7a,P02902,eligible,none,4,publisher page (link.springer.com)
 QRS-45caa71b8d,P00834,not eligible,none,2,openalex
 QRS-7e0fc97082,P02572,not eligible,none,,not found
-QRS-506f2abe41,P01168,not eligible,none,,not found
+QRS-506f2abe41,P01168,not eligible,none,4,publisher page (link.springer.com)
 QRS-45ec43d698,P05933,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-45a1acec3f,P02901,eligible,fragment,,not found
 QRS-a077d60539,P03756,not eligible,none,,not found
 QRS-bbb02feccc,P07104,unresolved,none,2,crossref
-QRS-e71898de08,P05829,not eligible,none,,not found
-QRS-695b49ae3b,P05326,not eligible,none,,not found
+QRS-e71898de08,P05829,not eligible,none,4,publisher page (link.springer.com)
+QRS-695b49ae3b,P05326,not eligible,none,4,publisher page (www.nature.com)
 QRS-853ad2d5e2,P01482,not eligible,none,2,openalex
 QRS-07f635acbb,P03806,unresolved,none,,not found
-QRS-458478b011,P02407,eligible,none,,not found
-QRS-fb1369a426,P06822,unresolved,none,,not found
+QRS-458478b011,P02407,eligible,none,4,publisher page (link.springer.com)
+QRS-fb1369a426,P06822,unresolved,none,4,web search (arxiv.org)
 QRS-dea8984a1d,P06674,not eligible,none,2,crossref
 QRS-540ce4d467,P04571,not eligible,none,3,publisher page (link.springer.com)
 QRS-adf34e160e,P02503,eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
@@ -576,7 +576,7 @@ QRS-c4769ddde4,P04899,not eligible,none,3,publisher page (link.springer.com)
 QRS-9069f9fd56,P02909,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-49ea33ef38,P05791,not eligible,none,2,crossref
 QRS-98e3caf546,P02516,not eligible,none,,not found
-QRS-26ec8803ac,P04186,eligible,none,,not found
+QRS-26ec8803ac,P04186,eligible,none,4,web search (idm-lab.org)
 QRS-efed496dd3,P07087,not eligible,none,,not found
 QRS-711dae1862,P01412,unresolved,none,2,crossref
 QRS-8272819d7d,P03675,not eligible,none,3,arxiv (title match)
@@ -587,43 +587,43 @@ QRS-c832ecfcdc,P03371,not eligible,none,3,publisher page (link.springer.com)
 QRS-3c4882970e,P01152,not eligible,fragment,2,openalex
 QRS-1afae5e544,P03144,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-be2dd38417,P06192,not eligible,none,2,crossref
-QRS-b11df5b6c0,P05755,eligible,none,,not found
+QRS-b11df5b6c0,P05755,eligible,none,4,web search (arxiv.org)
 QRS-5bb2768839,P03631,eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-cccf5a8827,P06987,unresolved,none,,not found
 QRS-35f22ebd47,P05423,unresolved,fragment,,not found
 QRS-2314d45e00,P01298,not eligible,none,,not found
-QRS-2949ff05c8,P05653,not eligible,none,,not found
-QRS-6d853a1553,P03699,not eligible,none,,not found
+QRS-2949ff05c8,P05653,not eligible,none,4,web search (zenodo.org)
+QRS-6d853a1553,P03699,not eligible,none,4,publisher page (link.springer.com)
 QRS-46851e493a,P02547,not eligible,none,2,crossref
 QRS-990fc06b51,P07103,eligible,none,,not found
-QRS-d51ba39f49,P06188,not eligible,none,,not found
+QRS-d51ba39f49,P06188,not eligible,none,4,publisher page (link.springer.com)
 QRS-5c9c62b19d,P03018,eligible,fragment,3,publisher page (opg.optica.org)
 QRS-5975598753,P03724,eligible,none,3,publisher page (link.springer.com)
-QRS-a3f79b6118,P04764,not eligible,none,,not found
+QRS-a3f79b6118,P04764,not eligible,none,4,publisher page (link.springer.com)
 QRS-f46c6e94e9,P05876,eligible,none,3,publisher page (link.springer.com)
 QRS-b28c4bbb07,P03847,not eligible,none,3,publisher page (link.springer.com)
 QRS-fc8ac86647,P04090,eligible,none,2,crossref
 QRS-af4f3adeb7,P05355,eligible,none,3,publisher page (link.springer.com)
-QRS-aa354dffc1,P01782,unresolved,none,,not found
+QRS-aa354dffc1,P01782,unresolved,none,4,publisher page (link.springer.com)
 QRS-2cf2db9f02,P00217,eligible,none,,not found
-QRS-3e0038d0e0,P04741,not eligible,none,,not found
-QRS-3b93be46e6,P05321,eligible,none,,not found
+QRS-3e0038d0e0,P04741,not eligible,none,4,publisher page (link.springer.com)
+QRS-3b93be46e6,P05321,eligible,none,4,publisher page (www.nature.com)
 QRS-de0aa9edf1,P01597,not eligible,none,2,crossref
 QRS-c5533f6462,P02194,not eligible,none,2,crossref
-QRS-da134f4cbd,P05319,eligible,none,,not found
-QRS-4a65053cf2,P04371,not eligible,none,,not found
-QRS-312d7d4065,P02635,not eligible,none,,not found
+QRS-da134f4cbd,P05319,eligible,none,4,publisher page (link.springer.com)
+QRS-4a65053cf2,P04371,not eligible,none,4,web search (iapsam.org)
+QRS-312d7d4065,P02635,not eligible,none,4,publisher page (link.springer.com)
 QRS-e93ce1cc1d,P04473,not eligible,fragment,,not found
-QRS-5046d883ae,P02922,eligible,none,,not found
+QRS-5046d883ae,P02922,eligible,none,4,publisher page (link.springer.com)
 QRS-21e67b6cbf,P00990,unresolved,none,2,crossref
-QRS-ba74b0b18e,P06208,eligible,none,,not found
+QRS-ba74b0b18e,P06208,eligible,none,4,publisher page (link.springer.com)
 QRS-87fd9a208b,P06417,not eligible,none,3,publisher page (link.springer.com)
 QRS-a74790f8c6,P01289,eligible,none,2,crossref
-QRS-03c5ea02d8,P01085,not eligible,none,,not found
-QRS-c9d300ab6b,P03025,eligible,none,,not found
+QRS-03c5ea02d8,P01085,not eligible,none,4,publisher page (link.springer.com)
+QRS-c9d300ab6b,P03025,eligible,none,4,web search (engineering.lehigh.edu)
 QRS-b85b668a2b,P02427,not eligible,none,,not found
 QRS-3ea9e2352b,P06180,not eligible,none,2,crossref
-QRS-fbaeb5ec50,P04663,eligible,none,,not found
+QRS-fbaeb5ec50,P04663,eligible,none,4,"web search (meetings-archive.aps.org, snippet only)"
 QRS-9b3790e6b5,P05018,not eligible,none,2,crossref
 QRS-0de38630bc,P00869,not eligible,none,2,crossref
 QRS-d0412c64a4,P05633,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
@@ -640,11 +640,11 @@ QRS-55f01a6c53,P01387,unresolved,none,,not found
 QRS-90be2ba5b8,P06673,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-bb6571bf3b,P04949,not eligible,none,3,publisher page (link.springer.com)
 QRS-25a39963d1,P03129,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-71f7d410df,P06613,not eligible,none,,not found
+QRS-71f7d410df,P06613,not eligible,none,4,publisher page (link.springer.com)
 QRS-c1fdf02f9c,P03837,unresolved,none,3,publisher page (link.springer.com)
 QRS-f6dc9f3001,P03610,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-1f25a87647,P04883,not eligible,none,3,publisher page (link.springer.com)
-QRS-3bc0007769,P01997,not eligible,none,,not found
+QRS-3bc0007769,P01997,not eligible,none,4,publisher page (link.springer.com)
 QRS-8ae750c6a0,P07095,not eligible,none,,not found
 QRS-37b1d57157,P00829,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-20d2b17977,P00923,not eligible,none,3,publisher page (link.springer.com)
@@ -652,11 +652,11 @@ QRS-cd68aacf6a,P03579,not eligible,none,3,publisher page (link.springer.com)
 QRS-b4a4570ed3,P07253,not eligible,fragment,,not found
 QRS-a9277a85b0,P06367,not eligible,none,,not found
 QRS-3b72fbb0a2,P06204,not eligible,none,,not found
-QRS-dbc5fa3920,P05347,not eligible,none,,not found
+QRS-dbc5fa3920,P05347,not eligible,none,4,publisher page (link.springer.com)
 QRS-c077bd0139,P07020,not eligible,fragment,,not found
 QRS-b2245844bc,P06828,eligible,none,3,publisher page (link.springer.com)
 QRS-4f3d0ce668,P04028,unresolved,none,,not found
-QRS-55d9a91cac,P07026,not eligible,none,,not found
+QRS-55d9a91cac,P07026,not eligible,none,4,publisher page (link.springer.com)
 QRS-7a7b7e2909,P07134,unresolved,none,,not found
 QRS-44f6262987,P04678,not eligible,none,2,crossref
 QRS-c0b14dbf29,P04001,unresolved,fragment,,not found
@@ -665,7 +665,7 @@ QRS-69c6de5647,P03369,eligible,none,3,publisher page (link.springer.com)
 QRS-25aa180ec3,P00300,not eligible,none,2,crossref
 QRS-f0cb7edddd,P05867,not eligible,none,2,crossref
 QRS-eb4e042df2,P04241,not eligible,none,3,publisher page (link.springer.com)
-QRS-2a4968f1a1,P06650,not eligible,none,,not found
+QRS-2a4968f1a1,P06650,not eligible,none,4,publisher page (link.springer.com)
 QRS-ca0cd18cc3,P02049,not eligible,none,2,crossref
 QRS-2c763635fe,P04814,not eligible,none,3,publisher page (link.springer.com)
 QRS-2e9d9aee85,P01664,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
@@ -675,28 +675,28 @@ QRS-1c70880611,P06889,unresolved,none,3,publisher page (link.springer.com)
 QRS-a870b5567b,P05176,not eligible,none,3,publisher page (link.springer.com)
 QRS-2360dd3375,P00222,unresolved,none,,not found
 QRS-36f8886e31,P02479,not eligible,none,2,crossref
-QRS-4df29cc767,P04799,unresolved,none,,not found
+QRS-4df29cc767,P04799,unresolved,none,4,publisher page (link.springer.com)
 QRS-c7f0fb1059,P03001,not eligible,none,3,publisher page (link.springer.com)
 QRS-a9a8abe9bc,P01797,not eligible,none,3,publisher page (link.springer.com)
 QRS-04c983d179,P02930,unresolved,none,2,crossref
 QRS-b17ba4b80e,P06079,unresolved,none,3,publisher page (link.springer.com)
-QRS-3026553477,P01184,eligible,none,,not found
+QRS-3026553477,P01184,eligible,none,4,publisher page (link.springer.com)
 QRS-5ce39a4a0a,P03127,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-30532b0669,P06628,not eligible,none,,not found
+QRS-30532b0669,P06628,not eligible,none,4,publisher page (link.springer.com)
 QRS-3f9085728b,P02120,unresolved,none,,not found
 QRS-703f20544a,P02076,not eligible,fragment,2,crossref
-QRS-be968b407b,P04752,eligible,none,,not found
+QRS-be968b407b,P04752,eligible,none,4,publisher page (link.springer.com)
 QRS-5affedb61a,P05891,not eligible,none,3,publisher page (link.springer.com)
-QRS-e904c356f9,P06795,not eligible,none,,not found
+QRS-e904c356f9,P06795,not eligible,none,4,web search (www2.eecs.berkeley.edu)
 QRS-534cb4a6d1,P00806,eligible,none,,not found
-QRS-426e028892,P03794,unresolved,none,,not found
+QRS-426e028892,P03794,unresolved,none,4,web search (rss.cs.lth.se)
 QRS-72dc6094cd,P05401,not eligible,none,2,openalex
-QRS-f0d96701f0,P01457,unresolved,none,,not found
-QRS-b0415f443b,P03469,unresolved,none,,not found
+QRS-f0d96701f0,P01457,unresolved,none,4,publisher page (link.springer.com)
+QRS-b0415f443b,P03469,unresolved,none,4,publisher page (link.springer.com)
 QRS-e74a457ec6,P02099,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-690b6e4a14,P02412,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-f80a0e6ad6,P05718,not eligible,none,3,publisher page (link.springer.com)
-QRS-5cf19c825e,P01914,not eligible,none,,not found
+QRS-5cf19c825e,P01914,not eligible,none,4,publisher page (link.springer.com)
 QRS-88131f5232,P03281,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-98596a2823,P03468,not eligible,none,3,publisher page (link.springer.com)
 QRS-30c6b75f70,P07074,not eligible,none,2,crossref
@@ -709,7 +709,7 @@ QRS-f930da77d5,P02950,unresolved,none,3,"publisher page (sciencedirect.com, read
 QRS-910a18047a,P05073,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-9e02021a59,P05696,not eligible,none,3,publisher page (link.springer.com)
 QRS-af2d6a8813,P00910,eligible,none,3,publisher page (link.springer.com)
-QRS-b3736e83e7,P06516,unresolved,none,,not found
+QRS-b3736e83e7,P06516,unresolved,none,4,publisher page (link.springer.com)
 QRS-8597fc3ab9,P02652,not eligible,none,,not found
 QRS-72f376026b,P02432,eligible,none,2,crossref
 QRS-3045e653ba,P01140,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
@@ -731,8 +731,8 @@ QRS-fceefbbd48,P03870,not eligible,none,2,crossref
 QRS-bf95f04e30,P03411,not eligible,none,,not found
 QRS-b74311b4d4,P04807,not eligible,none,2,crossref
 QRS-201a25cac0,P05111,unresolved,none,,not found
-QRS-be16d18344,P02072,eligible,none,,not found
-QRS-5207247e96,P03036,not eligible,none,,not found
+QRS-be16d18344,P02072,eligible,none,4,publisher page (link.springer.com)
+QRS-5207247e96,P03036,not eligible,none,4,publisher page (link.springer.com)
 QRS-52dfb41376,P02952,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-c5e8e78990,P03187,not eligible,none,,not found
 QRS-22597765f1,P06428,not eligible,none,3,publisher page (link.springer.com)
@@ -750,14 +750,14 @@ QRS-25c1260f85,P00475,not eligible,none,,not found
 QRS-9269797979,P05075,not eligible,none,2,crossref
 QRS-c2ef77d21f,P05753,eligible,none,2,semanticscholar
 QRS-3139f62c5e,P01566,not eligible,fragment,,not found
-QRS-bf908c3225,P04003,not eligible,none,,not found
+QRS-bf908c3225,P04003,not eligible,none,4,web search (ceur-ws.org)
 QRS-50b9797e86,P04578,not eligible,none,3,publisher page (link.springer.com)
-QRS-420bae65e8,P04794,not eligible,none,,not found
+QRS-420bae65e8,P04794,not eligible,none,4,web search (ceur-ws.org)
 QRS-99f44e747d,P03026,unresolved,none,3,publisher page (link.springer.com)
 QRS-432c270d90,P00560,not eligible,none,,not found
 QRS-611b402788,P04972,unresolved,none,3,publisher page (link.springer.com)
 QRS-1b2070ad76,P01121,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-4aca6552f2,P06609,not eligible,none,,not found
+QRS-4aca6552f2,P06609,not eligible,none,4,web search (ceur-ws.org)
 QRS-ab05611c75,P06668,not eligible,none,2,crossref
 QRS-ce1d2c4835,P05536,not eligible,none,,not found
 QRS-1fc2e30742,P03132,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
@@ -778,7 +778,7 @@ QRS-0a4ad22b86,P05681,unresolved,none,,not found
 QRS-007f3747df,P06487,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-06044e254f,P05756,not eligible,none,3,publisher page (link.springer.com)
 QRS-859ea5a3dc,P04689,not eligible,none,,not found
-QRS-ab49d0bfff,P01447,unresolved,none,,not found
+QRS-ab49d0bfff,P01447,unresolved,none,4,web search (confit.atlas.jp)
 QRS-1edbed5da7,P00868,not eligible,none,3,publisher page (link.springer.com)
 QRS-efb1073fb1,P01092,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-9124d624b4,P04532,not eligible,none,2,semanticscholar
@@ -788,10 +788,10 @@ QRS-0264e43b1f,P03244,not eligible,none,3,publisher page (link.springer.com)
 QRS-f736f8f5fa,P03296,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-e8c9d22159,P00450,not eligible,none,3,publisher page (link.springer.com)
 QRS-4d9baa32b3,P02702,eligible,none,3,publisher page (link.springer.com)
-QRS-777c8100f5,P00390,not eligible,none,,not found
+QRS-777c8100f5,P00390,not eligible,none,4,web search (eprint.iacr.org)
 QRS-5491cb0d09,P02657,not eligible,none,2,semanticscholar
 QRS-bed2a9bf4b,P02604,unresolved,none,2,crossref
-QRS-ef6b7f3655,P02488,not eligible,none,,not found
+QRS-ef6b7f3655,P02488,not eligible,none,4,web search (eprint.iacr.org)
 QRS-9feadf7cc9,P01066,not eligible,none,2,crossref
 QRS-a574e4b723,P06922,not eligible,none,3,publisher page (link.springer.com)
 QRS-84fc301234,P06631,not eligible,none,2,crossref
@@ -805,7 +805,7 @@ QRS-61e0a9e1c5,P00900,eligible,none,3,publisher page (link.springer.com)
 QRS-82b8850c18,P03986,unresolved,none,3,publisher page (link.springer.com)
 QRS-e48eabbfe8,P06483,not eligible,none,,not found
 QRS-2290a1740b,P00260,unresolved,none,3,publisher page (link.springer.com)
-QRS-d97bc04f61,P05771,not eligible,none,,not found
+QRS-d97bc04f61,P05771,not eligible,none,4,web search (arxiv.org)
 QRS-be6af71507,P05183,not eligible,none,3,publisher page (www.nature.com)
 QRS-625add94d1,P04934,eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-897b7b7ea5,P00119,not eligible,none,,not found
@@ -821,7 +821,7 @@ QRS-0d105f537a,P00864,not eligible,fragment,,not found
 QRS-38da603e62,P05127,not eligible,none,3,publisher page (link.springer.com)
 QRS-de84f3e639,P07233,not eligible,none,3,publisher page (aclanthology.org)
 QRS-dbbf91f63d,P06015,eligible,none,3,publisher page (link.springer.com)
-QRS-06cf011f54,P04491,unresolved,none,,not found
+QRS-06cf011f54,P04491,unresolved,none,4,web search (theses.liacs.nl)
 QRS-7315ae4e2a,P03710,not eligible,none,,not found
 QRS-9541b88942,P00294,not eligible,none,3,"publisher page (papers.ssrn.com, read in the first author's browser)"
 QRS-9f9dcb1807,P02102,not eligible,none,3,publisher page (link.springer.com)
@@ -834,7 +834,7 @@ QRS-8a44ce9653,P00763,not eligible,none,3,publisher page (link.springer.com)
 QRS-98bb70f6ad,P01984,not eligible,none,3,publisher page (link.springer.com)
 QRS-1fbce44865,P04833,unresolved,none,,not found
 QRS-bce0845fd1,P00690,eligible,none,3,publisher page (link.springer.com)
-QRS-5516a87a45,P06429,unresolved,none,,not found
+QRS-5516a87a45,P06429,unresolved,none,4,"web search (archive.aps.org, snippet only)"
 QRS-bde8447c06,P01200,unresolved,none,,not found
 QRS-c4efb3cbca,P03348,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-7ec8818a99,P03260,not eligible,none,2,crossref
@@ -852,7 +852,7 @@ QRS-1528e7885a,P03410,not eligible,none,3,"publisher page (sciencedirect.com, re
 QRS-c9e364d00f,P02618,not eligible,none,3,publisher page (link.springer.com)
 QRS-b9cdef81dc,P01549,not eligible,none,3,publisher page (link.springer.com)
 QRS-591323064a,P01441,unresolved,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
-QRS-6e7cc69814,P02053,not eligible,none,,not found
+QRS-6e7cc69814,P02053,not eligible,none,4,"web search (physics.aps.org, snippet only)"
 QRS-84c1550ff7,P00863,not eligible,fragment,,not found
 QRS-a6352b295d,P04935,not eligible,none,3,"publisher page (sciencedirect.com, read in the first author's browser)"
 QRS-b0b35d1ab0,P04481,not eligible,none,3,publisher page (link.springer.com)

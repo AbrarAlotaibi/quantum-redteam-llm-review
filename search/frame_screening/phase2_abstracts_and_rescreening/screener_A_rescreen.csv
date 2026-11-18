@@ -558,3 +558,148 @@ QRS-f64f0dbf77,P05399,3,A3-03,REVIEW,high,Book chapter overview of quantum AI in
 QRS-df147dde17,P03393,3,A3-03,REVIEW,high,Chapter overview of ML in drug discovery
 QRS-c1f9d31720,P04467,3,A3-03,NO,high,Quantum-inspired salp swarm for SDN controller placement
 QRS-bb6571bf3b,P04949,3,A3-03,REVIEW,high,Survey of quantum ML in speech recognition
+QRS-f08f17e37c,P03063,4,A4-01,NO,low,"Classical neural wavefunctions for quantum state reconstruction, talk abstract"
+QRS-481e225a70,P06503,4,A4-01,IC2,low,QAOA analyzed with gradient-free optimizer under few shots
+QRS-2a4968f1a1,P06650,4,A4-01,IC2,high,Enhanced QAOA with semi-superposed initial state evaluated
+QRS-3df52f8f41,P06077,4,A4-01,REVIEW,high,Tutorial on formulating QUBO models
+QRS-8edbe79a8d,P01280,4,A4-01,NO,high,Questionnaire survey on standardization; no quantum method
+QRS-dbc5fa3920,P05347,4,A4-01,EC3,high,Quantum key distribution protocol
+QRS-0bb87310bd,P05138,4,A4-01,IC2,high,CMOS Ising machine for combinatorial optimization with evaluation
+QRS-fbfe3c0acf,P03903,4,A4-01,IC1,low,Quantum NLP circuits and algorithms; abstract thin on method
+QRS-f960909e87,P02093,4,A4-01,IC2,high,QAOA for Hamilton path problem with Ising mapping and results
+QRS-b0415f443b,P03469,4,A4-01,IC2,low,Costas array QUBO on annealers and digital annealers benchmarked
+QRS-a15fd5383e,P03079,4,A4-01,NO,high,Classical multi-agent reinforcement learning; no quantum method
+QRS-946575a273,P01077,4,A4-01,IC2,high,Layer-VQE vs QAOA for combinatorial optimization
+QRS-56aa4bfb82,P01861,4,A4-01,IC2,low,Dissertation on variational algorithms including quantum generator
+QRS-1708e3cc21,P06697,4,A4-01,IC2,high,Hybrid quantum-classical algorithm with QAOA for maximum cut
+QRS-00987af4ce,P01099,4,A4-01,NO,low,Quantum theory of terms used as metaphor with KMeans
+QRS-4a67e601b9,P01671,4,A4-01,NO,low,QUBO for WCET path problem; single application domain
+QRS-03c5ea02d8,P01085,4,A4-01,EC4,low,Philosophical essay on AI; no method or evaluation
+QRS-5cf19c825e,P01914,4,A4-01,REVIEW,high,Systematic literature review
+QRS-c5da84fbca,P01046,4,A4-01,IC2,high,QAOA compared with classical local algorithm on LocalMaxCut
+QRS-8535b9359a,P03940,4,A4-01,EC3,high,Quantum secret sharing scheme
+QRS-3160c4a250,P06296,4,A4-01,IC1,high,QCNN for sentiment classification of short texts
+QRS-6d853a1553,P03699,4,A4-01,REVIEW,high,Systematic review of LLMs in cheminformatics
+QRS-ba74b0b18e,P06208,4,A4-01,IC2,high,Quantum generative learning oracle for Grover search on binary optimization
+QRS-0268355acb,P04778,4,A4-01,IC1,high,Bi-quantum LSTM for part-of-speech tagging
+QRS-5b2482fd28,P03323,4,A4-01,IC1,high,QNLP sentence classification on quantum hardware
+QRS-a3f79b6118,P04764,4,A4-01,REVIEW,high,Review of voice IoT cybersecurity
+QRS-5006676e2b,P07053,4,A4-01,REVIEW,high,Overview chapter on AI healthcare
+QRS-71f7d410df,P06613,4,A4-01,REVIEW,high,Introductory chapter on AI
+QRS-0fb8c4517d,P00537,4,A4-01,IC1,high,Thesis on quantum algorithms for compositional NLP semantics
+QRS-d41b050797,P04539,4,A4-01,NO,high,Classical keyword extraction; no quantum method
+QRS-d97bc04f61,P05771,4,A4-01,EC3,high,Quantum key agreement protocol security
+QRS-420bae65e8,P04794,4,A4-01,NO,high,Classical neurosymbolic query answering; no quantum method
+QRS-f7e1abe887,P00170,4,A4-01,IC2,high,Quantum Hamiltonian-based generative models with natural gradient
+QRS-ec630881b4,P03440,4,A4-01,NO,high,Classical text clustering; quantum only means data quantity
+QRS-5516a87a45,P06429,4,A4-01,IC2,low,Quantum Boltzmann machine training; partial abstract
+QRS-426e028892,P03794,4,A4-01,IC2,low,Quantum Boltzmann machine on D-Wave; small thesis evaluation
+QRS-579bc2eabd,P06809,4,A4-01,NO,high,Quantum annealing for geospatial p-median application
+QRS-7bed782f1e,P05098,4,A4-01,IC2,high,Dual hybrid quantum GAN with evaluation
+QRS-777c8100f5,P00390,4,A4-01,EC3,high,Fault attacks on post-quantum Kyber and Dilithium
+QRS-da134f4cbd,P05319,4,A4-01,IC2,high,QUBO and VQE for perfect matching on quantum hardware
+QRS-d6c6adf641,P04195,4,A4-01,REVIEW,high,Overview chapter of QML applications
+QRS-e21eef60c0,P04178,4,A4-01,IC2,low,Adiabatic quantum algorithm for Ramsey numbers simulated
+QRS-845718449b,P05465,4,A4-01,IC2,low,Quantum algorithms for dynamic programming and TSP; complexity analysis
+QRS-f84af0acc9,P00741,4,A4-01,NO,low,Quantum-like analogy for emotion spread; metaphorical
+QRS-e245c6d5bf,P04441,4,A4-01,IC2,high,Parallel simulated quantum annealing on multicore CPU
+QRS-dd6c441f76,P04113,4,A4-01,IC1,high,Quantum-behaved PSO tunes LSTM for text classification of comments
+QRS-ccdce5792f,P02267,4,A4-01,IC2,low,QUBO formulations on annealers for general and IR problems
+QRS-46134b91cb,P05177,4,A4-01,NO,high,Molecular dynamics of an explosive; unrelated
+QRS-e71898de08,P05829,4,A4-01,REVIEW,high,Overview of classical and quantum cryptanalysis
+QRS-68f619aa80,P03651,4,A4-01,IC1,high,QNLP sentiment classification and word prediction
+QRS-ac4dbe250b,P02605,4,A4-01,NO,low,Quantum NLP only tried preliminarily; final model classical
+QRS-1d27155895,P02485,4,A4-01,REVIEW,low,Chapter surveying quantum-inspired sentiment analysis
+QRS-6415c59122,P00539,4,A4-01,IC2,high,Tensor-network Born machine learning quantum states
+QRS-94474ea5b7,P02927,4,A4-01,NO,low,Two-qubit Ising model discussion; no method evaluated
+QRS-5a0a981a7d,P04978,4,A4-01,IC2,low,Thesis on quantum combinatorial optimization algorithms QAOA and annealing
+QRS-25a49f5cc7,P01777,4,A4-01,NO,high,QML for weather forecasting application chapter
+QRS-b3736e83e7,P06516,4,A4-01,IC2,low,MIS as QUBO benchmarked on hybrid quantum solver
+QRS-3e0038d0e0,P04741,4,A4-01,REVIEW,high,Survey of quantum compiler optimization
+QRS-5ad2483a13,P06347,4,A4-01,EC3,high,Cryptanalysis of quantum digital signatures
+QRS-3b7bedae0e,P06573,4,A4-01,REVIEW,low,Introductory overview of QAOA for graph problems
+QRS-be16d18344,P02072,4,A4-01,IC2,high,Subset sum via quantum Ising model and variational optimization
+QRS-043523a8e9,P05006,4,A4-01,REVIEW,high,Survey comparing QGANs and classical GANs
+QRS-72575f0552,P04214,4,A4-01,NO,low,Quantum annealing for wireless scheduling; application domain
+QRS-3016c6f388,P00735,4,A4-01,EC4,low,Book blurb; no technical content
+QRS-96147c18da,P07151,4,A4-01,IC2,high,Tensor network quantum-state generative model for sequences with DMRG
+QRS-26ec8803ac,P04186,4,A4-01,IC2,high,Hybrid quantum annealing algorithms for weighted CSP
+QRS-1c050262fd,P02210,4,A4-01,NO,high,Quantum annealing for finance portfolio optimization
+QRS-30532b0669,P06628,4,A4-01,REVIEW,high,Overview chapter on healthcare AI security
+QRS-2bd4ea6d19,P03451,4,A4-01,IC2,high,Tensor-network Born machines learning GHZ states
+QRS-ab49d0bfff,P01447,4,A4-01,IC2,low,Coherent Ising machine benchmark; thin abstract
+QRS-9a6f338c31,P06404,4,A4-01,NO,low,Quantum EM for Gaussian mixtures; not generative sampler or discrete optimization
+QRS-b11df5b6c0,P05755,4,A4-01,IC2,high,Quantum dropout improves QAOA on combinatorial problems
+QRS-f2c5518cf4,P05062,4,A4-01,NO,high,Hybrid quantum vision transformers for face forgery images
+QRS-ec6970efef,P05546,4,A4-02,NO,low,"Vague quantum NLP envisioned for trial matching, no concrete method or evaluation"
+QRS-15ec4a4889,P06661,4,A4-02,IC2,high,Evaluation framework for quantum and quantum-inspired tensor-network generative models
+QRS-31c6b45761,P02066,4,A4-02,NO,low,"Benchmarking recommendations for solvers across paradigms, no quantum method built"
+QRS-d2c5b25746,P01464,4,A4-02,IC2,high,Quantum generative model with amplitude estimation Monte Carlo for Bayesian inference
+QRS-cc3588c3f3,P05969,4,A4-02,EC3,high,Continuous-variable quantum secure direct communication security proof
+QRS-8af010375f,P00320,4,A4-02,REVIEW,high,Review of quantum bifurcation and simulated bifurcation machines
+QRS-3026553477,P01184,4,A4-02,IC1,high,Hybrid AraBERT quantum classifier for Arabic sentence classification
+QRS-bf908c3225,P04003,4,A4-02,IC1,low,Variational quantum classifier and Grover on text embeddings with language model
+QRS-3bc0007769,P01997,4,A4-02,REVIEW,high,Survey and position paper on quantum programming abstractions
+QRS-efb0b8a758,P00080,4,A4-02,IC2,high,Quantum Boltzmann machine priors for VAE trained with D-Wave
+QRS-d49e6deea7,P06482,4,A4-02,IC1,high,Quantum-inspired phase-modulated GRU for part-of-speech tagging
+QRS-312d7d4065,P02635,4,A4-02,NO,high,"Molecular representation learning with LLM and GNN, no quantum method"
+QRS-9d0c3a2c02,P00121,4,A4-02,IC2,high,Quantum-inspired evolutionary algorithm framework benchmarked on vertex cover instances
+QRS-ef6b7f3655,P02488,4,A4-02,REVIEW,high,Survey of side-channel attacks on post-quantum cryptography
+QRS-55d9a91cac,P07026,4,A4-02,NO,high,"Classical generative peptide design pipeline, quantum chemistry only as analysis"
+QRS-e904c356f9,P06795,4,A4-02,IC2,low,"Oscillator-based Ising machines dissertation, evaluation details thin"
+QRS-01ccccef25,P05806,4,A4-02,NO,high,"Encrypted file storage app, quantum-resistance only future work"
+QRS-d379740f8e,P05883,4,A4-02,REVIEW,low,Overview of AI for data retrieval with quantum outlook
+QRS-dfee43b75b,P00050,4,A4-02,IC1,high,Quantum-probability attention language model for answer selection
+QRS-7b045dba17,P03016,4,A4-02,EC3,high,Symmetric cipher construction with post-quantum hash tool
+QRS-d51ba39f49,P06188,4,A4-02,REVIEW,high,Chapter reviewing machine learning in healthcare
+QRS-0e88c68468,P06100,4,A4-02,NO,low,"Hybrid QGAN for diabetes tabular data, single application domain"
+QRS-2c4fffe409,P00733,4,A4-02,NO,high,"Logic tensor probes for LLMs, no quantum method"
+QRS-6af758da3a,P06098,4,A4-02,NO,low,Tool assessing VQC ansatz trainability applied to MaxCut
+QRS-aa354dffc1,P01782,4,A4-02,IC2,high,Algorithm for learning QUBO formulations with experimental results
+QRS-fc4844386f,P02738,4,A4-02,NO,low,"Pseudo-boolean benchmark generator, no quantum method evaluated"
+QRS-8847db2e7a,P02902,4,A4-02,IC1,high,Experimental comparison of QRNN and QLSTM for POS tagging
+QRS-6e7cc69814,P02053,4,A4-02,EC4,low,"News piece on photonic Ising machine, partial text only"
+QRS-9cf0d3a17f,P04735,4,A4-02,IC2,high,Qudit quantum genetic algorithm evaluated on knapsack instances
+QRS-b86cb13b03,P02451,4,A4-02,NO,low,Abstract gives no method or evaluation of QUBO encodings
+QRS-be968b407b,P04752,4,A4-02,IC1,high,Hybrid variational quantum circuit LSTM for tweet sentiment
+QRS-4a65053cf2,P04371,4,A4-02,REVIEW,high,Systematic literature review of quantum optimization for reliability
+QRS-2949ff05c8,P05653,4,A4-02,NO,high,"Quantum GAN for Higgs collider data, physics application"
+QRS-bb2a18dc92,P04559,4,A4-02,IC1,high,Quantum VQC sentence embedding language model with LSTM
+QRS-3a64c4e978,P01047,4,A4-02,IC2,low,QUBO formulation and VQE for set partitioning benchmarks
+QRS-6e8c4f5a8f,P01756,4,A4-02,IC2,high,Quantum neural network solver for quadratic assignment benchmarks
+QRS-7319855cd9,P02133,4,A4-02,NO,low,"General QNN study across tasks, not specifically text or generative"
+QRS-ebdf997904,P03112,4,A4-02,EC1,low,LLM generates quantum circuits for ciphers
+QRS-5207247e96,P03036,4,A4-02,REVIEW,low,Introductory tutorial on transverse-field Ising and variational algorithms
+QRS-a4d5a4b290,P00671,4,A4-02,REVIEW,low,Brief overview of quantum-inspired language models
+QRS-69aa5db9fe,P01728,4,A4-02,NO,high,D-Wave parameter tuning for one scheduling problem
+QRS-11da4f36f0,P06758,4,A4-02,IC1,high,Hybrid quantum classifier QECSA for sentiment and sarcasm
+QRS-5046d883ae,P02922,4,A4-02,IC1,high,QNLP sentiment classification and next-word prediction
+QRS-695b49ae3b,P05326,4,A4-02,NO,low,"Memristor Hopfield annealer, classical hardware not quantum-inspired"
+QRS-06cf011f54,P04491,4,A4-02,IC2,high,QAOA versus RQAOA Max-Cut performance on irregular graphs
+QRS-0cb7705a7b,P01805,4,A4-02,NO,high,Classical parallel branch-and-bound for qubit mapping
+QRS-04f13842e0,P06942,4,A4-02,EC2,high,Adversarial example transferability across quantum neural networks
+QRS-3b93be46e6,P05321,4,A4-02,IC2,low,Ring oscillator Ising chip for combinatorial optimization
+QRS-7742765903,P03248,4,A4-02,EC3,high,Lattice-based post-quantum blind signature scheme
+QRS-f8b62ddc8d,P01656,4,A4-02,IC1,high,Quantum-like semantic model with Bell test for Arabic retrieval
+QRS-75c5229478,P02627,4,A4-02,NO,low,"Poster on Ising machine cloud platform, evaluation just started"
+QRS-da4a713a5a,P03721,4,A4-02,IC2,low,Statistical analysis of coherent Ising machine DOPO network
+QRS-9aeea31f08,P05301,4,A4-02,EC4,low,"Talk abstract on quantum-inspired generative models, no evaluation"
+QRS-fb1369a426,P06822,4,A4-02,IC2,low,Compares oscillator Ising machines against QAOA on Max-Cut
+QRS-f0d96701f0,P01457,4,A4-02,NO,low,"Quantum evolution search for QCNN architecture, not text"
+QRS-458478b011,P02407,4,A4-02,IC1,high,Quantum multi-head attention for sentiment analysis
+QRS-2b91e631eb,P07215,4,A4-02,NO,high,"Classical quantified satisfiability design exploration, no quantum method"
+QRS-63fce14531,P03574,4,A4-02,REVIEW,high,Bibliometric analysis of computational intelligence research
+QRS-506f2abe41,P01168,4,A4-02,NO,high,Hamiltonian quantum GAN features for foot ulcer images
+QRS-2bba2e5123,P06030,4,A4-02,REVIEW,high,Review of AI in healthcare supply chains
+QRS-fbaeb5ec50,P04663,4,A4-02,IC2,low,"Quantum circuit Born machine for discrete generative modeling, partial text"
+QRS-c6a4e481c0,P07182,4,A4-02,REVIEW,high,Tutorial on formulating QUBO models
+QRS-855e497e3f,P06490,4,A4-02,IC1,high,Quantum variational circuit for Creole token language identification
+QRS-dc73ec09bf,P04070,4,A4-02,NO,low,"Classical tensor polynomial optimization thesis, partial text"
+QRS-6937054c54,P03042,4,A4-02,IC2,high,Tensor-network Born machines learning Ising configurations
+QRS-c9d300ab6b,P03025,4,A4-02,IC2,high,QUBO formulations and QAOA for max k-cut benchmarks
+QRS-4aca6552f2,P06609,4,A4-02,REVIEW,high,Review of quantum algorithms for vehicle routing
+QRS-babd845188,P00870,4,A4-02,IC2,low,Analysis of QAOA and recursive QAOA flaw
+QRS-f65524f067,P06325,4,A4-02,IC2,high,Quantum circuit conditional generative model on image datasets
+QRS-4df29cc767,P04799,4,A4-02,IC2,low,QUBO formulation method from Petri nets with examples
+QRS-9790e8d432,P06923,4,A4-02,EC4,low,"Project overview of annealing-assisted HPC, no evaluation"
+QRS-7065ac0515,P02784,4,A4-02,IC1,high,Ensemble quantum text classifiers using lambeq models

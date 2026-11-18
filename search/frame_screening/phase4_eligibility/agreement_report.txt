@@ -7,30 +7,30 @@ Phase 1. Two independent screeners, all 7258 records
 
 Phase 2. Abstracts
   records without an abstract in the search indexes: 860
-  abstract retrieved and record screened again by both screeners: 559 (round 2: 185, round 3: 374)
-  no abstract found; decided on title and venue: 301
-  sources: publisher page 371, crossref 132, semanticscholar 34, openalex 19, arxiv 3
+  abstract or partial text retrieved and record screened again by both screeners: 704 (round 2: 185, round 3: 374, round 4: 145)
+  no abstract found; decided on title and venue: 156
+  sources: publisher page 454, crossref 132, web search 62, semanticscholar 34, openalex 19, arxiv 3
 
 After phase 2 (latest code of each screener)
-  all eight codes    agreement 0.876   Cohen's kappa 0.828
-  eligible or not    agreement 0.916   Cohen's kappa 0.805
-  eligible by both 1930, by one only 609, by neither 4719
+  all eight codes    agreement 0.880   Cohen's kappa 0.834
+  eligible or not    agreement 0.920   Cohen's kappa 0.814
+  eligible by both 1961, by one only 583, by neither 4714
 
-Phase 3. Third screener on the 609 records on which the two differ
-  eligible 391, not eligible 218
-  confidence of the third screener: high 55, low 554
-  of these, decided without an abstract: 73
+Phase 3. Third screener on the 583 records on which the two differ
+  eligible 361, not eligible 222
+  confidence of the third screener: high 57, low 526
+  of these, decided without an abstract: 33
   check on a random sample of round-1 agreements (eligible by both): third screener agrees on 100 of 100 (95% CI 96 to 100%)
   check on a random sample of round-1 agreements (not eligible by both): third screener agrees on 99 of 100 (95% CI 95 to 100%)
 
 Phase 4. Final eligibility
-  eligible 2321 (by both screeners 1930, by the third screener 391); IC1 541, IC2 1778, criterion differs 2
-  not eligible 4937 (by both screeners 4719, by the third screener 218)
+  eligible 2322 (by both screeners 1961, by the third screener 361); IC1 540, IC2 1780, criterion differs 2
+  not eligible 4936 (by both screeners 4714, by the third screener 222)
 
   not eligible by both screeners, by code (records on which the two give the same code):
-    NO       2854
-    REVIEW    791
-    EC3       275
-    EC4       271
+    NO       2837
+    REVIEW    804
+    EC3       274
+    EC4       274
     EC1       171
     EC2        68

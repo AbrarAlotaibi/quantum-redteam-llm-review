@@ -69,7 +69,7 @@ QRS-e73dac1d56,P06660,1,C-01,IC2,low,Spatial photonic Ising machine; no abstract
 QRS-3eddf454d9,P04077,1,C-01,NO,high,Quantum federated learning for smart cities,agreement sample (not eligible by both screeners in round 1)
 QRS-dc60b75b96,P06655,1,C-01,IC2,low,Photonic Ising machine Boltzmann sampling,agreement sample (eligible by both screeners in round 1)
 QRS-4f90ec1a65,P06218,1,C-01,IC2,low,Gaussian process kernels for noisy VQA optimization,adjudication
-QRS-ab49d0bfff,P01447,1,C-01,IC2,low,Coherent Ising machine optimization; no abstract,adjudication
+QRS-ab49d0bfff,P01447,1,C-01,IC2,low,Coherent Ising machine optimization; no abstract,superseded: the record was screened again with its abstract
 QRS-2191565b2d,P01888,1,C-01,IC2,low,Learning and generating mixed quantum states theory,adjudication
 QRS-0da353212e,P07112,1,C-01,IC1,low,Quantum hybrid multimodal AI architecture proposal,adjudication
 QRS-6bb543fcc5,P07187,1,C-01,EC4,low,QAOA simulation software package release,adjudication
@@ -89,7 +89,7 @@ QRS-c63989caf3,P00505,1,C-01,IC2,high,D-Wave QUBO benchmark versus Gurobi and Fi
 QRS-f957e5a8e2,P05419,1,C-01,IC2,high,Variationally scheduled quantum algorithm for constrained optimization,agreement sample (eligible by both screeners in round 1)
 QRS-52c1540097,P01551,1,C-01,IC1,low,Tensor network text encoder for vision-language model,adjudication
 QRS-7cd13f8f85,P00223,1,C-01,IC1,low,Quantum-extended LLM architecture proposal; no evaluation stated,adjudication
-QRS-5516a87a45,P06429,1,C-01,IC2,low,Hybrid training of quantum Boltzmann machines; no abstract,adjudication
+QRS-5516a87a45,P06429,1,C-01,IC2,low,Hybrid training of quantum Boltzmann machines; no abstract,superseded: the record was screened again with its abstract
 QRS-255b0d5ca1,P06597,1,C-01,IC2,low,Hybrid quantum tabu search algorithm tested on VRP,adjudication
 QRS-b875a5b61b,P06310,1,C-01,IC2,low,Quantum speedup theory for stoquastic adiabatic computation,adjudication
 QRS-da732098f9,P02796,1,C-01,IC2,high,Quantum-inspired Ising solver chip with all-to-all coupling,adjudication
@@ -97,12 +97,12 @@ QRS-0e3eb91452,P02706,1,C-01,IC2,low,Ring oscillator Ising machine with tunable 
 QRS-ac40b4f43a,P01414,1,C-01,NO,low,Constraint-preserving QAOA for personnel rostering only,adjudication
 QRS-0f09f5acd6,P06279,1,C-01,EC3,low,Blind verifiable delegation protocol for quantum generative sampling,adjudication
 QRS-78d1caa911,P01202,1,C-01,IC2,high,Spin fixing and energy rescaling in quantum annealing,agreement sample (eligible by both screeners in round 1)
-QRS-f65524f067,P06325,1,C-01,IC2,low,Quantum circuit conditional generative model; no abstract,adjudication
+QRS-f65524f067,P06325,1,C-01,IC2,low,Quantum circuit conditional generative model; no abstract,superseded: the record was screened again with its abstract
 QRS-865f8b5637,P01472,1,C-01,EC4,high,Editorial on forecasting,agreement sample (not eligible by both screeners in round 1)
 QRS-fe8d1e2656,P00013,1,C-01,NO,low,Transformer analyzed as open quantum system theory,adjudication
 QRS-b1778736b4,P06984,1,C-01,IC1,low,Matrix product operator compression of LSTM for NLP,adjudication
 QRS-9eadd38744,P05042,1,C-01,NO,low,Fuzzy agents and LLM robots; quantum fuzzy only a label,adjudication
-QRS-06cf011f54,P04491,1,C-01,IC2,low,Low-depth QAOA for Max-Cut; no abstract,adjudication
+QRS-06cf011f54,P04491,1,C-01,IC2,low,Low-depth QAOA for Max-Cut; no abstract,superseded: the record was screened again with its abstract
 QRS-8a85214109,P05937,1,C-01,IC2,low,DOPO network simulation for coherent Ising machine,adjudication
 QRS-1d41d61581,P04893,1,C-01,IC2,low,Thesis on quantum algorithms including approximate optimization,adjudication
 QRS-bcf222db72,P04497,1,C-01,IC2,low,Oscillatory neural network Ising solver,agreement sample (eligible by both screeners in round 1)
@@ -110,14 +110,14 @@ QRS-703c4b1744,P04275,1,C-01,IC2,low,RL-assisted annealing QUBO solver on GPUs,a
 QRS-5d83bb37e3,P03503,1,C-01,IC2,low,Bulk acoustic wave Ising machine,adjudication
 QRS-98abd3c2b0,P02288,1,C-01,IC2,low,Thesis on quantum-inspired optimization; abstract only a defense note,adjudication
 QRS-aa16ed327e,P05304,1,C-01,NO,high,Quantum cognition metaphor for agent decision making,agreement sample (not eligible by both screeners in round 1)
-QRS-043523a8e9,P05006,1,C-01,NO,low,QGAN versus GAN for synthetic data; no abstract,adjudication
+QRS-043523a8e9,P05006,1,C-01,NO,low,QGAN versus GAN for synthetic data; no abstract,superseded: the record was screened again with its abstract
 QRS-2975fc88a4,P00625,1,C-01,NO,low,Quantum-inspired genetic algorithm for job shop scheduling only,adjudication
 QRS-2b077cc784,P03695,1,C-01,IC1,low,Quantum-like language model for text matching; no abstract,agreement sample (eligible by both screeners in round 1)
 QRS-32b1c4f6d5,P02879,1,C-01,NO,low,Conceptual AGI architecture claim without method or evaluation,adjudication
 QRS-b8c6e723e4,P01629,1,C-01,IC2,low,Binary quantum-behaved PSO for knapsack; no abstract,superseded: the record was screened again with its abstract
 QRS-cc4d0cbad0,P02848,1,C-01,NO,high,Quantum optimization for truss topology domain problem,agreement sample (not eligible by both screeners in round 1)
 QRS-a9ff44c3fb,P01334,1,C-01,NO,high,Bayesian optimization for materials labs; no quantum,agreement sample (not eligible by both screeners in round 1)
-QRS-f7e1abe887,P00170,1,C-01,IC2,low,Quantum process generative modeling; no abstract,adjudication
+QRS-f7e1abe887,P00170,1,C-01,IC2,low,Quantum process generative modeling; no abstract,superseded: the record was screened again with its abstract
 QRS-64d6a032bc,P06777,1,C-01,IC1,low,Quantum-cognitive model of meaning in language; theoretical,adjudication
 QRS-38f2a18ec4,P04985,1,C-01,NO,high,QAOA applied to object detection,adjudication
 QRS-cd6b15c04c,P01863,1,C-01,IC1,low,Categorical quantum NLP; no abstract,superseded: the record was screened again with its abstract
@@ -143,7 +143,7 @@ QRS-644a555baf,P06512,1,C-01,NO,low,Counterdiabatic QAOA for bin packing only,ad
 QRS-4707d1f4fe,P04567,1,C-01,NO,high,Speculative physics hypothesis with no quantum method,agreement sample (not eligible by both screeners in round 1)
 QRS-344637599b,P00068,1,C-01,REVIEW,low,Conceptual overview of quantum and statistical physics for NLP,adjudication
 QRS-28fb59e56a,P05745,1,C-01,EC4,low,Quantum-classical optimization software library,adjudication
-QRS-6937054c54,P03042,1,C-02,IC2,low,Tensor-network Born machine generative model; no abstract,adjudication
+QRS-6937054c54,P03042,1,C-02,IC2,low,Tensor-network Born machine generative model; no abstract,superseded: the record was screened again with its abstract
 QRS-21d76d15dd,P03437,1,C-02,IC2,low,Hybrid quantum neural network solving generic TSP; no abstract,superseded: the record was screened again with its abstract
 QRS-458bd1555f,P04611,1,C-02,IC2,high,Photonic Ising machine for generic combinatorial optimization demonstrated,adjudication
 QRS-6ae2dc2e80,P04219,1,C-02,IC2,high,General Ising machine mechanism for combinatorial optimization,adjudication
@@ -158,7 +158,7 @@ QRS-abddac12c9,P03104,1,C-02,IC2,high,Hyperparameter tuning for coherent Ising m
 QRS-2360dd3375,P00222,1,C-02,IC2,low,Spin torque oscillator Ising machine; no abstract,adjudication
 QRS-86944dac33,P02095,1,C-02,IC2,high,Resource analysis of QAOA and FALQON on vertex cover,agreement sample (eligible by both screeners in round 1)
 QRS-7e43cba20e,P06713,1,C-02,IC2,high,Delegated QAOA via blind quantum computing,adjudication
-QRS-5a0a981a7d,P04978,1,C-02,IC2,low,Quantum combinatorial optimization for packing; no abstract,adjudication
+QRS-5a0a981a7d,P04978,1,C-02,IC2,low,Quantum combinatorial optimization for packing; no abstract,superseded: the record was screened again with its abstract
 QRS-c0ff3a4bbc,P00971,1,C-02,IC2,low,Multi-objective enhanced QAOA for Max-Cut; no abstract,superseded: the record was screened again with its abstract
 QRS-59ea35e1bf,P04657,1,C-02,IC2,low,Oscillator Ising machine chip for generic optimization,adjudication
 QRS-0d3c8882c8,P03197,1,C-02,IC2,low,RRAM Ising machine hardware solving generic combinatorial problems,adjudication
@@ -197,7 +197,7 @@ QRS-375720726d,P05148,1,C-02,IC2,low,HUBO on NISQ devices; no abstract,supersede
 QRS-0e52027f91,P05437,1,C-02,IC2,high,Barren plateau mitigation in quantum diffusion model,agreement sample (eligible by both screeners in round 1)
 QRS-35f3980dc6,P05870,1,C-02,IC2,low,Nonlinear spectral Ising-style computing for optimization; unclear quantumness,adjudication
 QRS-07f635acbb,P03806,1,C-02,IC2,low,QUBO knapsack reformulation benchmark; no abstract,adjudication
-QRS-96147c18da,P07151,1,C-02,IC2,low,Quantum-state sequence generative models; no abstract,adjudication
+QRS-96147c18da,P07151,1,C-02,IC2,low,Quantum-state sequence generative models; no abstract,superseded: the record was screened again with its abstract
 QRS-d0a9d8555e,P01492,1,C-02,IC1,low,Contextuality model of garden-path sentences using presheaves,adjudication
 QRS-97c3a07b2c,P00480,1,C-02,IC2,low,Thesis on quantum annealing protocols and trapped-ion hardware,adjudication
 QRS-eeda60fc29,P02976,1,C-02,IC1,low,Quantum-probabilistic SVD for semantic data analysis,adjudication
@@ -236,7 +236,7 @@ QRS-3bf24ed96e,P04573,1,C-02,IC1,low,Supercomputing platform for training quantu
 QRS-d5e80405f9,P04409,1,C-02,IC1,low,Dissipative quantum dynamics for text generation,agreement sample (eligible by both screeners in round 1)
 QRS-318e2d4556,P00335,1,C-02,NO,low,QAOA and VQE on classical ML tasks; unclear fit,adjudication
 QRS-5ff8ae85f6,P04842,1,C-02,NO,high,Physics essay on classical limit,agreement sample (not eligible by both screeners in round 1)
-QRS-b0415f443b,P03469,1,C-02,IC2,low,Costas array QUBO for annealing; no abstract,adjudication
+QRS-b0415f443b,P03469,1,C-02,IC2,low,Costas array QUBO for annealing; no abstract,superseded: the record was screened again with its abstract
 QRS-45623d3981,P06199,1,C-02,IC1,low,Quantum-inspired vector framework for NLP,adjudication
 QRS-629852b1d8,P00793,1,C-02,IC2,low,QAOA for combinatorial optimization; no abstract,adjudication
 QRS-54b2d444b0,P06270,1,C-02,NO,low,Tensor-network LLM compression not framed as quantum-inspired,adjudication
@@ -265,15 +265,15 @@ QRS-d51a3253c1,P06036,1,C-02,NO,low,Classical Hindi supertagging; no quantum com
 QRS-db13782537,P03549,1,C-02,REVIEW,low,Position paper surveying semantic vector composition,agreement sample (not eligible by both screeners in round 1)
 QRS-7bdfa5abc2,P04995,1,C-02,IC2,low,Thesis on oscillator Ising machines; no abstract,superseded: the record was screened again with its abstract
 QRS-7a7b7e2909,P07134,1,C-02,IC2,low,Quantum-probabilistic generative models; no abstract,adjudication
-QRS-7bed782f1e,P05098,1,C-02,IC2,low,Dual hybrid quantum GAN; no abstract,adjudication
+QRS-7bed782f1e,P05098,1,C-02,IC2,low,Dual hybrid quantum GAN; no abstract,superseded: the record was screened again with its abstract
 QRS-8917713a16,P02896,1,C-02,REVIEW,low,QNLP overview paper; no abstract,superseded: the record was screened again with its abstract
 QRS-7a2ac59afa,P00714,1,C-02,REVIEW,high,Systematic literature review of event detection,agreement sample (not eligible by both screeners in round 1)
-QRS-ec6970efef,P05546,1,C-02,IC1,low,Quantum NLP for healthcare; no abstract,adjudication
+QRS-ec6970efef,P05546,1,C-02,IC1,low,Quantum NLP for healthcare; no abstract,superseded: the record was screened again with its abstract
 QRS-32e33a749b,P01094,1,C-02,NO,low,Quantum PSO only for flow shop scheduling,adjudication
 QRS-d311c55a63,P03124,1,C-02,IC2,low,Quantum Boltzmann priors in deep generative models,agreement sample (eligible by both screeners in round 1)
 QRS-3cb8a3e5f8,P05146,1,C-02,NO,low,IQP Born machine only for calorimeter images,adjudication
 QRS-80078e29e0,P06716,1,C-02,NO,low,Quantum simulation framework for multivariate extremes statistics,adjudication
-QRS-f0d96701f0,P01457,1,C-02,IC2,low,Quantum evolution search for QCNN architecture; no abstract,adjudication
+QRS-f0d96701f0,P01457,1,C-02,IC2,low,Quantum evolution search for QCNN architecture; no abstract,superseded: the record was screened again with its abstract
 QRS-d53ec79c65,P01637,1,C-02,IC1,low,Quantum search architecture for LLM training data identification,adjudication
 QRS-f7f33d898b,P03432,1,C-02,NO,high,Deep learning hardware co-design thesis; no quantum,agreement sample (not eligible by both screeners in round 1)
 QRS-8bdaf493c8,P01111,1,C-02,IC2,low,Coherent Ising machines dynamics and scaling,adjudication
@@ -291,7 +291,7 @@ QRS-30c3653ff0,P00544,1,C-03,REVIEW,low,AI drug discovery overview with no quant
 QRS-e55808adfc,P06578,1,C-03,IC2,low,Quantum annealing analysis via spin glass benchmarks,adjudication
 QRS-6cec207b25,P00325,1,C-03,IC2,low,Simulated quantum annealing GPU acceleration; no abstract,superseded: the record was screened again with its abstract
 QRS-d575e366a5,P06251,1,C-03,NO,low,Abstract is LLM meeting summarization; no quantum method,adjudication
-QRS-f960909e87,P02093,1,C-03,IC2,low,QAOA for Hamilton path; no abstract,adjudication
+QRS-f960909e87,P02093,1,C-03,IC2,low,QAOA for Hamilton path; no abstract,superseded: the record was screened again with its abstract
 QRS-39bca9f281,P00070,1,C-03,NO,low,RL-tuned classical annealing QUBO solver; quantum not stated,adjudication
 QRS-dd19ab539c,P04816,1,C-03,IC2,low,Oscillatory Ising machine hardware evaluated on optimization benchmarks,adjudication
 QRS-4f3d0ce668,P04028,1,C-03,IC1,low,Quantum LLM cybersecurity framework; title only,adjudication
@@ -330,7 +330,7 @@ QRS-17e63c1495,P01846,1,C-03,NO,high,Quantum GAN for time series anomaly detecti
 QRS-a22d1b9ab3,P05288,1,C-03,NO,high,VQE portfolio optimization in finance,agreement sample (not eligible by both screeners in round 1)
 QRS-3e440006aa,P04134,1,C-03,REVIEW,high,Review of QML and quantum deep learning,agreement sample (not eligible by both screeners in round 1)
 QRS-2eea4daab6,P02092,1,C-03,IC2,low,Quantum divide and conquer TSP solver; no abstract,superseded: the record was screened again with its abstract
-QRS-31c6b45761,P02066,1,C-03,IC2,low,Benchmarking optimization solvers including quantum; no abstract,adjudication
+QRS-31c6b45761,P02066,1,C-03,IC2,low,Benchmarking optimization solvers including quantum; no abstract,superseded: the record was screened again with its abstract
 QRS-8e3606ce12,P02424,1,C-03,IC2,high,Bit-width reduction method for Ising models,adjudication
 QRS-2aaa359b7c,P04963,1,C-03,NO,low,VQE trainability applied to portfolio optimization,adjudication
 QRS-129695bcba,P05471,1,C-03,NO,low,QAOA circuit compilation for hardware overhead,adjudication
@@ -341,7 +341,7 @@ QRS-cb5bd40eb0,P01016,1,C-03,IC1,low,Complex Hilbert space formulation of transf
 QRS-b17ba4b80e,P06079,1,C-03,IC2,low,Cuckoo quantum evolutionary algorithm for graph coloring,superseded: the record was screened again with its abstract
 QRS-8641a3e89e,P00162,1,C-03,IC2,low,Thesis on graph coloring algorithms for quantum computing,adjudication
 QRS-04c983d179,P02930,1,C-03,IC1,low,Quantum hybrid attention modules for AI; no abstract,superseded: the record was screened again with its abstract
-QRS-d2c5b25746,P01464,1,C-03,IC2,low,Quantum generative model for Bayesian inference; no abstract,adjudication
+QRS-d2c5b25746,P01464,1,C-03,IC2,low,Quantum generative model for Bayesian inference; no abstract,superseded: the record was screened again with its abstract
 QRS-b1b5394126,P05604,1,C-03,IC2,high,Grover-based quantum dynamic programming for scheduling complexity,agreement sample (eligible by both screeners in round 1)
 QRS-19ee9e8c83,P05966,1,C-03,NO,high,Classical variational Monte Carlo for many-body physics,agreement sample (not eligible by both screeners in round 1)
 QRS-2d85bfdd04,P06771,1,C-03,NO,high,Image realism for diffusion; quantum only metaphor,agreement sample (not eligible by both screeners in round 1)
@@ -386,7 +386,7 @@ QRS-e74a457ec6,P02099,1,C-03,IC1,low,Quantum transformers for urban intelligence
 QRS-81acfbe1c6,P02186,1,C-03,NO,low,Coherent Ising machine applied to compressed sensing,adjudication
 QRS-ce73e205eb,P02188,1,C-03,NO,high,Fractional Schrodinger equation mathematics,agreement sample (not eligible by both screeners in round 1)
 QRS-11c9423c95,P05611,1,C-03,IC2,high,Parallel divide-and-conquer QAOA for large Max-Cut,agreement sample (eligible by both screeners in round 1)
-QRS-11da4f36f0,P06758,1,C-03,IC1,low,Quantum sentiment analysis; title only,adjudication
+QRS-11da4f36f0,P06758,1,C-03,IC1,low,Quantum sentiment analysis; title only,superseded: the record was screened again with its abstract
 QRS-4aea5b30d7,P00102,1,C-03,IC2,low,FPGA QUBO accelerator for Max-Cut benchmark,adjudication
 QRS-13cf8532a1,P02904,1,C-03,IC1,low,Hybrid quantum recurrent network for sequence modeling,adjudication
 QRS-fe38964baf,P05155,1,C-03,IC2,high,Ising-based tree search algorithm for combinatorial optimization,adjudication
@@ -420,7 +420,7 @@ QRS-b293068156,P04815,1,C-03,IC2,low,Photonic entropy computing for optimization
 QRS-01dff65a9a,P00643,1,C-03,NO,low,Quantum reservoir DRL for 6G inference; no abstract,superseded: the record was screened again with its abstract
 QRS-571d61cb49,P00031,1,C-03,IC2,low,Parallel annealing algorithm compared with quantum-inspired methods,adjudication
 QRS-d4ee27cab4,P04612,1,C-03,NO,low,Classical software QUBO solver benchmark,adjudication
-QRS-fb1369a426,P06822,1,C-03,IC2,low,Oscillator Ising computing compared against QAOA,adjudication
+QRS-fb1369a426,P06822,1,C-03,IC2,low,Oscillator Ising computing compared against QAOA,superseded: the record was screened again with its abstract
 QRS-126a149bb6,P04205,1,C-03,NO,low,Classical mean field QUBO solver; quantum not stated,adjudication
 QRS-21e67b6cbf,P00990,1,C-03,IC2,low,Benchmarking VQE and QAOA on simulators,superseded: the record was screened again with its abstract
 QRS-9b66eb1344,P03641,1,C-03,NO,high,Physics essay on dimensionality of time,agreement sample (not eligible by both screeners in round 1)
@@ -442,9 +442,9 @@ QRS-6e0cc06c01,P00880,1,C-04,IC2,low,Oscillator Ising machine coupling design fo
 QRS-1354ea6d5f,P02467,1,C-04,REVIEW,high,Survey on AI for smart building digital twins,agreement sample (not eligible by both screeners in round 1)
 QRS-89d1fdf41f,P04979,1,C-04,NO,high,Astrophysics paper without quantum method,agreement sample (not eligible by both screeners in round 1)
 QRS-a44ce6881d,P01378,1,C-04,NO,low,Hybrid quantum normalizing flow applied only to lattice field theory,adjudication
-QRS-c5da84fbca,P01046,1,C-04,IC2,low,Classical versus quantum one-round algorithm on LocalMaxCut; no abstract,adjudication
+QRS-c5da84fbca,P01046,1,C-04,IC2,low,Classical versus quantum one-round algorithm on LocalMaxCut; no abstract,superseded: the record was screened again with its abstract
 QRS-9c11185680,P04993,1,C-04,NO,high,Cosmology framework; no quantum computing method,agreement sample (not eligible by both screeners in round 1)
-QRS-69aa5db9fe,P01728,1,C-04,NO,low,D-Wave tuning for one scheduling problem; no abstract,adjudication
+QRS-69aa5db9fe,P01728,1,C-04,NO,low,D-Wave tuning for one scheduling problem; no abstract,superseded: the record was screened again with its abstract
 QRS-a92c185aef,P02050,1,C-04,NO,low,Quantum only as inspiration for LLM efficiency infrastructure,agreement sample (not eligible by both screeners in round 1)
 QRS-66f70ac049,P06446,1,C-04,IC2,low,FeFET Ising machine hardware demonstrated for connectivity in optimization,adjudication
 QRS-1b0ab0dc82,P04660,1,C-04,NO,low,Matrix product state planning; quantum-inspired framing not stated,adjudication
@@ -499,14 +499,14 @@ QRS-82d9b0de13,P02797,1,C-04,REVIEW,low,Conceptual discussion of quantum computi
 QRS-45f84acb9a,P02471,1,C-04,NO,low,Classical error correction for parity-encoded annealing hardware,adjudication
 QRS-f2ec685c3e,P05770,1,C-04,IC2,low,Quantum annealing QUBO for Ramsey and graph coloring problems,adjudication
 QRS-4a3e433a93,P04607,1,C-04,NO,low,Classical cluster message passing for QUBO; no quantum means stated,adjudication
-QRS-0bb87310bd,P05138,1,C-04,IC2,low,CMOS Ising machine with coupled bistable nodes; no abstract,adjudication
+QRS-0bb87310bd,P05138,1,C-04,IC2,low,CMOS Ising machine with coupled bistable nodes; no abstract,superseded: the record was screened again with its abstract
 QRS-34b7f14f2d,P06850,1,C-04,IC1,low,Quantum-inspired multimodal hateful meme detection; no abstract,superseded: the record was screened again with its abstract
 QRS-979478561b,P06774,1,C-04,IC1,low,Open quantum system models of token generation in generative AI,adjudication
 QRS-273fe8b8e5,P05667,1,C-04,NO,high,Quantum autoencoder only for molecular design,agreement sample (not eligible by both screeners in round 1)
 QRS-4ecaa862db,P03341,1,C-04,IC2,low,NAND flash Hopfield network emulating annealing for optimization,adjudication
 QRS-221615760b,P06553,1,C-04,NO,low,Quantum sampling feature map for classifier,adjudication
 QRS-9a7ff049b3,P06202,1,C-04,IC2,low,Learning QUBO models for quantum annealing; no abstract,superseded: the record was screened again with its abstract
-QRS-9aeea31f08,P05301,1,C-04,IC2,low,Boltzmann to Born machines; no abstract,adjudication
+QRS-9aeea31f08,P05301,1,C-04,IC2,low,Boltzmann to Born machines; no abstract,superseded: the record was screened again with its abstract
 QRS-37b24d3230,P03198,1,C-04,IC1,low,Quantum NLP model applied to SQL query encoding,adjudication
 QRS-9cfdd7bffc,P06506,1,C-04,NO,low,Quantum geometry as math framework for NLP; no evaluation,adjudication
 QRS-27c6eb4617,P06729,1,C-04,IC1,low,Quantum probability tests applied to LLM conceptual combinations,adjudication
@@ -519,7 +519,7 @@ QRS-55d9a91cac,P07026,1,C-04,NO,low,Peptide design; no abstract; no quantum meth
 QRS-0aeb2f8a99,P04526,1,C-04,NO,low,Classical GNN with Hamiltonian-inspired loss for QUBO,adjudication
 QRS-7bc843b712,P02568,1,C-04,IC2,low,CMOS annealing processor for combinatorial optimization,adjudication
 QRS-c1bd34c885,P03614,1,C-04,NO,low,Matrix product state pre-training of quantum circuits,adjudication
-QRS-e245c6d5bf,P04441,1,C-04,IC2,low,Parallel simulated quantum annealing on CPU; no abstract,adjudication
+QRS-e245c6d5bf,P04441,1,C-04,IC2,low,Parallel simulated quantum annealing on CPU; no abstract,superseded: the record was screened again with its abstract
 QRS-cf843f6189,P00402,1,C-04,IC2,high,XY versus X mixer in QAOA for constrained optimization,agreement sample (eligible by both screeners in round 1)
 QRS-5f8b034361,P02032,1,C-04,NO,low,FPGA QBoost classifier implementation with annealing processor,adjudication
 QRS-7ae928f261,P03730,1,C-04,NO,low,Broad quantum information thesis; no specific general method stated,adjudication
@@ -531,7 +531,7 @@ QRS-b9ed34c0f9,P04243,1,C-04,NO,low,Quantum-state verification in blockchain LLM
 QRS-bbb02feccc,P07104,1,C-04,IC1,low,Quantum epistemic framework for linguistics; no abstract,superseded: the record was screened again with its abstract
 QRS-44937b4639,P00235,1,C-04,REVIEW,high,Review of maximum clique algorithms,agreement sample (not eligible by both screeners in round 1)
 QRS-ca8c1e35a4,P06865,1,C-04,NO,low,Physical analysis of constrained annealing localization; no evaluation,adjudication
-QRS-4df29cc767,P04799,1,C-04,IC2,low,QUBO formulation from Petri nets; no abstract,adjudication
+QRS-4df29cc767,P04799,1,C-04,IC2,low,QUBO formulation from Petri nets; no abstract,superseded: the record was screened again with its abstract
 QRS-d3346606f3,P05861,1,C-04,IC2,low,Quantum and classical multilevel algorithms for hypergraph optimization thesis,agreement sample (eligible by both screeners in round 1)
 QRS-fbfc46a3c8,P04191,1,C-04,NO,high,Colloidal quantum dot design; quantum dots not Q,agreement sample (not eligible by both screeners in round 1)
 QRS-fd294b433a,P04681,1,C-04,IC2,high,Tensor network Born machine generator for TSP optimization,adjudication
@@ -539,12 +539,12 @@ QRS-4f85fb4049,P07184,1,C-04,IC2,high,QAOA with custom phase operators analyzed 
 QRS-5c27ecc121,P05901,1,C-04,IC2,high,Quantum Boltzmann machines generating high-dimensional distributions,agreement sample (eligible by both screeners in round 1)
 QRS-5c43c6236f,P02523,1,C-04,NO,high,Particle physics essay without quantum method,agreement sample (not eligible by both screeners in round 1)
 QRS-b13f007b0f,P01949,1,C-04,IC1,high,Quantum NLP circuits encoding Japanese honorifics with lambeq,agreement sample (eligible by both screeners in round 1)
-QRS-b3736e83e7,P06516,1,C-04,IC2,low,Maximum independent set on QDeep solver benchmark; no abstract,adjudication
+QRS-b3736e83e7,P06516,1,C-04,IC2,low,Maximum independent set on QDeep solver benchmark; no abstract,superseded: the record was screened again with its abstract
 QRS-2ce11d2795,P00414,1,C-04,IC2,low,Universal Ising machine with compute-in-memory; no abstract,superseded: the record was screened again with its abstract
 QRS-c04ebfef1a,P02931,1,C-04,NO,low,Quantum measurement theory in AI-assisted discovery; no abstract,agreement sample (not eligible by both screeners in round 1)
 QRS-9abcf0505a,P03017,1,C-04,NO,low,Hilbert-space reformulation of formal grammars; not computing method,agreement sample (not eligible by both screeners in round 1)
 QRS-441ddd2b7d,P06385,1,C-04,IC1,low,Quantum-formalism measurement framework applied to narrative text,adjudication
-QRS-da4a713a5a,P03721,1,C-04,IC2,low,Optical parametric oscillator Ising network theory; no abstract,adjudication
+QRS-da4a713a5a,P03721,1,C-04,IC2,low,Optical parametric oscillator Ising network theory; no abstract,superseded: the record was screened again with its abstract
 QRS-331638bc0c,P01871,1,C-04,NO,high,Quantum algorithm for warehouse order picking application,agreement sample (not eligible by both screeners in round 1)
 QRS-1ef82e636f,P06979,1,C-04,IC2,low,MEMS oscillator Ising machine with grouping method,agreement sample (eligible by both screeners in round 1)
 QRS-8ed844cc37,P03725,1,C-04,IC2,low,Parallel optical Ising machine for large combinatorial problems,adjudication
@@ -556,7 +556,7 @@ QRS-98d3692f92,P04887,1,C-04,IC2,low,Quantum-inspired differential evolution for
 QRS-c2ed2a5a55,P02212,1,C-04,EC4,high,Conference listing with talk abstract,adjudication
 QRS-25bfe264fb,P02873,1,C-04,EC4,low,Reproducibility package for QPU toy model; no claims,adjudication
 QRS-51199a09b6,P01091,1,C-04,IC2,high,Quantum annealing community detection on D-Wave,adjudication
-QRS-9a6f338c31,P06404,1,C-04,IC2,low,Quantum EM for Gaussian mixtures; no abstract,adjudication
+QRS-9a6f338c31,P06404,1,C-04,IC2,low,Quantum EM for Gaussian mixtures; no abstract,superseded: the record was screened again with its abstract
 QRS-227ba42c94,P07022,1,C-04,EC1,high,LLM agent for quantum chemistry workflows,agreement sample (not eligible by both screeners in round 1)
 QRS-bf70345ca4,P02967,1,C-04,IC2,low,Integrated optical Ising machine for combinatorial optimization,adjudication
 QRS-8f0bc468e6,P06635,1,C-04,NO,low,Classical matrix exponential algorithm; no quantum method,agreement sample (not eligible by both screeners in round 1)
@@ -572,16 +572,16 @@ QRS-429ae4cc30,P07005,1,C-04,NO,low,Data compression for annealing emulator hard
 QRS-c843395ad4,P05392,1,C-04,NO,high,Quantum diffusion applied only to molecular generation,adjudication
 QRS-0cf8e1fcf5,P02691,1,C-04,IC2,high,Quantum neuron Born machine with nonlinear activations,agreement sample (eligible by both screeners in round 1)
 QRS-ca7b8004a3,P03415,1,C-04,IC2,low,Faster circuit simulation for QAOA max-cut,adjudication
-QRS-ccdce5792f,P02267,1,C-04,IC1,low,QUBO formulations of information retrieval tasks; no abstract,adjudication
+QRS-ccdce5792f,P02267,1,C-04,IC1,low,QUBO formulations of information retrieval tasks; no abstract,superseded: the record was screened again with its abstract
 QRS-5d254011f4,P03003,1,C-04,IC2,low,Basis-enhanced Born machines for quantum state reconstruction,adjudication
 QRS-e2b50b4b22,P01340,1,C-04,IC2,low,Gain-dissipative Ising spin network for optimization; no abstract,superseded: the record was screened again with its abstract
 QRS-14b481d895,P02017,1,C-05,EC4,low,C++ software library release for QUBO modeling,adjudication
 QRS-e59c9f1bec,P03685,1,C-05,NO,low,Neurodynamic QUBO solver without quantum or quantum-inspired component,adjudication
 QRS-f2f1225e49,P02215,1,C-05,NO,low,Theoretical mapping of embeddings to quantum formalism without working method,adjudication
 QRS-f98fc55921,P01830,1,C-05,NO,high,Quantum annealing applied only to tiling puzzles,adjudication
-QRS-babd845188,P00870,1,C-05,NO,low,No abstract; QAOA note without stated method or evaluation,adjudication
+QRS-babd845188,P00870,1,C-05,NO,low,No abstract; QAOA note without stated method or evaluation,superseded: the record was screened again with its abstract
 QRS-4267f04656,P06473,1,C-05,NO,low,Quantum-inspired social-impact model of agents not text processing,adjudication
-QRS-efb0b8a758,P00080,1,C-05,IC2,low,No abstract; quantum priors for deep generative models,adjudication
+QRS-efb0b8a758,P00080,1,C-05,IC2,low,No abstract; quantum priors for deep generative models,superseded: the record was screened again with its abstract
 QRS-0ba1675112,P05207,1,C-05,NO,low,No abstract; quantum phase estimation for TSP only,adjudication
 QRS-92fdc147c3-2,P07019,1,C-05,IC1,low,No abstract; quantum natural language processing title,superseded: the record was screened again with its abstract
 QRS-7238ef32e1,P00569,1,C-05,NO,low,Graph burning mathematical programs; QUBO not tied to quantum,adjudication
@@ -642,7 +642,7 @@ QRS-2e3f17bacf,P05674,1,C-05,IC2,low,Quantum tunneling analysis of quantization-
 QRS-44247ea3d7,P00032,1,C-05,NO,low,Embedding geometry analysis with density-matrix-like tools,adjudication
 QRS-e4bcc2b5e3,P06675,1,C-05,NO,high,Reinforcement learning for qubit mapping in compilation,agreement sample (not eligible by both screeners in round 1)
 QRS-ae283fa104,P00012,1,C-05,REVIEW,low,Overview of quantum computing for optimization problems,agreement sample (not eligible by both screeners in round 1)
-QRS-00987af4ce,P01099,1,C-05,IC1,low,No abstract; term extraction system possibly quantum-informed,adjudication
+QRS-00987af4ce,P01099,1,C-05,IC1,low,No abstract; term extraction system possibly quantum-informed,superseded: the record was screened again with its abstract
 QRS-b351ddfadf,P01668,1,C-05,IC2,low,No abstract; spatial photonic Ising machine,superseded: the record was screened again with its abstract
 QRS-f5f09d1cb2,P01995,1,C-05,IC2,low,No abstract; benchmark of quantum-inspired optimization,superseded: the record was screened again with its abstract
 QRS-1e407b0104,P07119,1,C-05,EC1,high,Training code LLMs to generate quantum code,agreement sample (not eligible by both screeners in round 1)
@@ -669,7 +669,7 @@ QRS-04350e8a43,P06909,1,C-05,IC2,low,Hybrid quantum GAN with benchmark evaluatio
 QRS-95d506c45d,P01240,1,C-05,NO,low,Probabilistic-bit annealing without quantum component,adjudication
 QRS-cfeab1ae26,P01148,1,C-05,IC1,low,No abstract; quantum replacements in multimodal LLMs,adjudication
 QRS-ad327fc2db,P06961,1,C-05,IC2,low,VQE optimizer comparison on Ising testbed,adjudication
-QRS-6415c59122,P00539,1,C-05,IC2,low,No abstract; tensor network generative model,adjudication
+QRS-6415c59122,P00539,1,C-05,IC2,low,No abstract; tensor network generative model,superseded: the record was screened again with its abstract
 QRS-c0b14dbf29,P04001,1,C-05,IC2,low,Brief summary of spatial Ising machine results,adjudication
 QRS-854466b313,P00364,1,C-05,IC2,low,QAOA sampling for chance-constrained knapsack,adjudication
 QRS-aa0f09a4e1,P07014,1,C-05,IC2,high,Enhanced quantum annealing in digital-analog computing,agreement sample (eligible by both screeners in round 1)
@@ -678,7 +678,7 @@ QRS-36a3611b37,P01199,1,C-05,IC1,low,Quantum-inspired Ising chip training transf
 QRS-09935da2ad,P03785,1,C-05,IC2,low,Licentiate thesis on QAOA for combinatorial optimization,adjudication
 QRS-7031869507,P01234,1,C-05,IC2,low,Iterative-QAOA benchmarked on job shop hardware,adjudication
 QRS-9298b10075,P04638,1,C-05,NO,high,Quantum used as name; no quantum method,adjudication
-QRS-481e225a70,P06503,1,C-05,IC2,low,No abstract; QAOA with slow measurements,adjudication
+QRS-481e225a70,P06503,1,C-05,IC2,low,No abstract; QAOA with slow measurements,superseded: the record was screened again with its abstract
 QRS-16bc23d6b7,P02193,1,C-05,REVIEW,low,Book chapter overview of AI for quantum optics,agreement sample (not eligible by both screeners in round 1)
 QRS-59422af41b,P05700,1,C-05,IC1,low,Quantum-inspired architecture for LLM reasoning,adjudication
 QRS-fb23068f0e,P01139,1,C-05,IC2,low,Annealer chip for combinatorial optimization,adjudication
@@ -750,19 +750,19 @@ QRS-7a5ac23453,P04171,1,C-06,IC2,low,high-order Ising array hardware for optimiz
 QRS-e07c007610,P05013,1,C-06,IC2,high,meta-learning algorithms for Gibbs states of quantum Boltzmann machines,adjudication
 QRS-241138b2d7,P05563,1,C-06,EC4,high,technology magazine edition,agreement sample (not eligible by both screeners in round 1)
 QRS-6dbe92bf95,P04879,1,C-06,IC2,low,quantum-inspired butterfly optimization for binary problems; no abstract,superseded: the record was screened again with its abstract
-QRS-426e028892,P03794,1,C-06,IC2,low,quantum Boltzmann machine sequence memorization; no abstract,adjudication
+QRS-426e028892,P03794,1,C-06,IC2,low,quantum Boltzmann machine sequence memorization; no abstract,superseded: the record was screened again with its abstract
 QRS-e92413b9dc,P04410,1,C-06,IC2,high,Grover adaptive search higher-order binary formulations,agreement sample (eligible by both screeners in round 1)
 QRS-96dba3e3a3,P01650,1,C-06,IC1,low,projected quantum self-attention generative foundation model architecture,agreement sample (eligible by both screeners in round 1)
 QRS-4432bf84fb,P01408,1,C-06,IC2,high,low-depth QAOA speedup proofs,agreement sample (eligible by both screeners in round 1)
 QRS-c7206f38a3,P06261,1,C-06,IC2,low,quantum annealing bottleneck analysis on spin-glass optimization,adjudication
 QRS-57f7c1242c,P03755,1,C-06,NO,low,QAOA for semiconductor supply chain problems,adjudication
 QRS-0e6b9a9b37,P01007,1,C-06,NO,low,variational quantum optimization applied to cash handling,adjudication
-QRS-3a64c4e978,P01047,1,C-06,IC2,low,set partitioning in quantum context; no abstract,adjudication
+QRS-3a64c4e978,P01047,1,C-06,IC2,low,set partitioning in quantum context; no abstract,superseded: the record was screened again with its abstract
 QRS-721b675fb1,P04197,1,C-06,IC2,low,oscillator Ising chip for combinatorial optimization,adjudication
 QRS-4fabbbffdc,P04163,1,C-06,NO,low,quantum Kolmogorov Arnold network; function learning not text,adjudication
 QRS-032420a851,P07029,1,C-06,NO,low,quantum reinforcement learning for neural combinatorial optimization,adjudication
 QRS-2a06182bf9,P06195,1,C-06,IC1,low,quantum NLP privacy for text classification; exploratory,adjudication
-QRS-aa354dffc1,P01782,1,C-06,IC2,low,learning QUBO formulations; no abstract,adjudication
+QRS-aa354dffc1,P01782,1,C-06,IC2,low,learning QUBO formulations; no abstract,superseded: the record was screened again with its abstract
 QRS-1c68b3df9c,P02217,1,C-06,NO,low,quantum expectation estimation for stochastic programming,adjudication
 QRS-9d4bf84878,P02136,1,C-06,IC1,low,thesis includes quantum natural language processing string diagrams,adjudication
 QRS-4158f071ed,P01877,1,C-06,NO,high,speculative physics framework without quantum method,agreement sample (not eligible by both screeners in round 1)
@@ -785,7 +785,7 @@ QRS-4c556598ec,P06140,1,C-06,NO,low,HOBO route compression for navigation applic
 QRS-0afcc3fcb6,P02920,1,C-06,IC2,low,QAOA on TSP compared with Gurobi,adjudication
 QRS-682788fefb,P04760,1,C-06,NO,low,quantum circuit architecture search not discrete optimization benchmark,adjudication
 QRS-75b2c3ac86,P01892,1,C-06,NO,low,quantum Boltzmann finance application; no abstract,superseded: the record was screened again with its abstract
-QRS-b86cb13b03,P02451,1,C-06,IC2,low,QUBO integer encodings for quantum and digital annealing,adjudication
+QRS-b86cb13b03,P02451,1,C-06,IC2,low,QUBO integer encodings for quantum and digital annealing,superseded: the record was screened again with its abstract
 QRS-0e7346d572,P03919,1,C-06,IC2,low,Grover-based speedups for scheduling problems,adjudication
 QRS-2c99140628,P02262,1,C-06,IC2,low,continuous-variable quantum annealing; no abstract,adjudication
 QRS-1e123a08f9,P01700,1,C-06,IC2,low,quantum-inspired evolutionary algorithm for minimum spanning tree,adjudication
@@ -822,7 +822,7 @@ QRS-1b9ffda4c4,P05943,1,C-06,IC2,low,TSP via QUBO on D-Wave benchmarked,agreemen
 QRS-d41931be13,P03856,1,C-06,NO,high,quantum optimization for Au junction fabrication,agreement sample (not eligible by both screeners in round 1)
 QRS-33a69d3bb6,P00329,1,C-06,IC2,low,p-bit probabilistic computing for optimization,adjudication
 QRS-03954e1368,P03690,1,C-06,NO,low,tree tensor network density estimation not framed quantum-inspired,adjudication
-QRS-1708e3cc21,P06697,1,C-06,IC2,low,quantum MaxCut algorithms via integer programming; no abstract,adjudication
+QRS-1708e3cc21,P06697,1,C-06,IC2,low,quantum MaxCut algorithms via integer programming; no abstract,superseded: the record was screened again with its abstract
 QRS-f93c70ccb1,P00659,1,C-06,IC1,low,compositional DisCoCirc text models; abstract truncated,adjudication
 QRS-9fc1ec1ef6,P02540,1,C-06,IC1,low,quantum-based architecture for generative language models,adjudication
 QRS-438cd34b57,P07204,1,C-06,EC4,low,lambeq QNLP software library release,adjudication
@@ -832,7 +832,7 @@ QRS-860adcf919,P03331,1,C-06,IC1,low,non-classical probability structure in LLM 
 QRS-d32b6e187d,P01178,1,C-06,IC2,low,variational circuits simulating stochastic processes; no abstract,adjudication
 QRS-1ebb638a83,P02846,1,C-06,NO,low,classical spin dynamics shortcuts; no quantum method,adjudication
 QRS-1333c0763a,P02945,1,C-06,IC2,low,near-term MaxCut quantum algorithm; no abstract,superseded: the record was screened again with its abstract
-QRS-3b7bedae0e,P06573,1,C-06,IC2,low,QAOA graph optimization with PennyLane,adjudication
+QRS-3b7bedae0e,P06573,1,C-06,IC2,low,QAOA graph optimization with PennyLane,superseded: the record was screened again with its abstract
 QRS-f9ccf7c57a,P01969,1,C-06,NO,low,quantum analogy only for LLM embedding analysis,adjudication
 QRS-d3db062068,P01559,1,C-06,IC1,low,quantum-enhanced travel chatbot; vague,adjudication
 QRS-7407db00df,P01674,1,C-06,IC2,high,quantum genetic algorithm for MaxCut,agreement sample (eligible by both screeners in round 1)
@@ -849,7 +849,7 @@ QRS-1a93fff316,P04786,1,C-06,IC2,low,photonic coherent Ising machine simulations
 QRS-591323064a,P01441,1,C-06,IC2,low,simulated quantum adiabatic evolution for independent set,superseded: the record was screened again with its abstract
 QRS-3e37c2506a,P06724,1,C-06,NO,low,classical scatter search for QUBO,adjudication
 QRS-1ab30ad18d,P07164,1,C-06,IC2,low,charge redistribution Ising machine; no abstract,superseded: the record was screened again with its abstract
-QRS-8af010375f,P00320,1,C-06,IC2,low,combinatorial optimization with quantum driven systems; no abstract,adjudication
+QRS-8af010375f,P00320,1,C-06,IC2,low,combinatorial optimization with quantum driven systems; no abstract,superseded: the record was screened again with its abstract
 QRS-7ba75939f5,P04146,1,C-06,IC2,low,QUBO formulations and penalty analysis for knapsack,adjudication
 QRS-d21e446252,P01954,1,C-06,IC2,low,Grover algorithm for math and optimization problems,adjudication
 QRS-0a5bc3822a,P01860,1,C-06,IC2,low,variational circuit single-qubit gates for optimization,agreement sample (eligible by both screeners in round 1)
@@ -903,3 +903,17 @@ QRS-ead0c61d77,P01991,3,C3-01,NO,low,No abstract; optoelectronic Ising machine h
 QRS-2290a1740b,P00260,3,C3-01,IC2,low,Quantum generative models for Bayesian network structure learning,adjudication
 QRS-fe277aec7c,P01478,3,C3-01,IC2,low,Hamiltonian from finite-state automaton for QAOA string search,adjudication
 QRS-7016291ac0,P03766,3,C3-01,IC1,low,Quantum topic modeling for text; no evaluation described,adjudication
+QRS-7319855cd9,P02133,4,C4-01,IC1,low,"QNN architectures evaluated on benchmarks including NLP, generative tasks",adjudication
+QRS-ec6970efef,P05546,4,C4-01,IC1,low,Quantum NLP with quantum embeddings for trial matching text; no evaluation,adjudication
+QRS-9a6f338c31,P06404,4,C4-01,IC2,low,Quantum EM algorithm fitting mixture generative models; general with runtime analysis,adjudication
+QRS-9aeea31f08,P05301,4,C4-01,EC4,low,Talk abstract on quantum-inspired generative models; no method or evaluation,adjudication
+QRS-00987af4ce,P01099,4,C4-01,NO,low,"Quantum theory of terms is metaphor; classical KMeans, no quantum method",adjudication
+QRS-ac4dbe250b,P02605,4,C4-01,IC1,low,QNLP lambeq experiments on tweets reported but excluded from final model,adjudication
+QRS-695b49ae3b,P05326,4,C4-01,NO,high,Memristor Hopfield annealer is not quantum or quantum-inspired,adjudication
+QRS-0e88c68468,P06100,4,C4-01,IC2,low,Hybrid quantum GAN with parameterized circuits vs classical GAN,adjudication
+QRS-a4d5a4b290,P00671,4,C4-01,REVIEW,low,Brief overview of quantum-inspired language models; introductory survey,adjudication
+QRS-e21eef60c0,P04178,4,C4-01,NO,low,Adiabatic quantum algorithm only for Ramsey numbers; no language relevance,adjudication
+QRS-1c050262fd,P02210,4,C4-01,NO,high,QUBO annealing applied only to finance portfolio problem,adjudication
+QRS-f0d96701f0,P01457,4,C4-01,IC2,low,Quantum evolutionary algorithm for discrete architecture search; experiments reported,adjudication
+QRS-b86cb13b03,P02451,4,C4-01,IC2,low,QUBO encodings for TSP on quantum and digital annealers; abstract thin,adjudication
+QRS-75c5229478,P02627,4,C4-01,NO,low,Poster on Ising machine platform communication; no algorithm evaluation,adjudication

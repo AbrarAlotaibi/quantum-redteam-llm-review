@@ -82,10 +82,10 @@ def main():
     adj_el, adj_not = fs[("third screener", "eligible")], fs[("third screener", "not eligible")]
     check(set(frame) == set(cand) - {r["uid"] for r in s1} and len(frame) == 7258,
           "the frame screening covers the %d records outside the core search" % len(frame))
-    check((both_el, adj_el + adj_not, both_not) == (1930, 609, 4719),
+    check((both_el, adj_el + adj_not, both_not) == (1961, 583, 4714),
           "two screeners: eligible by both %d, by one only %d, by neither %d" % (both_el, adj_el + adj_not, both_not))
-    check((adj_el, adj_not) == (391, 218), "third screener on the %d: eligible %d, not eligible %d" % (adj_el + adj_not, adj_el, adj_not))
-    check(both_el + adj_el == 2321, "final eligibility: %d eligible, %d not eligible" % (both_el + adj_el, both_not + adj_not))
+    check((adj_el, adj_not) == (361, 222), "third screener on the %d: eligible %d, not eligible %d" % (adj_el + adj_not, adj_el, adj_not))
+    check(both_el + adj_el == 2322, "final eligibility: %d eligible, %d not eligible" % (both_el + adj_el, both_not + adj_not))
     check(all(r["code_C"] for r in frame.values() if r["decided_by"] == "third screener")
           and not any(r["code_C"] for r in frame.values() if r["decided_by"] == "both screeners"),
           "every record on which the screeners differ has a third code, and no other record has one")
@@ -97,9 +97,9 @@ def main():
     pool2 = Counter(r["role"] for r in by_role if r["eligible_by"] == "both screeners")
     keys = ("R1", "R2", "R3", "R4", "R5", "R6", "")
     check({r["uid"] for r in by_role} == {u for u, r in frame.items() if r["final"] == "eligible"}
-          and [pool[k] for k in keys] == [382, 160, 1317, 108, 321, 3, 30],
+          and [pool[k] for k in keys] == [383, 159, 1317, 108, 322, 3, 30],
           "eligible records by role: R1 %d, R2 %d, R3 %d, R4 %d, R5 %d, R6 %d, no role %d" % tuple(pool[k] for k in keys))
-    check([pool2[k] for k in keys] == [335, 119, 1092, 87, 277, 3, 17],
+    check([pool2[k] for k in keys] == [346, 119, 1112, 87, 277, 3, 17],
           "of these, eligible by both screeners: R1 %d, R2 %d, R3 %d, R4 %d, R5 %d, R6 %d, no role %d" % tuple(pool2[k] for k in keys))
 
     inc = Counter(r["include"] for r in cand.values())

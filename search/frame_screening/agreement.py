@@ -4,7 +4,7 @@ Phases (folders next to this script):
   phase1_screening/                  screener_A.csv, screener_B.csv: one code per record from each screener (round 1)
   phase2_abstracts_and_rescreening/  retrieved_abstracts.csv: records without an abstract in the search indexes, and
                                      where an abstract was found; screener_A_rescreen.csv, screener_B_rescreen.csv:
-                                     both screeners' new codes for the records whose abstract was found (rounds 2, 3)
+                                     both screeners' new codes for the records whose abstract was found (rounds 2 to 4)
   phase3_adjudication/               screener_C.csv: the third screener's code for the records on whose eligibility
                                      the two screeners differ, and for a random sample of records on which they agree
   phase4_eligibility/                frame_screening.csv (written here): the latest code of each screener, the third
@@ -110,8 +110,8 @@ def main():
             % (e1[("eligible", "eligible")], e1[("eligible", "not")] + e1[("not", "eligible")], e1[("not", "not")]), "",
             "Phase 2. Abstracts",
             "  records without an abstract in the search indexes: %d" % len(retrieved),
-            "  abstract retrieved and record screened again by both screeners: %d (round 2: %d, round 3: %d)"
-            % (rounds["2"] + rounds["3"], rounds["2"], rounds["3"]),
+            "  abstract or partial text retrieved and record screened again by both screeners: %d (%s)"
+            % (n - rounds["1"], ", ".join("round %s: %d" % (k, rounds[k]) for k in sorted(rounds) if k != "1")),
             "  no abstract found; decided on title and venue: %d" % sum(r["abstract_available"] == "no" for r in rows),
             "  sources: " + ", ".join("%s %d" % kv for kv in Counter(
                 r["source_of_abstract"].split(" (")[0] for r in retrieved.values() if r["source_of_abstract"] != "not found").most_common()), "",
