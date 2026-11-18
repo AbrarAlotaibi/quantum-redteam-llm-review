@@ -46,16 +46,16 @@ def main():
     check(all(r["uid"] in cand for r in sel if r["uid"]), "every record id given exists in the sampling frame")
 
     routes = Counter(r["route"] for r in sel)
-    check(routes == Counter({"representative": 27, "core": 3}), "routes: 3 from the core search, 27 representative (%s)" % dict(routes))
+    check(routes == Counter({"representative": 33, "core": 3}), "routes: 3 from the core search, 33 representative (%s)" % dict(routes))
     check({r["uid"] for r in sel if r["route"] == "core"} == core_included,
           "the three core studies are the records screened as INCLUDE in s1_screening.csv")
 
     rep = [r for r in sel if r["route"] == "representative"]
     in_frame = [r for r in rep if r["uid"]]
-    check(len(in_frame) == 23 and len(rep) - len(in_frame) == 4,
+    check(len(in_frame) == 29 and len(rep) - len(in_frame) == 4,
           "representative studies: %d records of the sampling frame, %d from snowballing" % (len(in_frame), len(rep) - len(in_frame)))
     crit = Counter(r["criterion"] for r in rep)
-    check(crit == Counter({"IC1": 16, "IC2": 11}), "criteria of the representative studies: %s" % dict(crit))
+    check(crit == Counter({"IC1": 16, "IC2": 17}), "criteria of the representative studies: %s" % dict(crit))
     check(all(r["criterion"] == "core rule" for r in sel if r["route"] == "core"), "core studies carry the rule of the core search")
 
     flags = Counter(cand[r["uid"]]["prescreen_flag"] for r in sel if r["uid"])
@@ -102,14 +102,17 @@ def main():
     check([pool2[k] for k in keys] == [346, 119, 1112, 87, 277, 3, 17],
           "of these, eligible by both screeners: R1 %d, R2 %d, R3 %d, R4 %d, R5 %d, R6 %d, no role %d" % tuple(pool2[k] for k in keys))
 
+    excl = rows("search/full_text_exclusions.csv")
+    check(all(frame[x["uid"]]["final"] == "eligible" and x["key"] not in audit for x in excl),
+          "the %d record(s) set aside at full text were eligible on title and abstract and are not audited" % len(excl))
     inc = Counter(r["include"] for r in cand.values())
-    check(inc == Counter({"yes": len(core_included) + len(in_frame), "eligible, not selected": both_el + adj_el - len(in_frame),
-                          "no": len(s1) - len(core_included) + both_not + adj_not}),
+    check(inc == Counter({"yes": len(core_included) + len(in_frame), "eligible, not selected": both_el + adj_el - len(in_frame) - len(excl),
+                          "no": len(s1) - len(core_included) + both_not + adj_not + len(excl)}),
           "candidate sheet: include = yes %d, eligible but not selected %d, no %d" % (inc["yes"], inc["eligible, not selected"], inc["no"]))
     yes = {u for u, r in cand.items() if r["include"] == "yes"}
     check(yes == {r["uid"] for r in sel if r["uid"]}, "the records marked yes are the selected studies that are in the sheet")
     no = {u for u, r in cand.items() if r["include"] == "no"}
-    check(no == {r["uid"] for r in s1 if r["final_decision"] != "INCLUDE"} | {u for u, r in frame.items() if r["final"] == "not eligible"}
+    check(no == {r["uid"] for r in s1 if r["final_decision"] != "INCLUDE"} | {u for u, r in frame.items() if r["final"] == "not eligible"} | {x["uid"] for x in excl}
           and all(cand[u]["exclusion_reason"] for u in no),
           "the records marked no are those not included by the core screening or not eligible in the frame screening, each with a reason")
     check(all(not r["exclusion_reason"] for r in cand.values() if r["include"] != "no"), "no reason is given where no exclusion was decided")

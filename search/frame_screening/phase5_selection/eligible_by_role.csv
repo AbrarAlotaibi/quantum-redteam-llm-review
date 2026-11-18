@@ -311,7 +311,7 @@ QRS-215fccf95a,P06857,Quantum Calculations to Transforming Dante into Recursive 
 QRS-2191565b2d,P01888,Learning and Generating Mixed States Prepared by Shallow Channel Circuits,2026,IC2,third screener,R1,R1,R1,other,other,no,no,
 QRS-21b29a14e4,P01352,"50,000-Spin Count Integrated Photonic Chip Ising Solver",2025,IC2,both screeners,R3,R3,R3,qubo_ising_formulation_or_solver,qubo_ising_formulation_or_solver,yes,no,
 QRS-21b4d02a8f,P01865,Quantum Algorithms for Solving Dynamic Programming Problems,2019,IC2,both screeners,R3,R3,R3,other,other,no,no,
-QRS-21c347ec1b,P04824,Quantum generative adversarial networks,2018,IC2,both screeners,R1,R1,R1,quantum_gan,quantum_gan,no,no,
+QRS-21c347ec1b,P04824,Quantum generative adversarial networks,2018,IC2,both screeners,R1,R1,R1,quantum_gan,quantum_gan,no,no,dallaire2018qgan
 QRS-21d76d15dd,P03437,Solving the Traveling Salesman Problem with a Hybrid Quantum-Classical Feedforward Neural Network,2023,IC2,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,no,no,
 QRS-21e67b6cbf,P00990,Practical Utility of Hybrid Quantum-Classical Machine Learning: A Rigorous Benchmarking of VQE and QAOA on NISQ-Era Simulators,2026,IC2,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,no,no,
 QRS-21f48f9005,P02012,A Characterization of Quantum Generative Models,2023,IC2,both screeners,R1,R1,R1,born_machine,born_machine,no,no,
@@ -800,7 +800,7 @@ QRS-5bb2768839,P03631,HQML-NLP: A hybrid quantum machine learning framework for 
 QRS-5bc0efd03f,P03584,Hybrid Quantum-Classical Optimization for Energy-Efficient Large Language Models,2025,IC1,both screeners,R2,R2,R2,quantum_finetuning_or_adapter,quantum_finetuning_or_adapter,no,yes,
 QRS-5bc3ed8def,P00853,"Quantum advantages in ground state preparation, combinatorial optimization, and quantum state preparation",2025,IC2,third screener,R3,R3,R3,other,other,no,no,
 QRS-5bd998b3b0,P02208,Generative-enhanced optimization for knapsack problems: an industry-relevant study,2025,IC2,both screeners,R1,R1,R1,tensor_network_generative,tensor_network_generative,no,no,
-QRS-5bed4294ac,P06905,Grover Adaptive Search for Constrained Polynomial Binary Optimization,2019,IC2,both screeners,R4,R4,R4,grover_or_amplitude_amplification,grover_or_amplitude_amplification,no,no,
+QRS-5bed4294ac,P06905,Grover Adaptive Search for Constrained Polynomial Binary Optimization,2019,IC2,both screeners,R4,R4,R4,grover_or_amplitude_amplification,grover_or_amplitude_amplification,no,no,gilliam2021grover
 QRS-5bf37a9425,P03362,Fine-grained Uncertainty Decomposition in Large Language Models: A Spectral Approach,2025,IC1,third screener,R5,R5,R5,other,other,no,yes,
 QRS-5c0e34cf63,P06472,A Model of Anaphoric Ambiguities using Sheaf Theoretic Quantum-like Contextuality and BERT,2022,IC1,both screeners,R5,R5,R5,other,other,no,yes,
 QRS-5c27ecc121,P05901,Learning to generate high-dimensional distributions with low-dimensional quantum Boltzmann machines,2024,IC2,both screeners,R1,R1,R1,quantum_boltzmann_or_annealer_generative,quantum_boltzmann_or_annealer_generative,no,no,
@@ -983,7 +983,7 @@ QRS-703c4b1744,P04275,RL-assisted Annealing for QUBO on a Multi-GPU System,2025,
 QRS-706357265e,P01666,Comparative Analysis of Quantum Approximate Optimization Algorithms for Solving the Travelling Salesperson Problem,2025,IC2,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,no,no,
 QRS-7065ac0515,P02784,Ensemble Learning Based Quantum Text Classifiers,2023,IC1,both screeners,R5,R5,R5,hybrid_circuit_text_classifier,hybrid_circuit_text_classifier,no,no,
 QRS-70adf1c4bd,P01579,Restricted Boltzmann machine based on a Fermi sea,2021,IC2,both screeners,R1,R1,R1,quantum_boltzmann_or_annealer_generative,quantum_boltzmann_or_annealer_generative,no,no,
-QRS-70c5d22165,P03086,A generative modeling approach for benchmarking and training shallow quantum circuits,2018,IC2,both screeners,R1,R1,R1,born_machine,born_machine,unclear,no,
+QRS-70c5d22165,P03086,A generative modeling approach for benchmarking and training shallow quantum circuits,2018,IC2,both screeners,R1,R1,R1,born_machine,born_machine,unclear,no,benedetti2019generative
 QRS-70e2e39fb1,P03279,A HYBRID QUANTUM-PERFECTED MODEL OF ARTIFICIAL INTELLIGENCE IN THE PROBLEM OF AUTOMATIC RECOGNITION AND FAST CONVERSION OF UNSTRUCTURED TEXT INFORMATION INTO SPATIAL,2023,IC1,both screeners,R5,R5,R5,hybrid_circuit_text_classifier,hybrid_circuit_text_classifier,no,no,
 QRS-70fa9eb9df,P02550,Quantum Analog Annealing of Gain‐Dissipative Ising Machine Driven by Colored Gaussian Noise,2022,IC2,both screeners,R3,R3,R3,qubo_ising_formulation_or_solver,qubo_ising_formulation_or_solver,no,no,
 QRS-711dae1862,P01412,Emotion-Driven Quantum Melody Synthesis: A Comparative Study of Classical and Quantum NLP Frontends,2026,IC1,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,no,no,
@@ -1376,7 +1376,7 @@ QRS-9bb629645d,P05599,Qubit-Efficient QUBO Formulation for Constrained Optimizat
 QRS-9bcfcf4612,P04747,"Generative adversarial networks in the quantum realm: Computational insights, implementation difficulties, and analytical benchmarks",2025,IC2,both screeners,R1,R1,R1,quantum_gan,quantum_gan,no,no,
 QRS-9bd170ad34,P04513,Quantum-inspired neural networks with stochastic dynamics for multimodal sentiment analysis and sarcasm detection,2025,IC1,both screeners,R5,R5,R5,quantum_inspired_language_model,quantum_inspired_language_model,no,no,
 QRS-9bdbcbd501,P00839,Quantum Search Algorithms for Constraint Satisfaction and Optimization Problems Using Grover's Search and Quantum Walk Algorithms with Advanced Oracle Design,2024,IC2,both screeners,R4,R4,R4,grover_or_amplitude_amplification,grover_or_amplitude_amplification,no,no,
-QRS-9bdcdc8fcc,P05050,Bias-field digitized counterdiabatic quantum algorithm for higher-order binary optimization,2024,IC2,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,yes,no,
+QRS-9bdcdc8fcc,P05050,Bias-field digitized counterdiabatic quantum algorithm for higher-order binary optimization,2024,IC2,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,yes,no,romero2025hubo
 QRS-9be1962b52,P03563,Distributions of steady states in a network of degenerate optical parametric oscillators in solving combinatorial optimization problems,2018,IC2,both screeners,R3,R3,R3,qubo_ising_formulation_or_solver,qubo_ising_formulation_or_solver,no,no,
 QRS-9c5d9f6956,P02566,Quantum MeanFlow: single-shot generative sampling on NISQ hardware,2026,IC2,both screeners,R1,R1,R1,quantum_diffusion,quantum_diffusion,no,no,
 QRS-9c60b854d1,P00293,Minimizing classical resources in variational measurement-based quantum computation for generative modeling,2026,IC2,both screeners,R1,R1,R1,other,other,no,no,
@@ -1464,7 +1464,7 @@ QRS-a5cd3bbab5,P04364,Generative quantum learning of joint probability distribut
 QRS-a5d34ef070,P05984,Distributed Injection-Locking in Analog Ising Machines to Solve Combinatorial Optimizations,2020,IC2,both screeners,R3,R3,R3,qubo_ising_formulation_or_solver,qubo_ising_formulation_or_solver,no,no,
 QRS-a5d700970f,P07129,Solving Graph Coloring Problems Using Feedback-Based Algorithm for Quantum Optimization,2026,IC2,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,no,no,
 QRS-a5e206d773,P01252,Approaches to Constrained Quantum Approximate Optimization,2020,IC2,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,no,no,
-QRS-a6034f5a03,P00948,QUBO-Optimized Evidence Selection for Retrieval-Augmented Question Answering with Unconventional Solvers,2026,IC1,both screeners,R3,R3,R3,qubo_ising_formulation_or_solver,qubo_ising_formulation_or_solver,no,yes,singh2026qubo
+QRS-a6034f5a03,P00948,QUBO-Optimized Evidence Selection for Retrieval-Augmented Question Answering with Unconventional Solvers,2026,IC1,both screeners,R3,R3,R3,qubo_ising_formulation_or_solver,qubo_ising_formulation_or_solver,no,yes,
 QRS-a60bc18fb1,P00147,Quantum creativity: Integrating natural language and music generation into a hybrid framework,2025,IC1,both screeners,R2,R2,R2,quantum_language_model_or_transformer,quantum_language_model_or_transformer,no,no,
 QRS-a60ea94a33,P05474,A Quantum Language-Inspired Tree Structural Text Representation for Semantic Analysis,2022,IC1,both screeners,R5,R5,R5,quantum_inspired_language_model,quantum_inspired_language_model,no,no,
 QRS-a627eb49f5,P02613,Quantum-Enhanced Support Vector Machine for Sentiment Classification,2023,IC1,both screeners,R5,R5,R5,quantum_kernel,quantum_kernel,no,no,
@@ -1640,7 +1640,7 @@ QRS-b579664474,P02243,On a Possible Quantum Variational Autoencoder Circuit,2021
 QRS-b594b628da,P04216,GPU-Accelerated Distributed QAOA on Large-scale HPC Ecosystems,2025,IC2,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,no,no,
 QRS-b5c7d261e3,P01753,A Systematic Benchmark of Quantum Support Vector Machines for Interpretable Attribution of AI-Generated Text,2026,IC1,both screeners,R5,R5,R5,quantum_kernel,quantum_kernel,no,unclear,
 QRS-b5e374d380,P06567,Hybrid and parallel GAN architecture with non-IID noise input,2025,IC2,both screeners,R1,R1,R1,quantum_gan,quantum_gan,no,no,
-QRS-b5efe23d8b,P03801,QNLP in Practice: Running Compositional Models of Meaning on a Quantum Computer,2021,IC1,both screeners,R5,R5,R5,compositional_qnlp,compositional_qnlp,yes,no,
+QRS-b5efe23d8b,P03801,QNLP in Practice: Running Compositional Models of Meaning on a Quantum Computer,2021,IC1,both screeners,R5,R5,R5,compositional_qnlp,compositional_qnlp,yes,no,lorenz2023qnlp
 QRS-b6049890dd,P06963,Resilient RAP: Autonomous Schema-Drift Remediation Using Hybrid Classical-Quantum Variational Routing Engines,2026,IC1,third screener,R5,R5,R5,other,hybrid_circuit_text_classifier,yes,yes,
 QRS-b62a0c1709,P03010,Mode connectivity in the QCBM loss landscape: ICCAD Special Session Paper,2021,IC2,both screeners,R1,R1,R1,born_machine,born_machine,no,no,
 QRS-b641397dd7,P03748,Dynamic distortion from discretized coupling feedback in soft-spin Ising machines,2026,IC2,both screeners,R3,R3,R3,qubo_ising_formulation_or_solver,qubo_ising_formulation_or_solver,no,no,
@@ -1679,7 +1679,7 @@ QRS-ba40ba512b,P01675,A Comparative study of D-Wave’s Quantum Hybrid Solvers: 
 QRS-ba492fb92e,P01316,Quantum Boltzmann machines: Clifford algebras and asymptotic analysis,2024,IC2,both screeners,R1,R1,R1,quantum_boltzmann_or_annealer_generative,quantum_boltzmann_or_annealer_generative,no,no,
 QRS-ba74b0b18e,P06208,Grover’s search with learning oracle for constrained binary optimization problems,2024,IC2,both screeners,R4,R4,R4,grover_or_amplitude_amplification,grover_or_amplitude_amplification,no,no,
 QRS-ba8acbae2b,P03570,On the Learning Abilities of Photonic Continuous-Variable Born Machines,2024,IC2,both screeners,R1,R1,R1,born_machine,born_machine,no,no,
-QRS-ba9a312fb6,P01128,Quantum Boltzmann Machine,2018,IC2,both screeners,R1,R1,R1,quantum_boltzmann_or_annealer_generative,quantum_boltzmann_or_annealer_generative,no,no,
+QRS-ba9a312fb6,P01128,Quantum Boltzmann Machine,2018,IC2,both screeners,R1,R1,R1,quantum_boltzmann_or_annealer_generative,quantum_boltzmann_or_annealer_generative,no,no,amin2018qbm
 QRS-baa87420ba,P05801,Quantum End-to-End Learning for Contextual Combinatorial Optimization,2026,IC2,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,no,no,
 QRS-babd845188,P00870,A note on quantum approximate optimization algorithm,2023,IC2,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,no,no,
 QRS-bae0b9acfa,P01431,Sampling (noisy) quantum circuits through randomized rounding,2025,IC2,third screener,R1,R1,R1,other,quantum_sampling_mcmc,no,no,
@@ -2269,7 +2269,7 @@ QRS-fb003a93eb,P05824,Squeezing and quantum approximate optimization,2022,IC2,bo
 QRS-fb11ebf4d6,P04867,Quantum-inspired Neural Network Based on Stochastic Liouville-von Neumann Equation for Sentiment Classification,2024,IC1,both screeners,R5,R5,R5,quantum_inspired_language_model,quantum_inspired_language_model,no,no,
 QRS-fb130bc1b9,P06617,Deductive Causal Architecture (DCA): A Psychology-based Framework for Human Understanding and Real-time Personalization in AI Governance,2026,IC1,third screener,R2,R5,,other,other,no,unclear,
 QRS-fb1369a426,P06822,Superior Performance of Phase Binarized Oscillators (PBOs) Compared to Quantum Approximation Optimization Algorithm (QAOA) for Ising Computing (Max-Cut Problem),2023,IC2,both screeners,R3,R3,R3,qubo_ising_formulation_or_solver,qubo_ising_formulation_or_solver,no,no,
-QRS-fb2051c147,P06260,Quantum Annealing vs. QAOA: 127 Qubit Higher-Order Ising Problems on NISQ Computers,2023,IC2,both screeners,R3,R3,R3,quantum_annealing,quantum_annealing,yes,no,
+QRS-fb2051c147,P06260,Quantum Annealing vs. QAOA: 127 Qubit Higher-Order Ising Problems on NISQ Computers,2023,IC2,both screeners,R3,R3,R3,quantum_annealing,quantum_annealing,yes,no,pelofske2023qaoa
 QRS-fb23068f0e,P01139,Amorphica: 4-Replica 512 Fully Connected Spin 336MHz Metamorphic Annealer with Programmable Optimization Strategy and Compressed-Spin-Transfer Multi-Chip Extension,2023,IC2,third screener,R3,R3,R3,qubo_ising_formulation_or_solver,qubo_ising_formulation_or_solver,yes,no,
 QRS-fb2acd66fb,P00949,Identifying hard native instances for the maximum independent set problem on neutral atoms quantum processors,2025,IC2,both screeners,R3,R3,R3,quantum_annealing,quantum_annealing,no,no,
 QRS-fb2c9e010a,P01419,Quantum-Assisted Optimization for Transformer Models: Insights and Implications,2025,IC1,both screeners,R3,R3,R3,qaoa_or_variational_optimization,qaoa_or_variational_optimization,no,no,

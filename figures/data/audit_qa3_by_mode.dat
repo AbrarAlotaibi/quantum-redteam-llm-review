@@ -1,5 +1,5 @@
 group n met partly notmet
-Circuit 19 4 8 7
+Circuit 26 7 9 10
 QI 8 6 2 0
-Classical 2 2 0 0
+Classical 1 1 0 0
 QRNG 1 0 1 0

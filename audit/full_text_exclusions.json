@@ -1,0 +1,29 @@
+[
+ {
+  "key": "singh2026qubo",
+  "title": "QUBO-Optimized Evidence Selection for Retrieval-Augmented Question Answering with Unconventional Solvers",
+  "source_url": "https://arxiv.org/abs/2607.12334 (v1, HTML full text)",
+  "fulltext_read": true,
+  "execution": "Cl (simulated annealing on an integer-quantized QUBO; no Ising-machine, annealer or quantum hardware actually used)",
+  "scale": "HotpotQA distractor, sentence-level candidate pools; 500 examples (SetR comparison), 100 examples (non-LLM baselines, answer-level ablation), dev sweep of 13 configs (size not stated), set-level ablation size not stated. ~2.3-5 passages selected. QUBO variable count (passages + coverage + slack bits) not reported. Local ~31-35B LLM for all LLM steps.",
+  "task_data": "RAG evidence/context selection for multi-hop QA. HotpotQA distractor; exact match, token F1, requirement coverage, #selected; set-level weighted coverage, capped support, marginal utility, relevance (Tables 1-5).",
+  "classical_baseline": "SetR and SetRO (prompted LLM set selectors with the same local model), relevance top-k, MMR-Relevance, hybrid relevance+BM25, MMR-BM25, BM25 top-k, greedy coverage, random; QUBO-term ablations. No alternative or exact QUBO solver.",
+  "QA1": "P",
+  "QA1_evidence": "Weights given (alpha=10, beta=10, gamma_P=4, gamma_D=10, delta=8; Sec. 4.2); scoring of s_i, d_ik, b_ik, penalty lambdas, SA settings, prompts unspecified.",
+  "QA2": "NA",
+  "QA2_evidence": "Only a classical solver: 'Development-set sweep over QUBO configurations using simulated annealing' (Table 1 caption).",
+  "QA3": "Y",
+  "QA3_evidence": "'all compared methods operate on the same candidate pool' and same generator (Sec. 4.1); Tables 2-3.",
+  "QA4": "P",
+  "QA4_evidence": "HotpotQA distractor with EM/F1 (Sec. 4.1), but only 100- and 500-example subsets, sampling not described (Tables 2-4).",
+  "QA5": "N",
+  "QA5_evidence": "No code, data or repository link in the paper (full HTML checked).",
+  "code_url": "",
+  "notes": "Confirmed: HotpotQA, simulated annealing. Despite the title ('Unconventional Solvers'), every result uses SA; Ising machines and quantum annealers are only future work. The QUBO selector does not beat simple baselines: relevance top-k has equal EM and higher F1 (0.7718 vs 0.7585; Table 3), the 'Rel.+Coverage only' ablation beats the full QUBO (F1 0.7751 vs 0.7585; Table 4), and SetR/SetRO are slightly better (Table 2). The QUBO's own F1 differs between subsets (0.7866 on 500 vs 0.7585 on 100). LLM is named inconsistently ('Ollama 3.6:31b' Sec. 4.1 vs 'qwen3.6:35b' Sec. 4.3).",
+  "confidence": "high",
+  "role": "R3",
+  "execution_code": "Cl.",
+  "caveat": "Relevance top-$k$ matches or beats the QUBO",
+  "excluded_at_full_text": "No quantum or quantum-inspired method is proposed as the method or run: the only solver named is classical simulated annealing on a generic QUBO, and Ising machines and quantum annealers are named as possible backends and future work. The study is cited in the article for its result on linear selection and is not audited."
+ }
+]

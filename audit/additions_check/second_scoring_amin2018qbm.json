@@ -1,0 +1,25 @@
+{
+ "key": "amin2018qbm",
+ "first": {
+  "QA1": "Y",
+  "QA2": "Y",
+  "QA3": "Y",
+  "QA4": "P",
+  "QA5": "N"
+ },
+ "second": {
+  "QA1": "Y",
+  "QA1_evidence": "Model, gradients, data generator and optimizer are all specified: Hamiltonian Eq. (16), exact gradient Eq. (18), bound gradient Eqs. (30)-(33), data from Eq. (57), BFGS with exact diagonalization. Quote: \"In all our examples, we choose p = 0.9 and M = 8.\" (Section IV). Gaps: initial values of b and w, the random mode centers and BFGS settings are not stated.",
+  "QA2": "P",
+  "QA2_evidence": "Classical numerical execution is stated and qubit counts are given, but no circuit depth or layer count is reported (the model is a thermal state of a transverse-field Ising Hamiltonian, not a circuit) and no shots (expectations are exact). Quotes: \"This can be done using exact diagonalization for small systems.\" and \"a fully connected model with N = 10 qubits\" (Section IV.A). Hardware is only discussed as a prospect (Section V).",
+  "QA3": "Y",
+  "QA3_evidence": "A classical Boltzmann machine with the same units and connectivity is trained on the same data with the same optimizer (BFGS) and scored with the same KL divergence; the QBM adds one shared parameter Gamma. Quote: \"Classical BM will have N + N(N-1)/2 = N(N+1)/2 trainable parameters\" (Section IV.A; Figs. 2a, 3a, 4).",
+  "QA4": "P",
+  "QA4_evidence": "Small synthetic data that is reproducible from a stated formula, not a public benchmark; metric is KL divergence, Eq. (58). Quote: \"the training data was generated as a mixture of M factorized distributions\" (Section IV, Eq. 57).",
+  "QA5": "N",
+  "QA5_evidence": "No repository, code or data link anywhere in the paper; the only URL printed is a Wikipedia page for BFGS (reference [25]). No availability statement.",
+  "execution": "Classical simulation by exact diagonalization of the quantum model (transverse-field Ising Boltzmann distribution; not a gate circuit). No quantum hardware run; use of a quantum annealer is discussed only as a possibility (Section V).",
+  "scale": "Qubits: N = 10 (fully visible, Section IV.A); 8 visible + 2 hidden = 10 (restricted QBM, Section IV.B); N = 11 as 8 inputs + 3 outputs (Section IV.C). Circuit depth or layer count: not stated (not a circuit model). Shots: not stated (expectations computed exactly).",
+  "classical_baseline": "Classical Boltzmann machine with the same number of units and the same connectivity, N(N+1)/2 parameters, trained with BFGS on the same Bernoulli-mixture data and compared by KL divergence (Figs. 2 to 4). Also bQBM-CE, a bound-based QBM using the classical positive-phase expression (Section IV.B)."
+ }
+}

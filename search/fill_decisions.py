@@ -17,8 +17,9 @@ Every record gets one of three values in `include`:
                           criterion) and was not selected as a representative study (Section 2.3 of
                           the article); `decision_basis` says whether both screeners found it eligible
                           or the third screener decided
-  no                      not included by the core screening, or not eligible in the sampling frame;
-                          the reason is in `exclusion_reason`
+  no                      not included by the core screening, not eligible in the sampling frame, or
+                          set aside after the full text was read (full_text_exclusions.csv); the reason
+                          is in `exclusion_reason`
 
 The four representative studies found by snowballing are not records of the sampling frame;
 they appear in selected_studies.csv only.
@@ -95,6 +96,13 @@ def main():
                 else:
                     r["exclusion_reason"] = "not eligible; the screeners give different reasons (A: %s; B: %s)" % (
                         FRAME_REASON[fr["code_A"]], FRAME_REASON[fr["code_B"]])
+
+    # records that were eligible on title and abstract and were set aside after the full text was read
+    for x in csv.DictReader(open(HERE / "full_text_exclusions.csv", encoding="utf-8", newline="")):
+        r = next(r for r in rows if r["uid"] == x["uid"])
+        assert r["include"] == "eligible, not selected", "%s must not be a selected study" % x["key"]
+        r["include"], r["exclusion_reason"] = "no", "full text: " + x["reason"]
+        r["decision_basis"] += "; set aside after the full text was read, see full_text_exclusions.csv"
 
     with open(path, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols, lineterminator="\n")

@@ -1,0 +1,27 @@
+{
+ "key": "gilliam2021grover",
+ "first": {
+  "QA1": "Y",
+  "QA2": "P",
+  "QA3": "N",
+  "QA4": "P",
+  "QA5": "Y"
+ },
+ "second": {
+  "study": "Grover Adaptive Search for Constrained Polynomial Binary Optimization (arXiv:1912.04088v3)",
+  "full_text_obtained": "yes, arXiv PDF v3, 11 pages, read in full including Appendices A to C",
+  "QA1": "Y",
+  "QA1_evidence": "Paraphrase: Sec. 3 (Figs. 1 to 7, Table 1) gives the full construction of operator A and oracle O; Alg. 1 gives GAS; Sec. 4.1.1 gives the instance (Eqs. 13 and 14), register sizes, initial threshold y1 = 0 and the stop rule of three iterations without improvement. Gaps: the value of lambda in Alg. 1 and the number of shots are not stated.",
+  "QA2": "P",
+  "QA2_evidence": "Simulation (Qiskit, Sec. 4.1) and hardware (ibmq_toronto, Sec. 4.2) are both stated, and the qubit count is given for the simulated case: \"To perform the experiment we need 7 qubits split into two registers\" (Sec. 4.1.1). No circuit depth or gate count is reported for any experiment (Table 1 gives only gate-count scaling), and shots are not stated for the hardware run: \"We repeat the computation several times\" (Sec. 4.2).",
+  "QA3": "N",
+  "QA3_evidence": "Paraphrase: Sec. 4 (Figs. 8 to 10) reports only GAS output probabilities; no classical solver is run on the test instances. The quadratic speed-up over brute-force search is asserted from theory only (Abstract, Sec. 2).",
+  "QA4": "P",
+  "QA4_evidence": "Paraphrase: the test data are a hand-built 3-asset portfolio QUBO (Sec. 4.1.1, Eqs. 13 and 14), the same instance with a Hamming-weight budget constraint (Sec. 4.1.2) and a 2-variable polynomial (Sec. 4.2, Eq. 15). All are printed in full, so reproducible, but tiny, synthetic and not a standard benchmark; the only metric is the output probability histogram.",
+  "QA5": "Y",
+  "QA5_evidence": "\"All code associated with this publication can be found in the IBM Qiskit Optimization module\" (Code Availability section), with the link https://github.com/Qiskit/qiskit-optimization. The curl -I check returned 403 from this session's proxy (GitHub access not enabled here), so resolution of the link could not be confirmed from this environment. The repository is a general library; experiment scripts specific to the paper are not identified.",
+  "execution": "Both: classical simulation of the quantum circuit in Qiskit (Sec. 4.1, Figs. 8 and 9) and quantum hardware, IBM ibmq_toronto, Quantum Volume 32, with readout error mitigation (Sec. 4.2, Fig. 10, Appendix C).",
+  "scale": "Simulation, unconstrained case: 7 qubits (3 input, 4 output). Simulation, constrained case: the same plus a constraint register and flag qubits, total not stated. Hardware case: 2 input qubits (Eq. 15), value-register size and total not stated. Circuit depth: not stated for any experiment; Table 1 gives gate counts for A as functions of n and m, and Figs. 8 to 10 give the Grover rotation count per GAS iteration (r = 0 or 1). Shots: not stated.",
+  "classical_baseline": "None. No classical solver or model is run; brute-force search appears only as the theoretical reference for the quadratic speed-up."
+ }
+}

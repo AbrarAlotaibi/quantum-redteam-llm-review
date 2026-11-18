@@ -1,25 +1,25 @@
 Recomputed from audit_scores.csv
 
-studies in the audit table: 30
-QA1: met 14, partly 15, not met 1, not applicable 0
-QA2: met 12, partly 7, not met 2, not applicable 9
-QA3: met 12, partly 11, not met 7, not applicable 0
-QA4: met 11, partly 17, not met 2, not applicable 0
-QA5: met 11, partly 4, not met 15, not applicable 0
+studies in the audit table: 36
+QA1: met 20, partly 15, not met 1, not applicable 0
+QA2: met 17, partly 9, not met 2, not applicable 8
+QA3: met 14, partly 12, not met 10, not applicable 0
+QA4: met 11, partly 23, not met 2, not applicable 0
+QA5: met 14, partly 6, not met 16, not applicable 0
 
-execution groups: circuits 19, quantum-inspired 8, classical solver only 2, QRNG 1
-circuit studies meeting QA2: 11 of 19
-circuit studies meeting QA3: 4 of 19
-circuit studies with QA3 not met: 7
-circuit studies with hardware results: 9, of which QA3 met: 1 (layden2023qmcmc)
+execution groups: circuits 26, quantum-inspired 8, classical solver only 1, QRNG 1
+circuit studies meeting QA2: 16 of 26
+circuit studies meeting QA3: 7 of 26
+circuit studies with QA3 not met: 10
+circuit studies with hardware results: 14, of which QA3 met: 3 (layden2023qmcmc, romero2025hubo, pelofske2023qaoa)
 quantum-inspired studies meeting QA3: 6 of 8
-studies meeting QA5 (code or data released): 11 of 30
+studies meeting QA5 (code or data released): 14 of 36
 
-R1: 9 studies; QA3 met 2, partly 1, not met 6
+R1: 12 studies; QA3 met 3, partly 2, not met 7
 R2: 10 studies; QA3 met 4, partly 5, not met 1
-R3: 4 studies; QA3 met 3, partly 1, not met 0
-R4: 3 studies; QA3 met 3, partly 0, not met 0
-R5: 6 studies; QA3 met 1, partly 4, not met 1
+R3: 5 studies; QA3 met 4, partly 1, not met 0
+R4: 4 studies; QA3 met 3, partly 0, not met 1
+R5: 7 studies; QA3 met 1, partly 4, not met 2
 R6: 1 studies; QA3 met 0, partly 1, not met 0
 
 register sizes of the scale figure (scale_registers.csv): 10 rows

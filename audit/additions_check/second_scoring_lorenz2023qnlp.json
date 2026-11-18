@@ -1,0 +1,25 @@
+{
+ "key": "lorenz2023qnlp",
+ "first": {
+  "QA1": "P",
+  "QA2": "Y",
+  "QA3": "N",
+  "QA4": "P",
+  "QA5": "Y"
+ },
+ "second": {
+  "QA1": "Y",
+  "QA1_evidence": "Ansatz fully specified by (qs, pn, d) with Euler/Rx single-qubit states and IQP layers (Sec. 7.1, Tables 2 and 3); cross-entropy cost, SPSA, splits 70/30/30 and 74/31, iteration counts and shots given (Secs. 7.2, 7.5). SPSA gain settings are not stated.",
+  "QA2": "Y",
+  "QA2_evidence": "Sec. 7: \"All models are simulated and in addition the DisCoCat model is implemented on real quantum hardware\"; ibmq_bogota, 5 qubits; d in {1,2} IQP layers (Sec. 7.1); 2^13 shots per circuit (Sec. 7.5).",
+  "QA3": "N",
+  "QA3_evidence": "Baselines are quantum-circuit bag-of-words and word-sequence models with similar parameter counts (Sec. 7.3, Table 3); no classical model is compared. Sec. 1 says the goal is not to show advantage over classical implementations.",
+  "QA4": "P",
+  "QA4_evidence": "MC: 130 sentences generated from a context-free grammar; RP: 105 phrases selected from RelPron and recast as binary classification (Sec. 6). Small, non-standard tasks, data released in the repository; metrics are error rate and F-score (Sec. 7.5).",
+  "QA5": "Y",
+  "QA5_evidence": "Footnote 18, Sec. 7: \"The Python code and the datasets are available at https://github.com/CQCL/qnlp_lorenz_etal_2021_resources\". Link check with curl -I was blocked by the network proxy (403 from the proxy), so resolution is not verified.",
+  "execution": "Both. Classical simulation (exact tensor contraction, noise-free, averaged over 20 runs) for all three models; quantum hardware (IBM superconducting device ibmq_bogota, circuits compiled with TKET) for the DisCoCat model only, one training run per task.",
+  "scale": "Device: 5 qubits, quantum volume 32. Sentence circuits use 3 to 5 qubits (qn = 1; qs = 1 for MC, qs = 0 for RP), with all but one qubit post-selected. Depth given as IQP layers d in {1,2}: hardware runs used d = 1 for MC (ansatz (1,3,1), 40 parameters) and d = 2 for RP (ansatz (0,1,2), 168 parameters). 2^13 = 8192 shots per circuit; 100 (MC) and 130 (RP) SPSA iterations on hardware. Compiled gate depth: not stated.",
+  "classical_baseline": "None. The comparison models (bag-of-words, word-sequence) are quantum-circuit models run in classical simulation with parameter counts matched to DisCoCat; no classical NLP model is evaluated."
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "key": "dallaire2018qgan",
+ "first": {
+  "QA1": "Y",
+  "QA2": "Y",
+  "QA3": "N",
+  "QA4": "P",
+  "QA5": "N"
+ },
+ "second": {
+  "QA1": "Y",
+  "QA1_evidence": "Sec. II D and Fig. 7 give the layered ansatz (X, Z and nearest-neighbor ZZ rotations); Sec. II E gives the target states (rho_A = |0><0|, rho_B = |1><1|), generator 2 layers with 10 parameters, discriminator 4 layers with 32 parameters, 10,000 gradient steps, the learning-rate schedule, and \"G is only updated once for every 100 steps of D\". Not stated: the parameter initialization range (\"chosen randomly\"), seed and simulation software.",
+  "QA2": "Y",
+  "QA2_evidence": "Sec. II E: \"We numerically tested ideas in this paper with a simple example\" (classical numerics, no hardware run); \"the algorithm operates on a total of 5 qubits\"; generator 2 layers, discriminator 4 layers of the ansatz. Number of shots: not stated; the numerics do not report sampled measurement statistics, and the word simulator is never used.",
+  "QA3": "N",
+  "QA3_evidence": "No classical GAN or other classical model is trained or compared; Sec. II E and Fig. 8 report only the QuGAN cost function and cross-entropy. Classical GANs appear only as background (Sec. II A 1).",
+  "QA4": "P",
+  "QA4_evidence": "Sec. II E: toy synthetic task with two labels, \"rho_A = |0><0| and rho_B = |1><1|\", fully specified and reproducible; metrics are the cost function V and the cross-entropy of Eq. (32) (Fig. 8). No public standard benchmark.",
+  "QA5": "N",
+  "QA5_evidence": "The full text (10 pages, v2, no appendices) contains no repository link, no URL and no data or code availability statement.",
+  "execution": "classical simulation of a quantum circuit (described as a \"numerical experiment\", Sec. II E; simulator software not stated; no quantum hardware)",
+  "scale": "5 qubits in total: generator acts on 2 qubits (1 label, 1 output), discriminator on 3 qubits (output, label copy, source output), plus 1 gradient ancilla. Generator 2 ansatz layers (10 parameters), discriminator 4 ansatz layers (32 parameters), 42 parameters in total. Gate-level circuit depth: not stated. Shots: not stated.",
+  "classical_baseline": "none"
+ }
+}

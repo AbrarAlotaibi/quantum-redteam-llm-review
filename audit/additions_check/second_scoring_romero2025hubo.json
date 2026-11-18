@@ -1,0 +1,25 @@
+{
+ "key": "romero2025hubo",
+ "first": {
+  "QA1": "Y",
+  "QA2": "Y",
+  "QA3": "Y",
+  "QA4": "P",
+  "QA5": "P"
+ },
+ "second": {
+  "QA1": "Y",
+  "QA1_evidence": "Paraphrase: Hamiltonians (Eqs. 1, 13, 16), CD term (Eq. 6, Supp. Note 1), schedule, T = 1, ntrot = 3, theta_cutoff, shots, alpha, kappa = 5, eleven iterations and instance distributions are all given (Methods; Tables I to IV; Supp. Note 3). Gaps: no instance seeds, MPS bond dimension for the circuit simulation not stated, QAOA optimizer settings not stated.",
+  "QA2": "Y",
+  "QA2_evidence": "Quote: \"validated experimentally using 156 qubits on an IBM quantum processor\" (Abstract). Hardware vs MPS simulation vs IonQ emulator is stated per experiment; depth per iteration in Tables I to IV; nshots = 10000 (1000 on IonQ emulator) in the table captions.",
+  "QA3": "Y",
+  "QA3_evidence": "Quote: \"Simulated annealing (SA) [91] with 100000 number of reads\" (Comparison of methods, Fig. 3). SA, local search, Tabu, DMRG and an exact solver run on the same 156-qubit instance; BF-DCQO uses 10000 shots times ten iterations to match the read budget. Caveat: in Fig. 3 the first iterations were MPS-simulated and only the last ran on hardware; no classical heuristic baseline for the MAX 3-SAT or 433-qubit cases.",
+  "QA4": "P",
+  "QA4_evidence": "Quote: \"random Gaussian-distributed numbers with zero mean and unit variance\" (HUBO instances considered). Single synthetic random instances per experiment, generated from stated distributions; no public benchmark set. Metrics are approximation ratio and distance to solution (Eqs. 11, 12).",
+  "QA5": "P",
+  "QA5_evidence": "Quote: \"available from the corresponding author upon reasonable request\" (Data availability and Code availability statements). No repository link.",
+  "execution": "Quantum hardware plus classical simulation of quantum circuits. Hardware: IBM ibm_fez (156 qubits), full 11-iteration runs for the NN spin glass and NN MAX W-3-SAT; D-Wave Advantage_system4.1 as a quantum annealing comparison. Simulation: noiseless MPS for the 433-qubit instance and for the first BF-DCQO iterations behind Fig. 3; IonQ Aria 1 emulator (noiseless and with noise model plus debiased error mitigation) for the 25-qubit dense MAX 3-SAT.",
+  "scale": "156 qubits on ibm_fez: depth 129 down to 39, CZ count 477 down to 13 (NN HUBO, Table II); depth 189 down to 4 (NN MAX W-3-SAT, Table III). 433 qubits via MPS: depth 99 down to 80, CZ count 2275 down to 496 (Table I). 25 qubits on IonQ Aria 1 emulator: depth 219, then 7 in the last iteration (Table IV). ntrot = 3; 11 bias-field iterations; nshots = 10000 (1000 on the IonQ emulator). D-Wave needed 334 variables after HUBO-to-QUBO mapping. MPS bond dimension for the circuit simulation: not stated.",
+  "classical_baseline": "On the 156-qubit NN spin-glass instance (Fig. 3): simulated annealing (100000 reads, 1000 sweeps, geometric cooling from T = 2 to 0.05), local search (100000 reads, 10000 sweeps), Tabu search (100000 reads), DMRG (ITensor, 10 sweeps, max bond dimension 10), and an exact iterative transfer-matrix-like solver (Supp. Note 2). Exact reference by brute force for the 25-qubit instances. CVaR-QAOA (p = 3, MPS) and D-Wave are quantum comparisons, not classical baselines. For the 156-qubit MAX W-3-SAT and 433-qubit cases the only classical reference is the exact solver."
+ }
+}

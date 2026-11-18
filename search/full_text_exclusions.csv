@@ -1,0 +1,2 @@
+key,uid,eligible_on_title_and_abstract,reason
+singh2026qubo,QRS-a6034f5a03,"yes (IC1, both screeners)",no quantum or quantum-inspired method is proposed as the method or run: the only solver named is classical simulated annealing on a generic QUBO

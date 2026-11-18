@@ -1,0 +1,25 @@
+{
+ "key": "benedetti2019generative",
+ "first": {
+  "QA1": "Y",
+  "QA2": "Y",
+  "QA3": "P",
+  "QA4": "P",
+  "QA5": "P"
+ },
+ "second": {
+  "QA1": "Y",
+  "QA1_evidence": "Sec. IV (Methods) gives the gate set and layer layout, the three entangling topologies with parameter counts, PSO settings (\"we set the number of particles to twice the number of parameters\", coefficients 0.5), 1000 measurements, 25 random initializations and the data-generating rules; Supplementary states epsilon = 1e-8 and Fig. 8 prints the learned circuits.",
+  "QA2": "Y",
+  "QA2_evidence": "Both modes stated: QuTiP simulation with perfect gates (Sec. IV) and an ion trap at University of Maryland (Fig. 2). Qubits N = 3 to 6, layers L = 1 to 4, and shots given: \"always estimated the required quantities from 1000 measurements in the computational basis\" (Sec. IV); Nreads = 15 for qBAS(2,2).",
+  "QA3": "P",
+  "QA3_evidence": "Inverse Bethe approximation is the only classical baseline, used on the thermal-state task only and not matched: \"A thorough comparison is beyond the scope of this work.\" (Sec. II, Coherent thermal states; Fig. 4). No classical baseline for GHZ or BAS.",
+  "QA4": "P",
+  "QA4_evidence": "\"We worked with three synthetic data sets\" (Sec. IV, Data sets details): zero-temperature ferromagnet, random thermal instances and 2x2 Bars and Stripes, all small and reproducible from the stated rules; metrics are KL divergence and the new F1-based qBAS score.",
+  "QA5": "P",
+  "QA5_evidence": "\"All data needed to evaluate the conclusions are available from the corresponding author upon request.\" (Data Availability). No repository link for code or data is printed in the paper.",
+  "execution": "Both classical simulation of a quantum circuit and quantum hardware. Training and all KL-divergence curves are noiseless simulations in QuTiP (GHZ, thermal states, BAS(2,2)); the best BAS(2,2) circuits were also run on the trapped-ion quantum computer at the University of Maryland to evaluate the qBAS(2,2) score (Fig. 2 bottom right, Fig. 7).",
+  "scale": "GHZ: 3, 4, 5 and 6 qubits, one single-qubit layer plus one all-to-all XX entangling layer (simulation). Thermal states: N = 5 (main text) and N = 6 (Supplementary Fig. 6), L = 1, 2, 3 layers, all-to-all (simulation). BAS(2,2): N = 4 qubits, L = 1, 2, 4 layers with chain, star and all-to-all topologies in simulation; hardware runs for all-to-all L = 2 and star L = 2 and L = 4. Shots: 1000 measurements per cost estimate; qBAS from 25 batches of Nreads = 15. Gate counts and hardware fidelities: not stated.",
+  "classical_baseline": "Inverse Bethe approximation (closed-form classical solver for the inverse Ising problem), on the thermal-state task only (Fig. 4, Supplementary Fig. 6); not matched in size or budget. None for the GHZ and BAS tasks."
+ }
+}
