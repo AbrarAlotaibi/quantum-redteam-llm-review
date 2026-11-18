@@ -22,9 +22,11 @@ R4: 4 studies; QA3 met 3, partly 0, not met 1
 R5: 7 studies; QA3 met 1, partly 4, not met 2
 R6: 1 studies; QA3 met 0, partly 1, not met 0
 
-register sizes of the scale figure (scale_registers.csv): 10 rows
+register sizes of the scale figure (scale_registers.csv): 12 rows
   Token      15 qubits                             
   Prompt    750 qubits                             
+  Romero    156 qubits                             audit csv ok
+  Pelofske  127 qubits                             audit csv ok
   Flores    120 qubits (one per binary variable)   audit csv ok
   Huang      68 qubits                             audit csv ok
   Li         11 qubits                             audit csv ok

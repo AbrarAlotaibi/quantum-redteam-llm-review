@@ -1,6 +1,8 @@
 macro,key,value,unit,mode,where_in_source,where_in_manuscript,manuscript_pattern,audit_pattern
 Token,derived,15,qubits,requirement,"ceil(log2 32000) for a vocabulary of 32,000 tokens",Section 5.1,"or 15 qubits for 32{,}000 tokens",
 Prompt,derived,750,qubits,requirement,50 tokens x 15 qubits,Section 5.1,needs 750 qubits,
+Romero,romero2025hubo,156,qubits,hardware,"Hardware runs on ibm_fez with all 156 qubits (Tables II and III)",role table (Section 5),156 qubits on hardware,all 156 qubits
+Pelofske,pelofske2023qaoa,127,qubits,hardware,"Sec. 2: QAOA on all 127 qubits of ibm_washington; instances of 127 variables",role table (Section 5),127-variable Ising instances,all 127 qubits of ibm_washington
 Flores,floresgarrigos2025qcr,120,qubits (one per binary variable),hardware,"Sec. V.2: one qubit per reason, 5 to 120 per question; largest on NYCC",role table (Section 5),HUBO over 5 to 120 reasoning fragments,max 120 on NYCC
 Huang,huang2025generative,68,qubits,hardware,App. C.3: up to 68 qubits at model depth 12,role table (Section 5),68-qubit run,up to 68 physical qubits
 Li,li2025qkd,11,qubits,simulation and hardware inference,Table 2 and Real-Device Experiments: 11-qubit student,role table (Section 5),"distilled from LLM, 11 qubits",11-qubit student
