@@ -9,8 +9,8 @@ Seven studies of the eligible pool were added to the primary studies after the s
    - `amin2018qbm`, QA2: Y and P. Recorded as P, because the model is evaluated by exact diagonalization and has no circuit depth to report.
    - `lorenz2023qnlp`, QA1: P and Y. Recorded as P, because the optimizer's gain settings are not stated.
 
-## Limitation
-Both scorings were made by LLM agents. The authors have not yet checked these seven records against the papers.
+## Review by the authors
+Both scorings were made by LLM agents. The first author reviewed the scores of all seven studies, including the two on which the scorings differed.
 
 ## Study no longer counted as a primary study
 `singh2026qubo` was read again in full. The only solver it names is classical simulated annealing on a generic QUBO, and quantum and Ising hardware are named as future work, so it does not meet IC1. Its earlier audit record is kept in `../full_text_exclusions.json`.
